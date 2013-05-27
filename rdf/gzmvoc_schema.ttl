@@ -1,11 +1,10 @@
-
-<!-- saved from url=(0094)http://localhost:3020/api/export_graph_schema?graph=gzmvoc&mimetype=text%2Fplain&format=turtle -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">@prefix   rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix    rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-@prefix gzmvoc: &lt;http://purl.org/collections/nl/dss/gzmvoc/&gt; .
+prefix   rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@prefix  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#.
+@prefix gzmvoc: http://purl.org/collections/nl/dss/gzmvoc/ .
 
 @prefix dct: http://purl.org/dc/terms/ . 
 @prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+
 # Named toplevel resources (53)
 
 gzmvoc:Telling
@@ -308,4 +307,3 @@ gzmvoc:voornaam
 	a rdf:Property ;
 	rdfs:label "voornaam" ;
 	rdfs:range rdfs:Literal .
-</pre></body></html>
