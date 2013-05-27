@@ -1,0 +1,311 @@
+
+<!-- saved from url=(0094)http://localhost:3020/api/export_graph_schema?graph=gzmvoc&mimetype=text%2Fplain&format=turtle -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">@prefix   rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix    rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix gzmvoc: &lt;http://purl.org/collections/nl/dss/gzmvoc/&gt; .
+
+@prefix dct: http://purl.org/dc/terms/ . 
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+# Named toplevel resources (53)
+
+gzmvoc:Telling
+	a rdfs:Class ;
+	rdfs:label "Telling" ,
+	rdfs:subClassOf .
+
+gzmvoc:aankomstAzie
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "aankomstAzie" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalOverig
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalOverig" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalPersonen
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalPersonen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalSoldatenAziatisch
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalSoldatenAziatisch" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalSoldatenEuropees
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalSoldatenEuropees" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalZeevarendenAziatisch
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalZeevarendenAziatisch" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aantalZeevarendenEuropees
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aantalZeevarendenEuropees" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:achternaam
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "achternaam" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asAanduidingSoldaten
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asAanduidingSoldaten" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asAanduidingVoorman
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asAanduidingVoorman" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asAangenomenJaar
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asAangenomenJaar" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asLoonCorporaal
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asLoonCorporaal" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asLoonHoofd
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asLoonHoofd" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asLoonSoldaat
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asLoonSoldaat" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asRegistratieKop
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asRegistratieKop" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asRegistratieOpmerking
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asRegistratieOpmerking" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:asRegistratieWijze
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "asRegistratieWijze" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAanduidingMatrozen
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "azAanduidingMatrozen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAanduidingVoorman
+	a rdf:Property ;
+	rdfs:label "azAanduidingVoorman" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAangenomenJaar
+	a rdf:Property ;
+	rdfs:label "azAangenomenJaar" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAangenomenJaarNorm
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "azAangenomenJaarNorm" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAangenomenParthesius
+	a rdf:Property ;
+	rdfs:label "azAangenomenParthesius" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAangenomenPlaats
+	a rdf:Property ;
+	rdfs:label "azAangenomenPlaats" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAantalKok
+	a rdf:Property ;
+	rdfs:label "azAantalKok" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAantalMatrozen
+	a rdf:Property ;
+	rdfs:label "azAantalMatrozen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAantalVoorman
+	a rdf:Property ;
+	rdfs:label "azAantalVoorman" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azAantalVoormansmaat
+	a rdf:Property ;
+	rdfs:label "azAantalVoormansmaat" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azLoonKok
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "azLoonKok" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azLoonMatrozen
+	a rdf:Property ;
+	rdfs:label "azLoonMatrozen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azLoonVoorman
+	a rdf:Property ;
+	rdfs:label "azLoonVoorman" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azLoonVoormansmaat
+	a rdf:Property ;
+	rdfs:label "azLoonVoormansmaat" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azRegistratieKop
+	a rdf:Property ;
+	rdfs:label "azRegistratieKop" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azRegistratieOpmerking
+	a rdf:Property ;
+	rdfs:label "azRegistratieOpmerking" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:azRegistratieWijze
+	a rdf:Property ;
+	rdfs:label "azRegistratieWijze" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:aziatischeBemanning
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "aziatischeBemanning" ;
+	rdfs:range rdfs:Resource .
+
+gzmvoc:dasLinkHeen
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "dasLinkHeen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:dasLinkTerug
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "dasLinkTerug" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:datum
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "datum" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:geboorteplaats
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "geboorteplaats" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:lokatie
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "lokatie" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:naFolioNummer
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "naFolioNummer" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:naInventarisnummer
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "naInventarisnummer" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:notitie
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "notitie" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:opmerkingen
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "opmerkingen" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:plaatsParthesius
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "plaatsParthesius" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:scheepsnaam
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "scheepsnaam" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:scheepstype
+	a rdf:Property ;
+	rdfs:label "scheepstype" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:schip
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "schip" ;
+	rdfs:range rdfs:Resource .
+
+gzmvoc:schipper
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "schipper" ;
+	rdfs:range rdfs:Resource .
+
+gzmvoc:telling
+	a rdf:Property ;
+	rdfs:domain gzmvoc:Telling ;
+	rdfs:label "telling" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:tussenvoegsel
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "tussenvoegsel" ;
+	rdfs:range rdfs:Literal .
+
+gzmvoc:voornaam
+	a rdf:Property ;
+	rdfs:label "voornaam" ;
+	rdfs:range rdfs:Literal .
+</pre></body></html>
