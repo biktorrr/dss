@@ -7,8 +7,7 @@
 @prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix       dc: <http://purl.org/dc/terms/> .
 
-@prefix gzmvoc: http://purl.org/collections/nl/dss/gzmvoc/ .
-
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 <gzmvoc>
         a void:Dataset ;
 		a lib:CloudNode ;
