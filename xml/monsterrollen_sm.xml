@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<id>1</id>
+		<bronid>NULL</bronid>
+		<datum>NULL</datum>
+		<achternaam>Nieboer</achternaam>
+		<voornaam>Harm H.</voornaam>
+		<rang>schipper</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>NULL</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>2</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Boer, de</achternaam>
+		<voornaam>Jan</voornaam>
+		<rang>kapitein</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>Sappemeer (NL)</woonplaats>
+		<leeftijd>43</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>3</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Kampel</achternaam>
+		<voornaam>D.</voornaam>
+		<rang>1e stuurman</rang>
+		<maandgage>36</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>34</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>4</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Postema</achternaam>
+		<voornaam>H.G.</voornaam>
+		<rang>2e stuurman</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>22</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>5</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Sluis, van der</achternaam>
+		<voornaam>J.</voornaam>
+		<rang>matroos</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>34</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>6</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Scholt</achternaam>
+		<voornaam>C.</voornaam>
+		<rang>matroos</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>22</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>7</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Oortenga</achternaam>
+		<voornaam>E.</voornaam>
+		<rang>lichtmatroos</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>14</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>8</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<achternaam>Venema</achternaam>
+		<voornaam>R.</voornaam>
+		<rang>kok</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>NULL</woonplaats>
+		<leeftijd>23</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>9</id>
+		<bronid>1868-2</bronid>
+		<datum>1868-01-21</datum>
+		<achternaam>Heins</achternaam>
+		<voornaam>Harm Klaassens</voornaam>
+		<rang>kapitein</rang>
+		<maandgage>NULL</maandgage>
+		<woonplaats>Groningen (NL)</woonplaats>
+		<leeftijd>46</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row>
+	<Row>
+		<id>10</id>
+		<bronid>1868-2</bronid>
+		<datum>1868-01-21</datum>
+		<achternaam>Huizenga</achternaam>
+		<voornaam>J.</voornaam>
+		<rang>stuurman</rang>
+		<maandgage>32</maandgage>
+		<woonplaats>Sappemeer (NL)</woonplaats>
+		<leeftijd>29</leeftijd>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum</bewaarplaats>
+	</Row><Row>
+		<id>77041</id>
+		<bronid>1914-1</bronid>
+		<datum>1914-02-18</datum>
+		<achternaam>Brouwer</achternaam>
+		<voornaam>Geert</voornaam>
+		<rang>stuurman</rang>
+		<maandgage>35</maandgage>
+		<woonplaats>Wildervank (NL)</woonplaats>
+		<leeftijd>20</leeftijd>
+		<bewaarplaats>Veendam, Gemeentearchief (Veendam)</bewaarplaats>
+	</Row>
+	<Row>
+		<id>77042</id>
+		<bronid>1914-1</bronid>
+		<datum>1914-02-18</datum>
+		<achternaam>Burema</achternaam>
+		<voornaam>Hendrik</voornaam>
+		<rang>matroos</rang>
+		<maandgage>25</maandgage>
+		<woonplaats>Zuidbroek (NL)</woonplaats>
+		<leeftijd>19</leeftijd>
+		<bewaarplaats>Veendam, Gemeentearchief (Veendam)</bewaarplaats>
+	</Row>
+	<Row>
+		<id>77043</id>
+		<bronid>1914-1</bronid>
+		<datum>1914-02-18</datum>
+		<achternaam>Bakker</achternaam>
+		<voornaam>Jan</voornaam>
+		<rang>kok</rang>
+		<maandgage>7.5</maandgage>
+		<woonplaats>Veendam (NL)</woonplaats>
+		<leeftijd>14</leeftijd>
+		<bewaarplaats>Veendam, Gemeentearchief (Veendam)</bewaarplaats>
+	</Row>
+	<Row>
+		<id>1</id>
+		<bronid>NULL</bronid>
+		<datum>NULL</datum>
+		<scheepsnaam>Magrita</scheepsnaam>
+		<scheepstype>NULL</scheepstype>
+		<grootte>NULL</grootte>
+		<thuishaven>NULL</thuishaven>
+		<ligplaats>Groningen (NL)</ligplaats>
+		<bestemming>Noorwegen (N)</bestemming>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum'</bewaarplaats>
+	</Row>
+	<Row>
+		<id>2</id>
+		<bronid>1868-1</bronid>
+		<datum>1868-01-22</datum>
+		<scheepsnaam>Omega</scheepsnaam>
+		<scheepstype>schoener</scheepstype>
+		<grootte>173</grootte>
+		<thuishaven>Sappemeer (NL)</thuishaven>
+		<ligplaats>Groningen (NL)</ligplaats>
+		<bestemming>Gloucester (GB)</bestemming>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum'</bewaarplaats>
+	</Row>
+	<Row>
+		<id>3</id>
+		<bronid>1868-2</bronid>
+		<datum>1868-01-21</datum>
+		<scheepsnaam>Frouwke</scheepsnaam>
+		<scheepstype>smak</scheepstype>
+		<grootte>66</grootte>
+		<thuishaven>NULL</thuishaven>
+		<ligplaats>Groningen (NL)</ligplaats>
+		<bestemming>Londen (GB)</bestemming>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum'</bewaarplaats>
+	</Row>
+	<Row>
+		<id>4</id>
+		<bronid>1868-3</bronid>
+		<datum>1868-01-18</datum>
+		<scheepsnaam>Dina Adriana</scheepsnaam>
+		<scheepstype>galjoot</scheepstype>
+		<grootte>NULL</grootte>
+		<thuishaven>NULL</thuishaven>
+		<ligplaats>Groningen (NL)</ligplaats>
+		<bestemming>Londen (GB)</bestemming>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum'</bewaarplaats>
+	</Row>
+	<Row>
+		<id>5</id>
+		<bronid>1868-4</bronid>
+		<datum>1868-01-20</datum>
+		<scheepsnaam>Ferikelina Emmelina</scheepsnaam>
+		<scheepstype>galjoot</scheepstype>
+		<grootte>79</grootte>
+		<thuishaven>NULL</thuishaven>
+		<ligplaats>Groningen (NL)</ligplaats>
+		<bestemming>Londen (GB)</bestemming>
+		<bewaarplaats>Groningen, Noordelijk Scheepvaartmuseum'</bewaarplaats>
+	</Row>
+	</Root>
