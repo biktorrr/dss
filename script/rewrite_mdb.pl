@@ -44,6 +44,19 @@ list_rules_mdb :-
 
 /**/
 
+% Special rule for first row
+
+firstrow
+@@
+{S, mdb:bronid, literal('NULL')}
+<=>
+{S, mdb:bronid, literal('Null')}.
+
+% Do NULL removal here
+
+
+
+
 fix_quote
 @@
 {S,mdb:bewaarplaats,literal(BP)}
@@ -64,9 +77,8 @@ give_class @@
 {S, rdf:type, mdb:'PersoonsContract'}.
 
 
-
-
-% todo: fix NULL bronid
+% todo: fix NULL bronid -> only one
+%
 make_uri @@
 {S, rdf:type, mdb:'Aanmonstering'},
 {S, mdb:bewaarplaats, literal(BWP)},
@@ -76,6 +88,7 @@ make_uri @@
 bwps(BWP,BS),
 literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI),
 	{URI}.
+
 
 make_uri @@
 {S, rdf:type, mdb:'PersoonsContract'},
@@ -95,9 +108,9 @@ make_persoon
 {S, rdf:type, mdb:'PersoonsContract'},
 {S, mdb:bewaarplaats,literal(BWP)},
 {S, mdb:bronid, literal(BronId)}\
-{S,mdb:achternaam, literal(AN)},
-{S,mdb:voornaam, literal(VN)},
-{S,mdb:woonplaats, WP}
+{S, mdb:achternaam, literal(AN)},
+{S, mdb:voornaam, literal(VN)},
+{S, mdb:woonplaats, WP}
 <=>
 bwps(BWP,BS),
 literal_to_id(['persoon-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
@@ -199,12 +212,10 @@ clean_empty
 <=>
 true.
 
-clean_empty
-@@
-{_,_,literal('NULL')}
+null_removal @@
+{_S, _P, literal('NULL')}
 <=>
 true.
-
 
 
 % shorthands for bewaarplaatsen

@@ -3,6 +3,7 @@
 	    run_gzmvoc/0,
 	    run_mdb/0,
 	    load_mdb/0,
+	    run_vocop/0,
 	    clean_all/0,
 	    save_gzmvoc/0
 	  ]).
@@ -18,6 +19,8 @@ user:file_search_path(data, 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 :- rdf_register_ns(dss, 'http://purl.org/collections/nl/dss/').
 :- rdf_register_ns(gzmvoc, 'http://purl.org/collections/nl/dss/gzmvoc/').
 :- rdf_register_ns(mdb, 'http://purl.org/collections/nl/dss/mdb/').
+:- rdf_register_ns(vocopv, 'http://purl.org/collections/nl/dss/vocopv/').
+
 
 :- rdf_register_ns(dcterms, 'http://purl.org/dc/terms/').
 
@@ -29,6 +32,12 @@ user:file_search_path(data, 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 :- use_module(rewrite_gzmvoc).
 :- use_module(rewrite_mdb).
 
+:- use_module(rewrite_vocopv_opv).
+:- use_module(rewrite_vocopv_beg).
+:- use_module(rewrite_vocopv_sol).
+
+
+
 load_ontologies :-
 	rdf_load_library(dc),
 	rdf_load_library(skos),
@@ -39,46 +48,51 @@ load_ontologies :-
 	rdf_set_cache_options([ global_directory('cache/rdf'),
 				create_global_directory(true)
 			      ]).
-	%load_ontologies.
-
-load_gzmvoc:-
-        absolute_file_name(data('xml/gzmvoc.xml'), File,
-			   [ access(read)
-			   ]),
-	write(File),
-	load('dataTable', gzmvoc, File).
-
-load_mdb:-
-        absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
-			   [ access(read)
-			   ]),
-	write(File),
-	load('Row', mdb, File).
 
 
-load(Unit, Graph, File) :-
-	rdf_current_ns(Graph, Prefix),
+% Algemeen
+%
+
+load(Unit, Graph, File, Prefix) :-
+	%rdf_current_ns(Graph, Prefix),
 	load_xml_as_rdf(File,
 			[ dialect(xml),
 			  unit(Unit),
 			  prefix(Prefix),
 			  graph(Graph)
 			]).
-
-
 run_dss:-
 	run_gzmvoc,
 	run_mdb.
+
+clean_all:-
+	rdf_retractall(_,_,_,mdb),
+	rdf_retractall(_,_,_,gzmvoc),
+
+
+	clean_vocop,
+	rdf_retractall(_,_,_,user).
+
+
+
+
+
+% Generale Zeemonsterrollen
+%
+%
+load_gzmvoc:-
+        absolute_file_name(data('xml/gzmvoc.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	rdf_current_ns(gzmvoc, Prefix),
+	load('dataTable', gzmvoc, File, Prefix).
 
 run_gzmvoc:-
 	load_gzmvoc,
 	rewrite_gzmvoc,
 	save_gzmvoc.
 
-run_mdb:-
-	load_mdb,
-	rewrite_mdb,
-	save_mdb.
 
 
 
@@ -89,6 +103,23 @@ save_gzmvoc:-
 	rdf_save_turtle(File,[graph(gzmvoc)]).
 
 
+% Monsterrollen database
+%
+run_mdb:-
+	rdf_retractall(_,_,_,mdb),
+	load_mdb,
+	rewrite_mdb,
+	save_mdb.
+
+load_mdb:-
+        absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	rdf_current_ns(mdb, Prefix),
+	load('Row', mdb, File, Prefix).
+
+
 save_mdb:-
 	absolute_file_name(data('rdf/mdb_data.ttl'), File,
 			   [ access(write)
@@ -96,15 +127,90 @@ save_mdb:-
 	rdf_save_turtle(File,[graph(mdb)]).
 
 
-clean_all:-
-	rdf_retractall(_,_,_,mdb),
-	rdf_retractall(_,_,_,gzmvoc),
-	rdf_retractall(_,_,_,user).
+% VOC Opvarenden
+%
+
+run_vocop:-
+	load_vocop,
+	rewrite_vocop.
+
+load_vocop:-
+	load_soldijboeken,
+	load_begunstigden,
+	load_opvarenden.
+
+rewrite_vocop:-
+	rewrite_vocopv_beg,
+	rewrite_vocopv_opv,
+	rewrite_vocopv_sol.
 
 
+load_soldijboeken:-
+	rdf_current_ns(vocopv, Prefix),
+	absolute_file_name(data('xml/voc_opv/soldijboeken.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	load('Row', vocop_soldijboeken, File, Prefix).
+
+load_begunstigden:-
+        rdf_current_ns(vocopv, Prefix),
+        absolute_file_name(data('xml/voc_opv/begunstigden_0.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	load('Row', vocop_begunstigden, File, Prefix).
+
+load_opvarenden:-
+	rdf_current_ns(vocopv, Prefix),
+	absolute_file_name(data('xml/voc_opv/opvarenden_0.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	load('record', vocop_opvarenden, File, Prefix).
+
+clean_vocop:-
+	rdf_retractall(_,_,_,vocop_begunstigden),
+	rdf_retractall(_,_,_,vocop_soldijboeken),
+	rdf_retractall(_,_,_,vocop_opvarenden).
 
 
+run_begunstigden:-
+	load_begunstigden,
+	rewrite_vocopv_beg,
+	save_begunstigden.
 
 
+run_opvarenden:-
+	load_opvarenden,
+	rewrite_vocopv_opv,
+	save_opvarenden.
 
+run_soldijboeken:-
+	load_soldijboeken,
+	rewrite_vocopv_sol,
+	save_soldijboeken.
+
+save_opvarenden:-
+
+	absolute_file_name(data('rdf/vovopv_opv.ttl'), File,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File,[graph(vocop_opvarenden)]).
+
+
+save_begunstigden:-
+
+	absolute_file_name(data('rdf/vovopv_beg.ttl'), File,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File,[graph(vocop_begunstigden)]).
+
+
+save_soldijboeken:-
+
+	absolute_file_name(data('rdf/vovopv_sol.ttl'), File,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File,[graph(vocop_soldijboeken)]).
 
