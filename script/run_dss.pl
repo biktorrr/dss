@@ -144,6 +144,11 @@ rewrite_vocop:-
 	rewrite_vocopv_opv,
 	rewrite_vocopv_sol.
 
+save_vocop:-
+	save_soldijboeken,
+	save_begunstigden,
+	save_opvarenden.
+
 
 load_soldijboeken:-
 	rdf_current_ns(vocopv, Prefix),
