@@ -183,6 +183,7 @@ run_begunstigden:-
 
 run_opvarenden:-
 	load_opvarenden,
+	rdf_retractall(_A, _B, literal('')), % do this here, for speed's sake
 	rewrite_vocopv_opv,
 	save_opvarenden.
 
@@ -193,7 +194,7 @@ run_soldijboeken:-
 
 save_opvarenden:-
 
-	absolute_file_name(data('rdf/vovopv_opv.ttl'), File,
+	absolute_file_name(data('rdf/vocopv_opv.ttl'), File,
 			   [ access(write)
 			   ]),
 	rdf_save_turtle(File,[graph(vocop_opvarenden)]).
@@ -201,7 +202,7 @@ save_opvarenden:-
 
 save_begunstigden:-
 
-	absolute_file_name(data('rdf/vovopv_beg.ttl'), File,
+	absolute_file_name(data('rdf/vocopv_beg.ttl'), File,
 			   [ access(write)
 			   ]),
 	rdf_save_turtle(File,[graph(vocop_begunstigden)]).
@@ -209,7 +210,7 @@ save_begunstigden:-
 
 save_soldijboeken:-
 
-	absolute_file_name(data('rdf/vovopv_sol.ttl'), File,
+	absolute_file_name(data('rdf/vocopv_sol.ttl'), File,
 			   [ access(write)
 			   ]),
 	rdf_save_turtle(File,[graph(vocop_soldijboeken)]).
