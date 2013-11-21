@@ -312,3 +312,20 @@ gzmvoc:voornaam
 	rdfs:label "voornaam"@nl ;
 	rdfs:range rdfs:Literal .
 	
+gzmvoc:Schip
+		a rdfs:Class ; 
+		rdfs:label "Schip" .
+		
+gzmvoc:Schipper
+		a rdfs:Class ; 
+		rdfs:label "Schipper" .	
+	
+gzmvoc:has_geboorteplaats
+	a rdf:Property ;
+	rdfs:label "heeft geboorteplaats"@nl ;
+	rdfs:range rdfs:Resource.	
+	
+gzmvoc:has_lokatie 
+	a rdf:Property ;
+	rdfs:label "heeft lokatie"@nl ;
+	rdfs:range rdfs:Resource.

@@ -70,7 +70,7 @@ make_ship @@
 <=>
 literal_to_id(['schip-',T,'-',SN],gzmvoc,URI),
 {S,gzmvoc:schip,URI},
-{URI,rdf:type, gzmvoc:'Schip'},
+{URI, rdf:type, gzmvoc:'Schip'},
 {URI, gzmvoc:scheepsnaam, SN}.
 
 make_ship @@
@@ -171,3 +171,47 @@ at_least_one_given([A,B,C,E,J,K,L,N,O,P]),
 at_least_one_given(Values) :-
 member(V, Values),
 ground(V), !.
+
+
+
+% geboorteplaats is promoted to SKOS concept, stored in separate
+% named graph, the SKOS theasaurus ConceptScheme as well as its
+% topconcept is specific to GZMVOC
+% The new 'has_geboorteplaatas' link is added to this graph, the
+% old 'geboorteplaats' link is retained
+%
+geboorteplaats_to_concept @@
+{S,gzmvoc:geboorteplaats, literal(H)}
+==>
+literal_to_id(['place-',H],gzmvoc,URI),
+	rdf_assert(URI, rdf:type, skos:'Concept', gzmvocplace),
+	rdf_assert(URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme', gzmvocplace),
+	rdf_assert(URI, skos:prefLabel, literal(H), gzmvocplace),
+	{S, gzmvoc:has_geboorteplaats, URI}.
+
+
+
+% Same for lokatie,these might overlap with previous one, check with
+% Matthias
+lokatie_to_concept @@
+{S,gzmvoc:lokatie, literal(H)}
+==>
+snip_ter_rede(H,H1),
+literal_to_id(['place-',H1],gzmvoc,URI),
+	rdf_assert(URI, rdf:type, skos:'Concept', gzmvocplace),
+	rdf_assert(URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme', gzmvocplace),
+	rdf_assert(URI, skos:prefLabel, literal(H), gzmvocplace),
+	{S, gzmvoc:has_lokatie, URI}.
+
+
+% cut of "ter rede" when making concept out of lokatie. This is a bit
+% hacky
+snip_ter_rede(L1,L2):-
+	sub_atom(L1,B,_L,_,', ter re'),
+	sub_atom(L1,0,B,_,L2),!.
+
+snip_ter_rede(L,L).
+
+skos_assertions_gzmvoc:-
+	rdf_assert(gzmvoc:'GZMVOCPlaceScheme', rdf:type, skos:'ConceptScheme', gzmvocplace),
+	rdf_assert(gzmvoc:'GZMVOCPlaceScheme', rdfs:label, literal('Generale ZeemonsterRollen Place ConceptScheme'), gzmvocplace).
