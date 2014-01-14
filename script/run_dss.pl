@@ -55,6 +55,7 @@ load_ontologies :-
 
 load(Unit, Graph, Files, Prefix) :-
 	%rdf_current_ns(Graph, Prefix),
+	writef('loading files %w\n',Files),
 	load_xml_as_rdf(Files,
 			[ dialect(xml),
 			  unit(Unit),
@@ -111,6 +112,7 @@ run_mdb:-
 	rewrite_mdb,
 	save_mdb.
 
+/*
 load_mdb:-
         absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
 			   [ access(read)
@@ -118,6 +120,22 @@ load_mdb:-
 	write(File),
 	rdf_current_ns(mdb, Prefix),
 	load('Row', mdb, File, Prefix).
+*/
+/*
+load_mdb:-
+        absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	rdf_current_ns(mdb, Prefix),
+	load('Row', mdb, File, Prefix).
+*/
+
+load_mdb:-
+	absolute_file_name(data('xml/monsterrollen/monsterrollen_*'), FilePat),
+	expand_file_name(FilePat, Files),
+	rdf_current_ns(mdb, Prefix),
+	load('record', mdb, Files, Prefix).
 
 
 save_mdb:-
@@ -140,7 +158,7 @@ load_vocop:-
 	load_opvarenden_all.
 
 rewrite_vocop:-
-	,
+	rewrite_vocopv_beg,
 	rewrite_vocopv_opv,
 	rewrite_vocopv_sol.
 
