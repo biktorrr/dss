@@ -4,8 +4,16 @@
 
 import csv
 
+
+delm = ';'
+#inputfilename = 'schepen.csv'
+inputfilename = 'bemanningen.csv'
+#outputfilename = 'monsterrollen_schepen_'
+outputfilename = 'monsterrollen_bemanningen_'
+
+
 csv.register_dialect('custom',
-                     delimiter=',',
+                     delimiter=delm,
                      doublequote=True,
                      escapechar=None,
                      quotechar='"',
@@ -20,10 +28,12 @@ currow= 0
 curfile = 0
 
 # first file
-f = open('opvarenden_'+str(curfile)+'.xml', 'w')
+# f = open('opvarenden_'+str(curfile)+'.xml', 'w')
+f = open(outputfilename+str(curfile)+'.xml', 'w')
 
 # input file name
-with open('voc_opvarenden.csv') as ifile:
+# with open('voc_opvarenden.csv') as ifile:
+with open(inputfilename) as ifile:
     rownum = 0
     data = csv.reader(ifile, delimiter=';', dialect='custom') # register different delimiter here
     f.write('<?xml version="1.0" encoding="iso-8859-1"?>\n')
