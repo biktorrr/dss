@@ -52,27 +52,34 @@ firstrow
 <=>
 {S, mdb:bronid, literal('Null')}.
 
-% Do NULL removal here
 
 
+% Do NULL removal here -> TODO: fix uri giving rules
+
+clean_null@@
+{_, _, literal('NULL')}
+<=>
+true.
 
 
+/*
 fix_quote
 @@
 {S,mdb:bewaarplaats,literal(BP)}
 <=>
 atom_concat(BP1,'\'',BP),
 	{S,mdb:bewaarplaats,literal(BP1)}.
+*/
 
 give_class @@
 {S, mdb:scheepsnaam,_}\
-{S, rdf:type, mdb:'Row'}
+{S, rdf:type, mdb:'Record'}
 <=>
 {S, rdf:type, mdb:'Aanmonstering'}.
 
 give_class @@
 {S, mdb:achternaam,_}\
-{S, rdf:type, mdb:'Row'}
+{S, rdf:type, mdb:'Record'}
 <=>
 {S, rdf:type, mdb:'PersoonsContract'}.
 
@@ -100,7 +107,9 @@ make_uri @@
 <=>
 bwps(BWP,BS),
 literal_to_id(['persoonscontract-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
-	{URI}.
+	{URI},
+	literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI2),
+	{URI, mdb:has_aanmonstering, URI2}.
 
 
 make_persoon
@@ -122,17 +131,17 @@ literal_to_id(['persoon-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
 
 
 
-
+/*
 link_pc_am @@
 {A, rdf:type, mdb:'Aanmonstering'},
-{A, mdb:bewaarplaats,BWP},
-{A, mdb:bronid, literal(BronId)},
+{A, mdb:bewaarplaats, BWP},
+{A, mdb:bronid, BronId},
 {P, rdf:type, mdb:'PersoonsContract'},
 {P, mdb:bewaarplaats, BWP},
-{P, mdb:bronid, literal(BronId)}
+{P, mdb:bronid, BronId}
 ==>
 {A, mdb:persoonsContract, P}.
-
+*/
 
 
 make_ship @@
@@ -206,14 +215,13 @@ literal_to_id(['plaats-',BWP],mdb,URI),
 {URI, rdfs:label, literal(BWP)}.
 
 
+
+
+
+
 clean_empty
 @@
 {_,_,literal('')}
-<=>
-true.
-
-null_removal @@
-{_S, _P, literal('NULL')}
 <=>
 true.
 
@@ -237,3 +245,35 @@ bwps('Oude Pekela, Gemeentearchief (Nieuwe Pekela)',	nw_pek_gemarch).
 bwps('Sneek, Fries Scheepvaartmuseum',	sneek_mus).
 bwps('Nieuwe Pekela, Kapiteinshuis',	nw_pek_kap).
 bwps('Veendam, Gemeentearchief (Veendam)',veen_veen).
+
+% nw version
+bwps('Dokkum, Streekarchief Noordoost-Friesland (Westdongeradeel)', dokkun_w).
+bwps('Groningen, RHC Groninger Archieven (Fivelingo)',gron_archfv).
+bwps('Groningen, RHC Groninger Archieven (Groningen)',	gron_archgron).
+
+bwps('Aa en Hunze, Gemeentearchief (Gasselte)',gasselte).
+bwps('Winschoten, Cultuurhistorisch Centrum Oldambt', winschotern).
+
+
+/*
+nwe bewaarplaatsen (17/1)
+Groningen, Noordelijk Scheepvaartmuseum
+Delfzijl, Gemeentearchief (Delfzijl)
+Dokkum, Streekarchief Noordoost-Friesland (Westdongeradeel)
+Groningen, RHC Groninger Archieven (Fivelingo)
+Aa en Hunze, Gemeentearchief (Gasselte)
+Groningen, RHC Groninger Archieven (Groningen)
+Hoogezand-Sappemeer, Gemeentearchief (Hoogezand)
+Oude Pekela, Gemeentearchief (Oude Pekela)
+Oude Pekela, Gemeentearchief (Nieuwe Pekela)
+Hoogezand-Sappemeer, Gemeentearchief (Sappemeer)
+Delfzijl, Gemeentearchief (Termunten)
+Veendam, Gemeentearchief (Veendam)
+Veendam, Gemeentearchief (Wildervank)
+Winschoten, Cultuurhistorisch Centrum Oldambt
+Workum, Gemeentearchief Zuidwest Friesland (Stavoren)
+De Marne, Gemeentearchief (Ulrum)
+Nieuwe Pekela, Kapiteinshuis
+particulier bezit
+Sneek, Fries Scheepvaartmuseum
+*/
