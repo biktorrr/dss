@@ -54,22 +54,6 @@ firstrow
 
 
 
-% Do NULL removal here -> TODO: fix uri giving rules
-
-clean_null@@
-{_, _, literal('NULL')}
-<=>
-true.
-
-
-/*
-fix_quote
-@@
-{S,mdb:bewaarplaats,literal(BP)}
-<=>
-atom_concat(BP1,'\'',BP),
-	{S,mdb:bewaarplaats,literal(BP1)}.
-*/
 
 give_class @@
 {S, mdb:scheepsnaam,_}\
@@ -78,13 +62,22 @@ give_class @@
 {S, rdf:type, mdb:'Aanmonstering'}.
 
 give_class @@
-{S, mdb:achternaam,_}\
+{S, mdb:achternaam,_}
+\
 {S, rdf:type, mdb:'Record'}
 <=>
 {S, rdf:type, mdb:'PersoonsContract'}.
 
 
-% todo: fix NULL bronid -> only one
+% Do NULL removal here -> TODO: fix uri giving rules
+
+clean_null@@
+{_, _, literal('NULL')}
+<=>
+true.
+
+
+% Give URIs to classes
 %
 make_uri @@
 {S, rdf:type, mdb:'Aanmonstering'},
@@ -111,40 +104,47 @@ literal_to_id(['persoonscontract-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
 	literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI2),
 	{URI, mdb:has_aanmonstering, URI2}.
 
+make_uri @@
+{S, rdf:type, mdb:'PersoonsContract'},
+{S, mdb:bewaarplaats, literal(BWP)},
+{S, mdb:bronid, literal(BronId)}\
+{S}
+<=>
+rdf_is_bnode(S),
+bwps(BWP,BS),
+literal_to_id(['persoonscontract-',BS,'-',BronId,'-','unknown'],mdb,URI),
+	{URI},
+	literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI2),
+	{URI, mdb:has_aanmonstering, URI2}.
 
+
+% For persons we use ID only (multiple identical achternaam, no voornaam
+% possible per ship.
 make_persoon
 @@
 {S, rdf:type, mdb:'PersoonsContract'},
-{S, mdb:bewaarplaats,literal(BWP)},
-{S, mdb:bronid, literal(BronId)}\
-{S, mdb:achternaam, literal(AN)},
-{S, mdb:voornaam, literal(VN)},
-{S, mdb:woonplaats, WP}
+{S, mdb:bewaarplaats, literal(BWP)},
+{S, mdb:bronid, literal(BronId)},
+	{S, mdb:id, literal(ID)}\
+{S, mdb:achternaam, AN}?,
+{S, mdb:voornaam, VN}? ,
+{S, mdb:woonplaats, WP}?
 <=>
 bwps(BWP,BS),
-literal_to_id(['persoon-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
-{URI,mdb:achternaam, literal(AN)},
-{URI,mdb:voornaam, literal(VN)},
+literal_to_id(['persoon-',BS,'-',BronId,'-',ID],mdb,URI),
+{URI,mdb:achternaam, AN},
+{URI,mdb:voornaam, VN},
 {URI,mdb:woonplaats, WP},
 {URI,rdf:type, mdb:'Persoon'},
 {S, mdb:persoon	, URI}.
 
 
 
-/*
-link_pc_am @@
-{A, rdf:type, mdb:'Aanmonstering'},
-{A, mdb:bewaarplaats, BWP},
-{A, mdb:bronid, BronId},
-{P, rdf:type, mdb:'PersoonsContract'},
-{P, mdb:bewaarplaats, BWP},
-{P, mdb:bronid, BronId}
-==>
-{A, mdb:persoonsContract, P}.
-*/
+
 
 
 make_ship @@
+{S, rdf:type, mdb:'Aanmonstering'},
 {S, mdb:bewaarplaats, literal(BWP)},
 {S, mdb:bronid, literal(BronId)}\
 {S, mdb:scheepsnaam, SN}
@@ -177,6 +177,16 @@ literal_to_id(['bewaarplaats-',BS],mdb,URI),
 {S, mdb:bewaarplaats,URI},
 {URI,rdf:type, mdb:'Bewaarplaats'},
 {URI, rdfs:label, literal(BWP)}.
+
+make_vertrekhaven
+@@
+{S, mdb:vertrekhaven,literal(BWP)}
+<=>
+literal_to_id(['plaats-',BWP],mdb,URI),
+{S, mdb:vertrekhaven,URI},
+{URI,rdf:type, mdb:'Plaats'},
+{URI, rdfs:label, literal(BWP)}.
+
 
 make_thuishaven
 @@
@@ -215,10 +225,6 @@ literal_to_id(['plaats-',BWP],mdb,URI),
 {URI, rdfs:label, literal(BWP)}.
 
 
-
-
-
-
 clean_empty
 @@
 {_,_,literal('')}
@@ -226,7 +232,53 @@ clean_empty
 true.
 
 
+parse_locations
+@@
+{S, rdf:type, mdb:'Plaats'}\
+ {S, rdfs:label, literal(Label)}
+<=>
+ parse_label(Label, NewLabel),
+{S, mdb:orig_label, literal(Label)},
+ {S, rdfs:label, literal(NewLabel)}.
+
+
+% 'vocabularies'
+
+make_shiptype
+@@
+{S, mdb:scheepstype,literal(ST)}
+<=>
+literal_to_id(['shiptype-',ST],mdb,URI),
+{S, mdb:scheepstype,URI},
+{URI,rdf:type, mdb:'ScheepsType'},
+{URI, skos:prefLabel, literal(ST)}.
+
+make_rank
+@@
+{S, mdb:rang,literal(R)}
+<=>
+literal_to_id(['rang-',R],mdb,URI),
+{S, mdb:rang,URI},
+{URI,rdf:type, mdb:'Rang'},
+{URI, skos:prefLabel, literal(R)}.
+
+
+% -------------- UTIL PREDS ------------------------------
+%
+
+% just get everything in front of the first parenthesis
+parse_label(Lab,NewLab):-
+	sub_atom(Lab, Before, 2, _After, ' ('),
+	sub_atom(Lab, 0, Before, _, NewLab),!.
+
+parse_label(Lab,NewLab):-
+	sub_atom(Lab, Before, 1, _After, '('),
+	sub_atom(Lab, 0, Before, _, NewLab),!.
+
 % shorthands for bewaarplaatsen
+
+
+
 
 bwps('Groningen, Noordelijk Scheepvaartmuseum', gron_nsm).
 bwps('Delfzijl, Gemeentearchief (Delfzijl)',	del_gem).
@@ -253,6 +305,9 @@ bwps('Groningen, RHC Groninger Archieven (Groningen)',	gron_archgron).
 
 bwps('Aa en Hunze, Gemeentearchief (Gasselte)',gasselte).
 bwps('Winschoten, Cultuurhistorisch Centrum Oldambt', winschotern).
+
+bwps('Delfzijl, Gemeentearchief (Termunten)',delfzijl_term).
+bwps('Workum, Gemeentearchief Zuidwest Friesland (Stavoren)',work_stav).
 
 
 /*
