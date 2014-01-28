@@ -8,6 +8,8 @@
 @prefix       dc: <http://purl.org/dc/terms/> .
 
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+
 <gzmvoc>
         a void:Dataset ;
 		a lib:CloudNode ;
@@ -18,3 +20,15 @@
 		void:dataDump
                 <gzmvoc_data.ttl> ,
                 <gzmvoc_schema.ttl>.
+
+<mdb>
+        a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source mdb: ;
+        dc:title "Noordelijke Monsterrollen (Jur Leinenga)" ;
+		dc:description "Noordelijke Monsterrollen (Jur Leinenga)" ;
+        owl:versionInfo "0.1" ;
+		void:dataDump
+                <mdb_data.ttl> ,
+                <mdb_schema.ttl>,
+				<mdb_thes_rangen>.
