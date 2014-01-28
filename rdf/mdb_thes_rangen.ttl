@@ -1,0 +1,715 @@
+# Rank vocabulary, provided by jur Leinenga and converted to SKOS RDF by Victor de Boer. This is separated from the data for now, but can be aligned with MDB data.
+
+@base              <mdb_Rangen> .
+@prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix       rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix thesaurus: <http://purl.org/collections/nl/dss/mdb/thesaurus/> .
+
+# Named toplevel resources (62)
+
+thesaurus:Chinesen
+	a skos:Concept ;
+	skos:altLabel "Chineesen" ,
+		      "Chinesen" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "Chinesen" ;
+	skos:scopeNote "mensen van, uit China; iemand van het Chinese ras" .
+
+thesaurus:NULL
+	a skos:Concept ;
+	skos:altLabel "niet vermeld" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:prefLabel "NULL" .
+
+thesaurus:afhouder
+	a skos:Concept ;
+	skos:altLabel "afhouder" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "afhouder" ;
+	skos:scopeNote "het jongste lid van de bemanning van een haringlogger, die helpt bij het inhalen van de reep" .
+
+thesaurus:afloskapitein
+	a skos:Concept ;
+	skos:altLabel "afloskapitein" ,
+		      "assistent machinist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "afloskapitein" ;
+	skos:scopeNote "die een machinist onder diens leiding bij zijn werkzaamheden helpt" ,
+		       "vervangt de kapitein in zijn taak of werkzaamheid" .
+
+thesaurus:bediende
+	a skos:Concept ;
+	skos:altLabel "bediende" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "bediende" ;
+	skos:scopeNote "die in ondergeschikte betrekking werkzaam is" .
+
+thesaurus:boekhouder
+	a skos:Concept ;
+	skos:altLabel "boekhouder" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "boekhouder" ;
+	skos:scopeNote "iemand wiens beroep het is voor een instelling boek te houden; bestuurder van een rederij die de gezamelijke rederis in en buiten rechte vertegenwoordigt en het beheer voert" .
+
+thesaurus:bootsman
+	a skos:Concept ;
+	skos:altLabel "bootsman" ,
+		      "bootsman-kok" ,
+		      "bootsman-matroos" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "bootsman" ;
+	skos:scopeNote "de leider van het dekpersoneel van lagere rang, die ook de loon- en inventarisadministratie bijhoudt" .
+
+thesaurus:bootsmansmaat
+	a skos:Concept ;
+	skos:altLabel "bootsman-timmerman" ,
+		      "bootsman-zeilmaker" ,
+		      "bootsmansmaat" ,
+		      "dekjongen" ,
+		      "dekjongen-zeilmaker" ,
+		      "dekmaat" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "website vocopvarenden.nationaalarchief.nl, geraadpleegd op 25-04-2013" ;
+	skos:prefLabel "bootsmansmaat" .
+
+thesaurus:bosschieter
+	a skos:Concept ;
+	skos:altLabel "Bosschieter" ;
+	skos:altlabel "able seaman (?)"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "VOC-Opvarenden.nl" ;
+	skos:prefLabel "bosschieter" ;
+	skos:scopeNote "In VOC-Opvarenden " .
+
+thesaurus:derde_machinist
+	a skos:Concept ;
+	skos:altLabel "3e machinist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "derde machinist" .
+
+thesaurus:derde_stuurman
+	a skos:Concept ;
+	skos:altLabel "3e stuurman" ;
+	skos:altlabel "third mate"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "derde stuurman" .
+
+thesaurus:donkeyman
+	a skos:Concept ;
+	skos:altLabel "donkeyman" ,
+		      "donkeyman-stoker" ,
+		      "gezagvoerders echtgenoot" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "donkeyman" ;
+	skos:scopeNote "degene die met de bediening van de donkeys [= stoomlieren] belast is" .
+
+thesaurus:eerste_machinist
+	a skos:Concept ;
+	skos:altLabel "1e machinist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "eerste machinist" .
+
+thesaurus:eerste_stoker
+	a skos:Concept ;
+	skos:altLabel "olieman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "eerste stoker" ;
+	skos:scopeNote "eerste stoker; machinesmeerder" .
+
+thesaurus:eerste_stuurman
+	a skos:Concept ;
+	skos:altLabel "1e stuurman" ;
+	skos:altlabel "first mate"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "eerste stuurman" .
+
+thesaurus:eerste_timmerman
+	a skos:Concept ;
+	skos:altLabel "1e timmerman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "eerste timmerman" .
+
+thesaurus:hofmeester
+	a skos:Concept ;
+	skos:altLabel "hofmeester" ,
+		      "hofmeester-lichtmatroos" ,
+		      "hofmeesteres" ,
+		      "jongste" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "hofmeester" ;
+	skos:scopeNote "persoon belast met de zorg voor maaltijden en de bediening van het buffet; steward" .
+
+thesaurus:kajuitwachter
+	a skos:Concept ;
+	skos:altLabel "kajuitwachter" ,
+		      "kajuitwachter-koksmaat" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kajuitwachter" ;
+	skos:scopeNote "oppasser van de kapitein; kajuitsjongen, kajuitjongen" .
+
+thesaurus:kapitein
+	a skos:Concept ;
+	skos:altLabel "kapitein" ,
+		      "kapiteinreder" ,
+		      "kapiteinsdochter" ,
+		      "kapiteinsnicht" ;
+	skos:altlabel "captain"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kapitein" ;
+	skos:scopeNote "scheepsgezagvoerder in 't alg." .
+
+thesaurus:kapiteinsvrouw
+	a skos:Concept ;
+	skos:altLabel "kapiteinsvrouw" ,
+		      "kapiteinszoon" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:prefLabel "kapiteinsvrouw" .
+
+thesaurus:klamphouder
+	a skos:Concept ;
+	skos:altLabel "klamphouwer" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "klamphouder" ;
+	skos:scopeNote "matroos die op een zeeschip waarop geen timmerman vaart, timmerwerk verricht" .
+
+thesaurus:kok
+	a skos:Concept ;
+	skos:altLabel "Kok" ,
+		      "Maleijsse tolk + Scherpregter" ,
+		      "Marinjo" ,
+		      "kok" ,
+		      "kok of lichtmatroos" ,
+		      "kok-hofmeester" ,
+		      "kok-kajuitwachter" ,
+		      "kok-lichtmatroos" ,
+		      "kok-matroos" ,
+		      "kok-scheepsjongen" ,
+		      "kok/scheepsjongen" ,
+		      "mat.s" ;
+	skos:altlabel "cook"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kok" ;
+	skos:scopeNote "iemand die op een schip de spijzen bereidt, althans daar het toezicht op moet houden" ,
+		       "tolk van, uit Maleisië en beul" .
+
+thesaurus:kok_koksmaat
+	skos:altLabel "Cock; Cocksmaat" ,
+		      "Gemeene moorse" ,
+		      "Hooploper" ,
+		      "Inlander mattroos" ,
+		      "Inlanders" ,
+		      "Inlands Marinjo" ,
+		      "Inlands Marinjos" ,
+		      "Inlands marine" ,
+		      "Inlands matroos" ,
+		      "Inlands mattroos" ,
+		      "Inlandse kok" ,
+		      "Inlandse matroos" ,
+		      "Inlandse mattrosen" ,
+		      "Inlants / Moors matroos" ,
+		      "Inlants Mattroos" ,
+		      "Inlants matroos" ,
+		      "Inlants mattroos" ,
+		      "Javaanen" ,
+		      "Javaenen Zeevarende" ,
+		      "Javanen" ,
+		      "Jongen" ,
+		      "gem matroosen" ,
+		      "gem mattroosen" ,
+		      "gem mattrosen" ,
+		      "gem moorse mattroosen" ,
+		      "gem moorse mattrosen" ,
+		      "gem moorse zeevarende" ,
+		      "gem. mattroosen" ,
+		      "gem. moorse matrosen" ,
+		      "gem. moorse mattrosen" ,
+		      "gem: mattroosen" ,
+		      "gemeen mattroosen" ,
+		      "gemeene" ,
+		      "gemeene matroosen" ,
+		      "gemeene matt s" ,
+		      "gemeene mattroosen" ,
+		      "gemeene mattrosen" ,
+		      "gemeene mattrosen." ,
+		      "gemeene mattrossen" ,
+		      "gemeene mooren mattroosen" ,
+		      "gemeene moorsche matrosen" ,
+		      "gemeene moorse matrosen" ,
+		      "gemeene moorse mattroosen" ,
+		      "gemeene moorse mattrosen" ,
+		      "gemeene moorse zeevarende" ,
+		      "gemeene moren" ,
+		      "gemeene of matroos" ,
+		      "gemeene of mattroosen" ,
+		      "gemeene off mattroosen" ,
+		      "gemeene zeevarende" ,
+		      "gemeenen" ,
+		      "gemeenen mattroossen" ,
+		      "gemeenen off mattroosen" ,
+		      "gemene" ,
+		      "gemene Moorse zeevarende" ,
+		      "gemene maats" ,
+		      "gemene matroosen" ,
+		      "gemene mattroosen" ,
+		      "gemene off mattroosen" ,
+		      "gemene personen" ,
+		      "inlanders" ,
+		      "inlandse matroosen" ,
+		      "inlandse mattroosen" ,
+		      "inlandse mattrosen" ,
+		      "inlandse zeevarende" ,
+		      "javaanen" ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kok; koksmaat" ;
+	skos:scopeNote "Moors = van, eigen aan de Moren in Noord-Afrika en Spanje" ,
+		       "iemand die op een schip de spijzen bereidt, althans daar het toezicht op moet houden; helper, bediende van de kok, m.n. op schepen" ,
+		       "matrozen zonder enige rang" ,
+		       "personen zonder enige rang" ,
+		       "zeevarende zonder enige rang" ,
+		       "zonder enige rang" .
+
+thesaurus:koksmaat
+	a skos:Concept ;
+	skos:altLabel "kok-timmerman" ,
+		      "koksgast" ,
+		      "koksmaat" ,
+		      "koksmaat-kajuitwachter" ;
+	skos:altlabel "galley boy"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "koksmaat" ;
+	skos:scopeNote "helper, bediende van de kok, m.n. op schepen; koksjongen, koksmaat" .
+
+thesaurus:kwartiermeester
+	a skos:Concept ;
+	skos:altLabel "kwartiermeester" ;
+	skos:altlabel "quartermaster"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kwartiermeester" ;
+	skos:scopeNote "officier belast met de zorg voor de kwartieren en de intendance; korporaal van de dekdienst" .
+
+thesaurus:kwekeling
+	a skos:Concept ;
+	skos:altLabel "kwekeling" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "kwekeling" ;
+	skos:scopeNote "persoon die, meestal aan een inrichting, tot zeker vak opgeleid wordt" .
+
+thesaurus:lampenist
+	a skos:Concept ;
+	skos:altLabel "lampenist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "lampenist" ;
+	skos:scopeNote "iemand die de zorg voor de lampen heeft, ze moet aansteken enz." .
+
+thesaurus:leerling
+	a skos:Concept ;
+	skos:altLabel "leerling" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "leerling" ;
+	skos:scopeNote "iemand die zich in een of ander vak bekwaamt" .
+
+thesaurus:leerling-machinist
+	a skos:Concept ;
+	skos:altLabel "leerling machinist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "leerling-machinist" ;
+	skos:scopeNote "iemand die zich in het vak van machinist bekwaamt" .
+
+thesaurus:lichtmatroos
+	a skos:Concept ;
+	skos:altLabel "lichtmatroos" ,
+		      "lichtmatroos-hofmeester" ,
+		      "lichtmatroos-kajuitwachter" ,
+		      "lichtmatroos-kok" ,
+		      "lichtmatroos-timmerman" ,
+		      "lichtmatroos-zeilmaker" ,
+		      "lierstoker" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "lichtmatroos" ;
+	skos:scopeNote "nog niet vol(ledig), aankomend matroos" .
+
+thesaurus:linnenjuffrouw
+	a skos:Concept ;
+	skos:altLabel "linnenjuffrouw" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "linnenjuffrouw" ;
+	skos:scopeNote "juffrouw belast met de zorg voro de linnenkamer" .
+
+thesaurus:machinist
+	a skos:Concept ;
+	skos:altLabel "machinist" ,
+		      "machinist-stoker" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "machinist" ;
+	skos:scopeNote "persoon belast met het bedienen en het onderhoud van een stoommachine (op schepen thans meestal 'werktuigkundige'genoemd)" .
+
+thesaurus:matroos
+	a skos:Concept ;
+	skos:altLabel "Matroos" ,
+		      "Matroosen" ,
+		      "Mattroos" ,
+		      "Mattroos / Moors mattroos" ,
+		      "Mattroos onder de vlag / Mattroos" ,
+		      "Mattroosen" ,
+		      "Mattroosen off gemene" ,
+		      "Mattrose" ,
+		      "Mattrosen" ,
+		      "Mooren" ,
+		      "Moors Mattroos" ,
+		      "Moors gem: mattroosen" ,
+		      "Moors matroos" ,
+		      "Moors matroos + Bengaals matroos" ,
+		      "Moors matroos; Toepas matroos" ,
+		      "Moors mattroos" ,
+		      "Moorsche mattroos" ,
+		      "Moorse en Portuguese Mattroosen" ,
+		      "Moorse mattroos" ,
+		      "Moorse zeevarende" ,
+		      "Niet" ,
+		      "Noordzeeloods" ,
+		      "Portugees matroos / Moors matroos" ,
+		      "Sarangs" ,
+		      "Toepaas matroos" ,
+		      "matroos" ,
+		      "matroos 2e kl." ,
+		      "matroos-bootsman" ,
+		      "matroos-klamphouwer" ,
+		      "matroos-kok" ,
+		      "matroos-lampenist" ,
+		      "matroos-motordrijver" ,
+		      "matroos-timmerman" ,
+		      "matroos-zeilmaker" ,
+		      "matroose" ,
+		      "matroosen" ,
+		      "matrosen" ,
+		      "matt s" ,
+		      "mattroesen" ,
+		      "mattroos" ,
+		      "mattroosen" ,
+		      "mattroossen" ,
+		      "mattrosen" ,
+		      "moors gemeene matrosen" ,
+		      "moors matroosen" ,
+		      "moors mattroosen" ,
+		      "moorse gem mattroosen" ,
+		      "moorse gem mattrosen" ,
+		      "moorse gemeene matroosen" ,
+		      "moorse gemeene matrosen" ,
+		      "moorse gemeene mattroosen" ,
+		      "moorse gemeenen" ,
+		      "moorse matdroosen" ,
+		      "moorse matroesen" ,
+		      "moorse matroosen" ,
+		      "moorse matrosen" ,
+		      "moorse mattroesen" ,
+		      "moorse mattroosen" ,
+		      "moorse mattroossen" ,
+		      "moorse mattrosen" ,
+		      "moorse of inlandse mattroosen" ,
+		      "moorse zeevarende" ,
+		      "moorse zeevarende en artilleristen, als zarangs, tandels, matroosen" ,
+		      "moorse zeevarende waaronder 1 zarang en zijn maat" ,
+		      "moorse zeevarenden" ,
+		      "moorse zijde culteurs" ,
+		      "sarangsmaat" ,
+		      "slaaven" ,
+		      "so moorse als andere inl dienaren" ,
+		      "tandels" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ,
+		  "http://www.historici.nl/Onderzoek/Projecten/VocGlossarium/vocoutp , geraadpleegd op 19-04-2013" ;
+	skos:prefLabel "matroos" ;
+	skos:scopeNote "" ,
+		       "gewoon schepeling, zeeman van de laagste rang: men onderscheidt thans matroos 3de, 2de en 1ste klas; licht matroos (ook aaneengeschreven), beginnend, aankomend matroos; vol matroos, die zijn functie geheel kan vervullen" .
+
+thesaurus:oudste
+	a skos:Concept ;
+	skos:altLabel "oudste" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "oudste" ;
+	skos:scopeNote "iemand die in een groep van personen de hoogste ouderdom in rang heeft" .
+
+thesaurus:passagier
+	a skos:Concept ;
+	skos:altLabel "passagier" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "passagier" ;
+	skos:scopeNote "reiziger per trein of tram, per vaar- of vliegtuig" .
+
+thesaurus:patroon
+	a skos:Concept ;
+	skos:altLabel "patron" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "patroon" ;
+	skos:scopeNote "beschermer, m.n. toeziener ...; eigenaar van een bedrijf; hoofd, chef van een zaak; gezagvoerder van een vissersboot" .
+
+thesaurus:prijsmeester
+	a skos:Concept ;
+	skos:altLabel "prijsmeester" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "prijsmeester" ;
+	skos:scopeNote "opzichter van prijsgemaakte schepen" .
+
+thesaurus:reder
+	a skos:Concept ;
+	skos:altLabel "reder" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "reder" ;
+	skos:scopeNote "iemand die een schip of schepen uitrust of helpt uitrusten en in de vaart brengt, deelgenoot in een scheepvaartonderneming; scheepsexploitant" .
+
+thesaurus:reepschieter
+	a skos:Concept ;
+	skos:altLabel "reepschieter" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "reepschieter" ;
+	skos:scopeNote "jongen die de ingehaalde reep in geregelde bochten moet leggen" .
+
+thesaurus:scheepsjongen
+	a skos:Concept ;
+	skos:altLabel "scheepsjongen" ,
+		      "scheepsjongen-kok" ;
+	skos:altlabel "ship's boy"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "scheepsjongen" ;
+	skos:scopeNote "jongen die in de laagste rang en tevens als leerling op een schip dient; kajuitsjongen" .
+
+thesaurus:scheepsmaatje
+	a skos:Concept ;
+	skos:altLabel "scheepsmaat" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "scheepsmaatje" ;
+	skos:scopeNote "jong matroos" .
+
+thesaurus:schipper
+	a skos:Concept ;
+	skos:altLabel "schipper" ;
+	skos:altlabel "master"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "schipper" ;
+	skos:scopeNote "gezagvoerder van een schip (in de spreektaal alleen in toepassing op die van kleine schepen); (in 't bijzonder) iemand die de leiding over een binnenvaartuig heeft" .
+
+thesaurus:schippersdochter
+	a skos:Concept ;
+	skos:altLabel "schippersdochter" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "schippersdochter" ;
+	skos:scopeNote "dochter van een schipper" .
+
+thesaurus:schippersknecht
+	a skos:Concept ;
+	skos:altLabel "schippersknecht" ,
+		      "schippersmaat" ,
+		      "schippersneef" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "schippersknecht" ;
+	skos:scopeNote "knecht van een schipper" ,
+		       "neef van een schipper" .
+
+thesaurus:schippersvrouw
+	a skos:Concept ;
+	skos:altLabel "schippersvrouw" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "schippersvrouw" ;
+	skos:scopeNote "vrouw van een schipper" .
+
+thesaurus:schipperszoon
+	a skos:Concept ;
+	skos:altLabel "schipperszoon" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "schipperszoon" ;
+	skos:scopeNote "zoon van een schipper" .
+
+thesaurus:secretaris
+	a skos:Concept ;
+	skos:altLabel "secretaris" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "secretaris" ;
+	skos:scopeNote "lid van een lichaam of bestuur, belast met het voeren of leiden van de correspondentie, het houden der notulen enz.; griffier" .
+
+thesaurus:stewardess
+	a skos:Concept ;
+	skos:altLabel "stewardess" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "stewardess" ;
+	skos:scopeNote "vrouwelijke steward [= hofmeester]; vrouwelijke hutbediende" .
+
+thesaurus:stoker
+	a skos:Concept ;
+	skos:altLabel "stoker" ,
+		      "stoker-donkeyman" ,
+		      "stoker-lierbediende" ,
+		      "stoker-olieman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "stoker" ;
+	skos:scopeNote "arbeider belast met het stoken van vuren of ovens (in 't bijzonder op … schepen)" .
+
+thesaurus:stuurman
+	a skos:Concept ;
+	skos:altLabel "stuurman" ,
+		      "stuurman-motordrijver" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "stuurman" ;
+	skos:scopeNote "scheepsofficier die met het toezicht op het sturen, en in 't algemeen met het toezicht op en de zorg voor de navigatie is belast" .
+
+thesaurus:stuurmansleerling
+	a skos:Concept ;
+	skos:altLabel "stuurmansleerling" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "stuurmansleerling" ;
+	skos:scopeNote "jongen die tot stuurman opgeleid wordt" .
+
+thesaurus:supercarga
+	a skos:Concept ;
+	skos:altLabel "super carga" ,
+		      "supercargo" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "supercarga" ;
+	skos:scopeNote "opzichter van een lading; titel voor de man die op een gehuurd schip door de huurder aan boord wordt geplaatst om toezicht te houden op stuwage, ventilatie enz. van de lading" ,
+		       "zie supercarga" .
+
+thesaurus:timmerman
+	a skos:Concept ;
+	skos:altLabel "timmerman" ,
+		      "timmerman-lichtmatroos" ,
+		      "timmerman-matroos" ,
+		      "tolk" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "timmerman" ;
+	skos:scopeNote "iemand die het timmeren als beroep uitoefent; iemand die … aan boord timmerwerk verricht" ,
+		       "iemand die t.b.v. personen die elkaar niet verstaan het gesprokenen … overbrengt van de ene taal in een andere; vertaler" .
+
+thesaurus:tremmer
+	a skos:Concept ;
+	skos:altLabel "tremmer" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "tremmer" ;
+	skos:scopeNote "man die de steenkolen uit het ruim haalt en op de stookplaat brengt; arbeider die in het scheepsruim gestort graan e.d. uitspreidt" .
+
+thesaurus:tweede_machinist
+	a skos:Concept ;
+	skos:altLabel "2e machinist" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "tweede machinist" .
+
+thesaurus:tweede_stuurman
+	a skos:Concept ;
+	skos:altLabel "2e stuurman" ,
+		      "2e stuurman-baas timmerman" ,
+		      "2e stuurman-bootsman" ,
+		      "2e stuurman-matroos" ,
+		      "onderstuurman" ;
+	skos:altlabel "second mate"@en ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "tweede stuurman" ;
+	skos:scopeNote "tweede stuurman; in VOC-Opvarenden als onderstuurman" .
+
+thesaurus:tweede_timmerman
+	a skos:Concept ;
+	skos:altLabel "ondertimmerman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "tweede timmerman" ;
+	skos:scopeNote "tweede timmerman; in VOC-Opvarenden als ondertimmerman" .
+
+thesaurus:vlaggenkapitein
+	a skos:Concept ;
+	skos:altLabel "vlaggekapitein" ,
+		      "volmatroos" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "vlaggenkapitein" ;
+	skos:scopeNote "kapitein op het schip van een vlagofficier" ,
+		       "matroos die zijn functie geheel kan vervullen" .
+
+thesaurus:vlaggenman
+	a skos:Concept ;
+	skos:altLabel "vlaggeman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "vlaggenman" ;
+	skos:scopeNote "aanvoerder, leider, voorganger; man die signalen met een vlag geeft" .
+
+thesaurus:vrouw
+	a skos:Concept ;
+	skos:altLabel "vrouw" ,
+		      "z.l.matroos" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "vrouw" ;
+	skos:scopeNote "vpvhvg" .
+
+thesaurus:zeeman
+	a skos:Concept ;
+	skos:altLabel "zeeman" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "zeeman" ;
+	skos:scopeNote "iemand die voor zijn beroep op zee vaart" .
+
+thesaurus:zeilmaker
+	a skos:Concept ;
+	skos:altLabel "Baliers" ,
+		      "Bengaalse matroossen" ,
+		      "zeilmaker" ,
+		      "zeilmaker-matroos" ,
+		      "zetschipper" ,
+		      "zware lichtmatroos" ,
+		      "zware matroos" ;
+	skos:inScheme thesaurus:MDBRangenScheme ;
+	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
+	skos:prefLabel "zeilmaker" ;
+	skos:scopeNote "ambachtsman die scheepszeilen vervaardigt" ,
+		       "iemand die tegen vast loon of tegen provisie voor rekening van een ander het beheer voert [= zetbaas] op een schip" ,
+		       "matrozen van, uit Bengalen" ,
+		       "mensen van, uit Balie" ,
+		       "volmatroos" .
