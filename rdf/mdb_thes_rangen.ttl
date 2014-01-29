@@ -81,7 +81,7 @@ thesaurus:bootsmansmaat
 thesaurus:bosschieter
 	a skos:Concept ;
 	skos:altLabel "Bosschieter" ;
-	skos:altlabel "able seaman (?)"@en ;
+	skos:altLabel "able seaman (?)"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "VOC-Opvarenden.nl" ;
 	skos:prefLabel "bosschieter" ;
@@ -97,7 +97,7 @@ thesaurus:derde_machinist
 thesaurus:derde_stuurman
 	a skos:Concept ;
 	skos:altLabel "3e stuurman" ;
-	skos:altlabel "third mate"@en ;
+	skos:altLabel "third mate"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "derde stuurman" .
@@ -130,7 +130,7 @@ thesaurus:eerste_stoker
 thesaurus:eerste_stuurman
 	a skos:Concept ;
 	skos:altLabel "1e stuurman" ;
-	skos:altlabel "first mate"@en ;
+	skos:altLabel "first mate"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "eerste stuurman" .
@@ -168,7 +168,7 @@ thesaurus:kapitein
 		      "kapiteinreder" ,
 		      "kapiteinsdochter" ,
 		      "kapiteinsnicht" ;
-	skos:altlabel "captain"@en ;
+	skos:altLabel "captain"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "kapitein" ;
@@ -203,7 +203,7 @@ thesaurus:kok
 		      "kok-scheepsjongen" ,
 		      "kok/scheepsjongen" ,
 		      "mat.s" ;
-	skos:altlabel "cook"@en ;
+	skos:altLabel "cook"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "kok" ;
@@ -292,7 +292,7 @@ thesaurus:koksmaat
 		      "koksgast" ,
 		      "koksmaat" ,
 		      "koksmaat-kajuitwachter" ;
-	skos:altlabel "galley boy"@en ;
+	skos:altLabel "galley boy"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "koksmaat" ;
@@ -301,7 +301,7 @@ thesaurus:koksmaat
 thesaurus:kwartiermeester
 	a skos:Concept ;
 	skos:altLabel "kwartiermeester" ;
-	skos:altlabel "quartermaster"@en ;
+	skos:altLabel "quartermaster"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "kwartiermeester" ;
@@ -501,7 +501,7 @@ thesaurus:scheepsjongen
 	a skos:Concept ;
 	skos:altLabel "scheepsjongen" ,
 		      "scheepsjongen-kok" ;
-	skos:altlabel "ship's boy"@en ;
+	skos:altLabel "ship's boy"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "scheepsjongen" ;
@@ -518,7 +518,7 @@ thesaurus:scheepsmaatje
 thesaurus:schipper
 	a skos:Concept ;
 	skos:altLabel "schipper" ;
-	skos:altlabel "master"@en ;
+	skos:altLabel "master"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "schipper" ;
@@ -647,7 +647,7 @@ thesaurus:tweede_stuurman
 		      "2e stuurman-bootsman" ,
 		      "2e stuurman-matroos" ,
 		      "onderstuurman" ;
-	skos:altlabel "second mate"@en ;
+	skos:altLabel "second mate"@en ;
 	skos:inScheme thesaurus:MDBRangenScheme ;
 	skos:note "Van Dale's Groot Woordenboek der Nederlandse Taal" ;
 	skos:prefLabel "tweede stuurman" ;
