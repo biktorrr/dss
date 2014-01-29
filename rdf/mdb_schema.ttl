@@ -47,7 +47,7 @@ mdb:Rang
 mdb:ScheepsType
 	a rdfs:Class ;
 	rdfs:label "ScheepsType" ;
-	rdfs:subClassOf skos:Concep.
+	rdfs:subClassOf skos:Concept.
 
 mdb:Schip
 	a rdfs:Class ;
@@ -201,3 +201,4 @@ mdb:woonplaats
 	rdfs:label "woonplaats" ;
 	rdfs:range mdb:Plaats  ;
 	rdfs:subPropertyOf foaf:based_near.
+	

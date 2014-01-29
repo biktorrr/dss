@@ -94,12 +94,13 @@ make_uri @@
 {S, rdf:type, mdb:'PersoonsContract'},
 {S, mdb:bewaarplaats, literal(BWP)},
 {S, mdb:bronid, literal(BronId)},
+{S, mdb:id, literal(ID)},
 {S, mdb:voornaam, literal(VN)},
 {S, mdb:achternaam, literal(AN)}\
 {S}
 <=>
 bwps(BWP,BS),
-literal_to_id(['persoonscontract-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
+literal_to_id(['persoonscontract-',BS,'-',BronId,'-',ID,'-',VN,'_',AN],mdb,URI),
 	{URI},
 	literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI2),
 	{URI, mdb:has_aanmonstering, URI2}.
@@ -107,12 +108,13 @@ literal_to_id(['persoonscontract-',BS,'-',BronId,'-',VN,'_',AN],mdb,URI),
 make_uri @@
 {S, rdf:type, mdb:'PersoonsContract'},
 {S, mdb:bewaarplaats, literal(BWP)},
+{S, mdb:id, literal(ID)},
 {S, mdb:bronid, literal(BronId)}\
 {S}
 <=>
 rdf_is_bnode(S),
 bwps(BWP,BS),
-literal_to_id(['persoonscontract-',BS,'-',BronId,'-','unknown'],mdb,URI),
+literal_to_id(['persoonscontract-',BS,'-',BronId,'-',ID,'-','unknown'],mdb,URI),
 	{URI},
 	literal_to_id(['aanmonstering-',BS,'-',BronId],mdb,URI2),
 	{URI, mdb:has_aanmonstering, URI2}.
