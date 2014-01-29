@@ -9,6 +9,7 @@
 
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
 
 <gzmvoc>
         a void:Dataset ;
@@ -32,3 +33,15 @@
                 <mdb_data.ttl> ,
                 <mdb_schema.ttl>,
 				<mdb_thes_rangen>.
+
+				
+<aatned>
+        a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source aatned: ;
+        dc:title "AATNed (Multimedian version)" ;
+		dc:description "AATNed (Multimedian version)" ;
+        owl:versionInfo "0.1" ;
+		void:dataDump
+                <AATNed/aatned.rdf> ,
+                <AATNed/aatned.rdfs>.

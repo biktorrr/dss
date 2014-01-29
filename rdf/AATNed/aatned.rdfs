@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY aatned 'http://www.aat-ned.nl/aatned#'>
+    <!ENTITY aat 'http://e-culture.multimedian.nl/ns/getty/aat#'>
+    <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+
+<rdf:RDF
+    xmlns:owl="&owl;"
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:aat="&aat;"
+    xmlns:aatned="&aatned;"   
+    xmlns:xsd="&xsd;"
+>
+
+<owl:Ontology rdf:about="http://www.aat-ned.nl/aatned">
+  <rdfs:seeAlso rdf:resource="http://www.aat-ned.nl/"/>
+  <rdfs:comment>    This ontology defines the properties for AAT-NED
+  that could not be
+  reused from the generic Getty schema defined in the Multimedian E-culture Project,
+  which includes classes and properties for AAT-EN (the Getty AAT).
+  </rdfs:comment>
+</owl:Ontology>
+
+
+<rdf:Property rdf:about="&aatned;historyNote"
+    rdfs:comment="note about former location/use of the term">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&aatned;category"
+    rdfs:comment="">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&aatned;priref"
+    rdfs:comment="unique term ID in AAT-NED">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&aatned;sourceThesaurus"
+    rdfs:comment="thesaurus where the term originates">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&aatned;source"
+    rdfs:comment="any source that was used as a basis to add the term ">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&aatned;notation"
+    rdfs:comment="code that identifies position of the term in hierarchy; same codes as used in AAT-EN">
+  <rdfs:domain rdf:resource="&aat;Concept"/>
+  <rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+
+
+</rdf:RDF>
