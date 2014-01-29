@@ -32,7 +32,9 @@
 		void:dataDump
                 <mdb_data.ttl> ,
                 <mdb_schema.ttl>,
-				<mdb_thes_rangen>.
+				<mdb_thes_rangen>,
+				<mdb_thes_generated>,
+				<alignments/ranks_and_shiptypes_1.ttl>.
 
 				
 <aatned>
@@ -45,3 +47,4 @@
 		void:dataDump
                 <AATNed/aatned.rdf> ,
                 <AATNed/aatned.rdfs>.
+				

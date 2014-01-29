@@ -1,0 +1,596 @@
+@base         <skos_shiptype> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Named toplevel resources (53)
+# SKOS Conceptscheme definities voor scheepstypen en rangen
+
+
+mdb:MDBShipTypeSchemeData
+	a skos:ConceptScheme ;
+	rdfs:label "Noordelijke Monsterrollen Scheepstypen Thesaurus Gegenereerd uit data" .
+	
+mdb:MDBRankSchemeData
+	a skos:ConceptScheme ;
+	rdfs:label "Noordelijke Monsterrollen Rangen Thesaurus Gegenereerd uit data" .
+	
+# Ranks
+
+mdb:rang-Jungmann
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-Noordzeeloods
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-_
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-afhouder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-afloskapitein
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-assistent_machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bediende
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bestman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-boekhouder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsman-kok
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsman-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsman-timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsman-zeilmaker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-bootsmansmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-dekjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-dekjongen-zeilmaker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-dekmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-derde_machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-derde_stuurman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-donkeyman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-donkeyman-stoker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-eerste_machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-eerste_matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-eerste_stuurman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-eerste_timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-gezagvoerders_echtgenoot
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-hofmeester
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-hofmeester-lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-hofmeesteres
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-jongste
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-k_ok_-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kajuitdekjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kajuitwacher
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kajuitwacher-koksmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kajuitwachter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kajuitwachter-koksmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapitein
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapitein-reder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapitein_bevelvoerder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapiteinreder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapiteinsdochter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapiteinsnicht
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapiteinsvrouw
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kapiteinszoon
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-klamphouwer
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-hofmeester
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-kajuitwachter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-scheepsjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok-timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok_en_deksjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok_of_lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kok_scheepsjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-koksgast
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-koksmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-koksmaat-kajuitwachter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kwartiermeester
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-kwekeling
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lampenist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-leerling
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-leerling_machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos-hofmeester
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos-kajuitwachter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos-kok
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos-timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lichtmatroos-zeilmaker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-lierstoker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-linnenjuffrouw
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-machinist-stoker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-bootsman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-klamphouwer
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-kok
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-lampenist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-motordrijver
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos-zeilmaker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-matroos_tweede_klasse
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-novice
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-olieman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-onderstuurman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-ondertimmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-oppertimmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-oudste
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-passagier
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-patron
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-prijsmeester
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-reder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-reepschieter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-scheepsjongen
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-scheepsjongen-kok
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-scheepsmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schipper
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schipper-reder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schipper_gezagvoerder
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schippersdochter
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schippersknecht
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schippersmaat
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schippersneef
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schippersvrouw
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-schipperszoon
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-secretaris
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stewardess
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stewardess_stuwardes
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stoker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stoker-donkeyman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stoker-lierbediener
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stoker-olieman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stuurman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stuurman-motordrijver
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-stuurmansleerling
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-supercargo
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-supercargo_super_carga
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-timmerman-lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-timmerman-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tolk
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tremmer
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_machinist
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_stuurman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_stuurman-baas_timmerman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_stuurman-bootsman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-tweede_stuurman-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-vlaggekapitein
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-volmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-vrouw
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-z_l_matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zeeman
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zeilmaker
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zeilmaker-matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zetschipper
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zware_lichtmatroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+mdb:rang-zware_matroos
+	skos:inScheme mdb:MDBRankSchemeData .
+
+# Scheepstypen	
+	
+mdb:shiptype-aak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-aak_zeilaak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-bark
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-brigantijn
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-brik
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-brikkof
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-doggersboot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-driemastschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-fluit
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-fregat
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-gaffelschoener
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-galjas
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-galjoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-galjootbark
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-haakschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-hektjalk
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-kaperschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-klipper
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-klipperaak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-klippergaljoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-klipperschoener
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-kof
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-kof_galjoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-kofgaljoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-koftjalk
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-kotter
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-lichter
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-logger
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-motorschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-motorschoener
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-motorzeilschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-rondgatschoener
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoener
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoener_galjoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoener_schoeneraak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoener_schoenerbrik
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoeneraak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoenerbark
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoenerbrik
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoenergaljoot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-schoenerkof
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-sleepboot
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-sloep_Sluppen
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-smak
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-smaktjalk
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-stoomschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-tabber
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-tjalk
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-tjalksluis
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-vissersschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-zeilschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-zeilstoomschip
+	skos:inScheme mdb:MDBShipTypeSchemeData .
+
+mdb:shiptype-zeilvaartuig
+	skos:inScheme mdb:MDBShipTypeSchemeData .

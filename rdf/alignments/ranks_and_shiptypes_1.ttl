@@ -1,0 +1,601 @@
+@prefix      prov: <http://www.w3.org/ns/prov#> .
+@prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix       xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix      rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix       rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix      user: <http://victor-PC.vu.local:3020/user/> .
+@prefix      doap: <http://usefulinc.com/ns/doap#> .
+@prefix      void: <http://rdfs.org/ns/void#> .
+@prefix  amalgame: <http://purl.org/vocabularies/amalgame#> .
+@prefix   dcterms: <http://purl.org/dc/terms/> .
+@prefix thesaurus: <http://purl.org/collections/nl/dss/mdb/thesaurus/> .
+@prefix       mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix   version: <http://localhost/ns/amalgame/version/> .
+@prefix        ns: <http://localhost/ns/> .
+@prefix    aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
+
+# Named toplevel resources (166)
+# Alignment with Amalgame, combines multiple strategies, the ranks and the ship types.Some things removed manually (by commenting out)
+
+version:x2db9003a334e36b150034dbf7990440c7521197a
+	a prov:SoftwareAgent ;
+	amalgame:component [ doap:name "swi-prolog" ;
+			     doap:revision "6.5.2-118-g8476f44" ;
+			     rdfs:seeAlso "http://www.swi-prolog.org"
+			   ] ,
+			   [ doap:name "ClioPatria" ;
+			     doap:revision "V3.0.0-99-ge4131a2" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/"
+			   ] ,
+			   [ doap:name "foaf" ;
+			     doap:revision "epoch-6-ge0db719" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/foaf"
+			   ] ,
+			   [ doap:name "skos" ;
+			     doap:revision "06f589f" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/skos"
+			   ] ,
+			   [ doap:name "xmlrdf" ;
+			     doap:revision "b8f7d43-DIRTY" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/xmlrdf"
+			   ] ,
+			   [ doap:name "prov" ;
+			     doap:revision "e533ddd" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/prov"
+			   ] ,
+			   [ doap:name "yui3" ;
+			     doap:revision "6a45400" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/yui3"
+			   ] ,
+			   [ doap:name "skos_browser" ;
+			     doap:revision "ceb089e" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/skos_browser"
+			   ] ,
+			   [ doap:name "void" ;
+			     doap:revision "81ef5d1" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/void"
+			   ] ,
+			   [ doap:name "amalgame" ;
+			     doap:revision "PROV-332-g755ee0e" ;
+			     rdfs:seeAlso "http://cliopatria.swi-prolog.org/packs/amalgame"
+			   ] ;
+	rdfs:label "Amalgame alignment platform" .
+
+ns:dataset6
+	dcterms:creator [ a prov:Person ;
+			  rdfs:label "anonymous user (not logged in)"
+			] ,
+			version:x2db9003a334e36b150034dbf7990440c7521197a ;
+	dcterms:title "dataset6" ;
+	void:distinctObjects "111"^^xsd:int ;
+	void:distinctSubjects "162"^^xsd:int .
+
+ns:dataset6_flat_triples
+	a amalgame:ExportedAlignment ,
+	  prov:Entity ;
+	prov:wasDerivedFrom ns:dataset6 ;
+	prov:wasGeneratedBy [ a prov:Activity ;
+			      prov:endedAtTime "2014-01-29T17-53-35+01:00"^^xsd:dateTime ;
+			      prov:qualifiedAssociation _:bn1 ,
+							_:bn2 ;
+			      prov:used ns:dataset6 ;
+			      prov:wasAssociatedWith version:x2db9003a334e36b150034dbf7990440c7521197a ,
+						     user:biktorrr
+			    ] .
+
+mdb:rang-Noordzeeloods
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-afhouder
+	skos:exactMatch thesaurus:afhouder .
+
+mdb:rang-afloskapitein
+	skos:exactMatch thesaurus:afloskapitein .
+
+mdb:rang-assistent_machinist
+	skos:exactMatch thesaurus:afloskapitein .
+
+mdb:rang-bediende
+	skos:exactMatch aatned:bedienden ,
+			thesaurus:bediende .
+
+mdb:rang-boekhouder
+	skos:exactMatch aatned:boekhouders ,
+			thesaurus:boekhouder .
+
+mdb:rang-bootsman
+	skos:exactMatch thesaurus:bootsman .
+
+mdb:rang-bootsman-kok
+	skos:exactMatch thesaurus:bootsman .
+
+mdb:rang-bootsman-matroos
+	skos:exactMatch thesaurus:bootsman .
+
+mdb:rang-bootsman-timmerman
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-bootsman-zeilmaker
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-bootsmansmaat
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-dekjongen
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-dekjongen-zeilmaker
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-dekmaat
+	skos:exactMatch thesaurus:bootsmansmaat .
+
+mdb:rang-derde_machinist
+	skos:exactMatch thesaurus:derde_machinist .
+
+mdb:rang-derde_stuurman
+	skos:exactMatch thesaurus:derde_stuurman .
+
+mdb:rang-donkeyman
+	skos:exactMatch thesaurus:donkeyman .
+
+mdb:rang-donkeyman-stoker
+	skos:exactMatch thesaurus:donkeyman .
+
+mdb:rang-eerste_machinist
+	skos:exactMatch thesaurus:eerste_machinist .
+
+mdb:rang-eerste_stuurman
+	skos:exactMatch thesaurus:eerste_stuurman .
+
+mdb:rang-eerste_timmerman
+	skos:exactMatch thesaurus:eerste_timmerman .
+
+mdb:rang-gezagvoerders_echtgenoot
+	skos:exactMatch thesaurus:donkeyman .
+
+mdb:rang-hofmeester
+	skos:exactMatch thesaurus:hofmeester .
+
+mdb:rang-hofmeester-lichtmatroos
+	skos:exactMatch thesaurus:hofmeester .
+
+mdb:rang-hofmeesteres
+	skos:exactMatch thesaurus:hofmeester .
+
+mdb:rang-jongste
+	skos:exactMatch thesaurus:hofmeester .
+
+mdb:rang-kajuitwachter
+	skos:exactMatch thesaurus:kajuitwachter .
+
+mdb:rang-kajuitwachter-koksmaat
+	skos:exactMatch thesaurus:kajuitwachter .
+
+mdb:rang-kapitein
+	skos:exactMatch aatned:kapiteins ,
+			aatned:kapiteins__militaire_officieren_ ,
+			thesaurus:kapitein .
+
+mdb:rang-kapiteinreder
+	skos:exactMatch thesaurus:kapitein .
+
+mdb:rang-kapiteinsdochter
+	skos:exactMatch thesaurus:kapitein .
+
+mdb:rang-kapiteinsnicht
+	skos:exactMatch thesaurus:kapitein .
+
+mdb:rang-kapiteinsvrouw
+	skos:exactMatch thesaurus:kapiteinsvrouw .
+
+mdb:rang-kapiteinszoon
+	skos:exactMatch thesaurus:kapiteinsvrouw .
+
+mdb:rang-klamphouwer
+	skos:exactMatch thesaurus:klamphouder .
+
+mdb:rang-kok
+	skos:exactMatch aatned:koks ,
+			thesaurus:kok .
+
+mdb:rang-kok-hofmeester
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok-kajuitwachter
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok-lichtmatroos
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok-matroos
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok-scheepsjongen
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok-timmerman
+	skos:exactMatch thesaurus:koksmaat .
+
+mdb:rang-kok_of_lichtmatroos
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-kok_scheepsjongen
+	skos:exactMatch thesaurus:kok .
+
+mdb:rang-koksgast
+	skos:exactMatch thesaurus:koksmaat .
+
+mdb:rang-koksmaat
+	skos:exactMatch thesaurus:koksmaat .
+
+mdb:rang-koksmaat-kajuitwachter
+	skos:exactMatch thesaurus:koksmaat .
+
+mdb:rang-kwartiermeester
+	skos:exactMatch thesaurus:kwartiermeester .
+
+mdb:rang-kwekeling
+	skos:exactMatch thesaurus:kwekeling .
+
+mdb:rang-lampenist
+	skos:exactMatch thesaurus:lampenist .
+
+mdb:rang-leerling
+	skos:exactMatch aatned:leerlingen ,
+			thesaurus:leerling .
+
+mdb:rang-leerling_machinist
+	skos:exactMatch thesaurus:leerling-machinist .
+
+mdb:rang-lichtmatroos
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lichtmatroos-hofmeester
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lichtmatroos-kajuitwachter
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lichtmatroos-kok
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lichtmatroos-timmerman
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lichtmatroos-zeilmaker
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-lierstoker
+	skos:exactMatch thesaurus:lichtmatroos .
+
+mdb:rang-linnenjuffrouw
+	skos:exactMatch thesaurus:linnenjuffrouw .
+
+mdb:rang-machinist
+	skos:exactMatch aatned:machinisten ,
+			thesaurus:machinist .
+
+mdb:rang-machinist-stoker
+	skos:exactMatch thesaurus:machinist .
+
+mdb:rang-matroos
+	skos:exactMatch aatned:matrozen ,
+			thesaurus:matroos .
+
+mdb:rang-matroos-bootsman
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-klamphouwer
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-kok
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-lampenist
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-motordrijver
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-timmerman
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-matroos-zeilmaker
+	skos:exactMatch thesaurus:matroos .
+
+mdb:rang-olieman
+	skos:exactMatch thesaurus:eerste_stoker .
+
+mdb:rang-onderstuurman
+	skos:exactMatch thesaurus:tweede_stuurman .
+
+mdb:rang-ondertimmerman
+	skos:exactMatch thesaurus:tweede_timmerman .
+
+mdb:rang-oudste
+	skos:exactMatch thesaurus:oudste .
+
+mdb:rang-passagier
+	skos:exactMatch aatned:passagiers ,
+			thesaurus:passagier .
+
+mdb:rang-patron
+	skos:exactMatch thesaurus:patroon .
+
+mdb:rang-prijsmeester
+	skos:exactMatch thesaurus:prijsmeester .
+
+mdb:rang-reder
+	skos:exactMatch thesaurus:reder .
+
+mdb:rang-reepschieter
+	skos:exactMatch thesaurus:reepschieter .
+
+mdb:rang-scheepsjongen
+	skos:exactMatch thesaurus:scheepsjongen .
+
+mdb:rang-scheepsjongen-kok
+	skos:exactMatch thesaurus:scheepsjongen .
+
+mdb:rang-scheepsmaat
+	skos:exactMatch thesaurus:scheepsmaatje .
+
+mdb:rang-schipper
+	skos:exactMatch aatned:schippers ,
+			thesaurus:schipper .
+
+mdb:rang-schippersdochter
+	skos:exactMatch thesaurus:schippersdochter .
+
+mdb:rang-schippersknecht
+	skos:exactMatch thesaurus:schippersknecht .
+
+mdb:rang-schippersmaat
+	skos:exactMatch thesaurus:schippersknecht .
+
+mdb:rang-schippersneef
+	skos:exactMatch thesaurus:schippersknecht .
+
+mdb:rang-schippersvrouw
+	skos:exactMatch aatned:schippersvrouwen ,
+			thesaurus:schippersvrouw .
+
+mdb:rang-schipperszoon
+	skos:exactMatch thesaurus:schipperszoon .
+
+mdb:rang-secretaris
+	skos:exactMatch aatned:secretarissen ,
+			thesaurus:secretaris .
+
+mdb:rang-stewardess
+	skos:exactMatch thesaurus:stewardess .
+
+mdb:rang-stoker
+	skos:exactMatch aatned:stokers ,
+			thesaurus:stoker .
+
+mdb:rang-stoker-donkeyman
+	skos:exactMatch thesaurus:stoker .
+
+mdb:rang-stoker-olieman
+	skos:exactMatch thesaurus:stoker .
+
+mdb:rang-stuurman
+	skos:exactMatch aatned:stuurmannen ,
+			thesaurus:stuurman .
+
+mdb:rang-stuurman-motordrijver
+	skos:exactMatch thesaurus:stuurman .
+
+mdb:rang-stuurmansleerling
+	skos:exactMatch thesaurus:stuurmansleerling .
+
+mdb:rang-supercargo
+	skos:exactMatch thesaurus:supercarga .
+
+mdb:rang-timmerman
+	skos:exactMatch aatned:timmerlieden ,
+			thesaurus:timmerman .
+
+mdb:rang-timmerman-lichtmatroos
+	skos:exactMatch thesaurus:timmerman .
+
+mdb:rang-timmerman-matroos
+	skos:exactMatch thesaurus:timmerman .
+
+mdb:rang-tolk
+	skos:exactMatch aatned:tolken ,
+			thesaurus:timmerman .
+
+mdb:rang-tremmer
+	skos:exactMatch thesaurus:tremmer .
+
+mdb:rang-tweede_machinist
+	skos:exactMatch thesaurus:tweede_machinist .
+
+mdb:rang-tweede_stuurman
+	skos:exactMatch thesaurus:tweede_stuurman .
+
+mdb:rang-vlaggekapitein
+	skos:exactMatch thesaurus:vlaggenkapitein .
+
+mdb:rang-volmatroos
+	skos:exactMatch thesaurus:vlaggenkapitein .
+
+mdb:rang-vrouw
+	skos:exactMatch aatned:vrouwen ,
+			thesaurus:vrouw .
+
+mdb:rang-z_l_matroos
+	skos:exactMatch thesaurus:vrouw .
+
+mdb:rang-zeeman
+	skos:exactMatch aatned:zeelieden ,
+			thesaurus:zeeman .
+
+mdb:rang-zeilmaker
+	skos:exactMatch aatned:zeilmakers ,
+			thesaurus:zeilmaker .
+
+mdb:rang-zeilmaker-matroos
+	skos:exactMatch thesaurus:zeilmaker .
+
+mdb:rang-zetschipper
+	skos:exactMatch thesaurus:zeilmaker .
+
+mdb:rang-zware_lichtmatroos
+	skos:exactMatch thesaurus:zeilmaker .
+
+mdb:rang-zware_matroos
+	skos:exactMatch thesaurus:zeilmaker .
+
+mdb:shiptype-aak
+	skos:exactMatch aatned:aken .
+
+mdb:shiptype-bark
+	skos:exactMatch aatned:barken .
+
+mdb:shiptype-brigantijn
+	skos:exactMatch aatned:brigantijnen .
+
+mdb:shiptype-brik
+	skos:exactMatch aatned:brikken__rijtuigen_ ,
+			aatned:brikken__vaartuigen_ .
+			#aatned:puin .
+
+mdb:shiptype-fluit
+	skos:exactMatch aatned:fluiten__aerofonen_ ,
+			aatned:fluitschepen .
+
+mdb:shiptype-fregat
+	skos:exactMatch aatned:fregatten .
+
+mdb:shiptype-gaffelschoener
+	skos:exactMatch aatned:gaffelschoeners .
+
+mdb:shiptype-galjas
+	skos:exactMatch aatned:galjassen__kustvaarders_ .
+			#aatned:galjassen__oorlogsschepen_ .
+
+mdb:shiptype-galjoot
+	skos:exactMatch aatned:galjoten .
+
+mdb:shiptype-hektjalk
+	skos:exactMatch aatned:hektjalken .
+
+mdb:shiptype-klipper
+	skos:exactMatch aatned:klippers__binnenschepen_ .
+
+mdb:shiptype-klipperaak
+	skos:exactMatch aatned:klipperaken .
+
+mdb:shiptype-kof
+	skos:exactMatch aatned:kofschepen .
+
+mdb:shiptype-koftjalk
+	skos:exactMatch aatned:koftjalken .
+
+mdb:shiptype-kotter
+	skos:exactMatch aatned:kotters__zeilvaartuigen_ .
+
+mdb:shiptype-lichter
+	skos:exactMatch aatned:lichters .
+
+mdb:shiptype-logger
+	skos:exactMatch aatned:loggers .
+
+mdb:shiptype-schoener
+	skos:exactMatch aatned:schoeners .
+
+mdb:shiptype-schoenerbark
+	skos:exactMatch aatned:schoenerbarken .
+
+mdb:shiptype-schoenerbrik
+	skos:exactMatch aatned:schoenerbrikken .
+
+mdb:shiptype-schoenerkof
+	skos:exactMatch aatned:schoenerkoffen .
+
+mdb:shiptype-sleepboot
+	skos:exactMatch aatned:sleepboten .
+
+mdb:shiptype-smak
+	skos:exactMatch aatned:smakken .
+
+mdb:shiptype-stoomschip
+	skos:exactMatch aatned:stoomschepen .
+
+mdb:shiptype-tjalk
+	skos:exactMatch aatned:tjalken .
+
+mdb:shiptype-vissersschip
+	skos:exactMatch aatned:vissersschepen .
+
+mdb:shiptype-zeilschip
+	skos:exactMatch aatned:zeilschepen .
+
+mdb:shiptype-zeilvaartuig
+	skos:exactMatch aatned:zeilvaartuigen .
+
+thesaurus:bediende
+	skos:exactMatch aatned:bedienden .
+
+thesaurus:boekhouder
+	skos:exactMatch aatned:boekhouders .
+
+thesaurus:kapitein
+	skos:exactMatch aatned:kapiteins .
+			#aatned:kapiteins__militaire_officieren_ .
+
+thesaurus:kok
+	skos:exactMatch aatned:koks .
+
+thesaurus:leerling
+	skos:exactMatch aatned:leerlingen .
+
+thesaurus:machinist
+	skos:exactMatch aatned:machinisten .
+
+thesaurus:matroos
+	skos:exactMatch aatned:matrozen .
+
+thesaurus:passagier
+	skos:exactMatch aatned:passagiers .
+
+#thesaurus:patroon
+#	skos:exactMatch aatned:patronen__geleiders_ ,
+#			aatned:patronen__munitie_ ,
+#			aatned:patronen__ontwerpelementen_ .
+
+thesaurus:schipper
+	skos:exactMatch aatned:schippers .
+
+thesaurus:schippersvrouw
+	skos:exactMatch aatned:schippersvrouwen .
+
+thesaurus:secretaris
+	skos:exactMatch aatned:secretarissen .
+
+thesaurus:stoker
+	skos:exactMatch aatned:stokers .
+
+thesaurus:stuurman
+	skos:exactMatch aatned:stuurmannen .
+
+thesaurus:timmerman
+	skos:exactMatch aatned:timmerlieden ,
+			aatned:tolken .
+
+thesaurus:vrouw
+	skos:exactMatch aatned:vrouwen .
+
+thesaurus:zeeman
+	skos:exactMatch aatned:zeelieden .
+
+thesaurus:zeilmaker
+	skos:exactMatch aatned:zeilmakers .
+
+user:biktorrr
+	a prov:Person ;
+	rdfs:label "Administrator" .
