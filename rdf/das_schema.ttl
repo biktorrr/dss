@@ -1,0 +1,149 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  das: <http://purl.org/collections/nl/dss/das/> .
+
+
+
+@prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix      dct: <http://purl.org/dc/terms/> .
+
+# Named toplevel resources (22)
+
+das:Chamber
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept;
+	rdfs:label "Chamber" .
+
+das:Person
+	a rdfs:Class ;
+	rdfs:subClassOf foaf:Person;
+	rdfs:label "Person" .
+
+das:Place
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept;
+	rdfs:label "Place" .
+
+das:ShipType
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept;
+	rdfs:label "ShipType" .
+
+das:Voyage
+	a rdfs:Class ;
+	rdfs:label "Voyage" .
+
+	
+	
+das:arrivalAtCape
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "arrivalAtCape" ;
+	rdfs:range rdfs:Literal .
+
+das:built
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "built" ;
+	rdfs:range rdfs:Literal .
+
+das:chamber
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "chamber" ;
+	rdfs:range das:Chamber .
+
+das:chamberForWhichCargoIsDestined
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "chamberForWhichCargoIsDestined" ;
+	rdfs:range rdfs:Literal .
+
+das:dateOfArrivalAtDestination
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "dateOfArrivalAtDestination" ;
+	rdfs:subPropertyOf dct:date;
+	rdfs:range rdfs:Literal .
+
+das:dateOfDeparture
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "dateOfDeparture" ;
+	rdfs:subPropertyOf dct:date;
+	rdfs:range rdfs:Literal .
+
+das:departureFromCape
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "departureFromCape" ;
+	rdfs:subPropertyOf dct:date;
+	rdfs:range rdfs:Literal .
+
+das:master
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "master" ;
+	rdfs:range das:Person .
+
+das:name
+	a rdf:Property ;
+	rdfs:domain das:Person ;
+	rdfs:label "name" ;
+	rdfs:subPropertyOf foaf:name;
+	rdfs:range rdfs:Literal .
+
+das:nameOfShip
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "nameOfShip" ;
+	rdfs:subPropertyOf dct:title;
+	rdfs:range rdfs:Literal .
+
+das:number
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "number" ;
+	rdfs:subPropertyOf dct:identifier;
+	rdfs:range rdfs:Literal .
+
+das:particulars
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "particulars" ;
+	rdfs:subPropertyOf dct:description;
+	rdfs:range rdfs:Literal .
+
+das:placeOfArrival
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "placeOfArrival" ;
+	rdfs:subPropertyOf dct:spatial;
+	rdfs:range das:Place .
+
+das:placeOfDeparture
+	a rdf:Property ;
+	rdfs:subPropertyOf dct:spatial;
+	rdfs:domain das:Voyage ;
+	rdfs:label "placeOfDeparture" ;
+	rdfs:range das:Place .
+
+das:tonnage
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "tonnage" ;
+	rdfs:range rdfs:Literal .
+
+das:typeOfShip
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:subPropertyOf dct:type;
+	rdfs:label "typeOfShip" ;
+	rdfs:range das:ShipType .
+
+das:yard
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "yard" ;
+	rdfs:range rdfs:Literal .

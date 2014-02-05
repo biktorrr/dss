@@ -16,10 +16,12 @@ user:file_search_path(data, 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 
 :- use_module(library(semweb/rdf_db)).
 
+% Namespaces for the datasets
 :- rdf_register_ns(dss, 'http://purl.org/collections/nl/dss/').
 :- rdf_register_ns(gzmvoc, 'http://purl.org/collections/nl/dss/gzmvoc/').
 :- rdf_register_ns(mdb, 'http://purl.org/collections/nl/dss/mdb/').
 :- rdf_register_ns(vocopv, 'http://purl.org/collections/nl/dss/vocopv/').
+:- rdf_register_ns(das, 'http://purl.org/collections/nl/dss/das/').
 
 
 :- rdf_register_ns(dcterms, 'http://purl.org/dc/terms/').
@@ -35,6 +37,8 @@ user:file_search_path(data, 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 :- use_module(rewrite_vocopv_opv).
 :- use_module(rewrite_vocopv_beg).
 :- use_module(rewrite_vocopv_sol).
+
+:- use_module(rewrite_das).
 
 
 
@@ -254,3 +258,28 @@ save_soldijboeken:-
 			   ]),
 	rdf_save_turtle(File,[graph(vocop_soldijboeken)]).
 
+
+% DAS Voyages
+%
+
+run_das:-
+	load_das,
+	rewrite_das,
+	save_das.
+
+
+load_das:-
+	rdf_current_ns(das, Prefix),
+	absolute_file_name(data('xml/das/DAS_voyages_with_details_victor.xml'), File,
+			   [ access(read)
+			   ]),
+	write(File),
+	load('Row', das, File, Prefix).
+
+
+save_das:-
+
+	absolute_file_name(data('rdf/das_data.ttl'), File,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File,[graph(das)]).

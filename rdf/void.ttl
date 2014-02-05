@@ -10,6 +10,7 @@
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
 @prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
+@prefix  das: <http://purl.org/collections/nl/dss/das/> .
 
 <gzmvoc>
         a void:Dataset ;
@@ -47,4 +48,15 @@
 		void:dataDump
                 <AATNed/aatned.rdf> ,
                 <AATNed/aatned.rdfs>.
-				
+
+<das>
+        a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source das: ;
+        dc:title "Dutch Asiatic Shipping" ;
+		dc:description "DAS Dutch Asiatic Shipping (English, with details)" ;
+        owl:versionInfo "0.1" ;
+		void:dataDump
+                <das_data.ttl> ,
+                <das_schema.ttl>.
+								
