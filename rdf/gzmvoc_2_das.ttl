@@ -2,7 +2,10 @@
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 @prefix    das: <http://purl.org/collections/nl/dss/das/> .
 
-# Named toplevel resources (3,613)
+
+# Created by Victor de Boer using a simple RDF lookup between DAS numbers and DAS ID in the GZMVOC
+# Named toplevel resources (3,613) 
+
 
 gzmvoc:telling-10-Waterland
 	gzmvoc:has_das_link_heen das:voyage-1601_3 ;

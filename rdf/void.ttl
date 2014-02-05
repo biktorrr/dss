@@ -59,5 +59,6 @@
         owl:versionInfo "0.1" ;
 		void:dataDump
                 <das_data.ttl> ,
+				<das_thes_generated>,
                 <das_schema.ttl>.
 								
