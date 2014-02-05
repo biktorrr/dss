@@ -329,3 +329,15 @@ gzmvoc:has_lokatie
 	a rdf:Property ;
 	rdfs:label "heeft lokatie"@nl ;
 	rdfs:range rdfs:Resource.
+
+# For the DAS links
+
+gzmvoc:has_das_link_heen 
+	a rdf:Property ;
+	rdfs:label "heeft DAS heenreis"@nl ;
+	rdfs:range rdfs:Resource.
+		
+gzmvoc:has_das_link_terug
+	a rdf:Property ;
+	rdfs:label "heeft DAS terugreis"@nl ;
+	rdfs:range rdfs:Resource.
