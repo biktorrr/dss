@@ -22,7 +22,8 @@
 		void:dataDump
                 <gzmvoc_data.ttl> ,
                 <gzmvoc_2_das.ttl> ,
-				<gzmvoc_schema.ttl>.
+				<gzmvoc_schema.ttl>,
+				<gzmvoc_thes_gen.ttl>.
 
 <mdb>
         a void:Dataset ;
@@ -59,6 +60,6 @@
         owl:versionInfo "0.1" ;
 		void:dataDump
                 <das_data.ttl> ,
-				<das_thes_generated>,
+				<das_thes_gen.ttl>,
                 <das_schema.ttl>.
 								

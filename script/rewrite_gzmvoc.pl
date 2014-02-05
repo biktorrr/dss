@@ -215,3 +215,18 @@ snip_ter_rede(L,L).
 skos_assertions_gzmvoc:-
 	rdf_assert(gzmvoc:'GZMVOCPlaceScheme', rdf:type, skos:'ConceptScheme', gzmvocplace),
 	rdf_assert(gzmvoc:'GZMVOCPlaceScheme', rdfs:label, literal('Generale ZeemonsterRollen Place ConceptScheme'), gzmvocplace).
+
+
+% Added a bit later. We now keep the original string, and promote the
+% label to a concept as well.
+
+make_shiptype
+@@
+{S, gzmvoc:scheepstype,literal(ST)}
+==>
+literal_to_id(['scheepstype-',ST],gzmvoc,URI),
+{S, gzmvoc:has_scheepstype,URI} >> gzmvoc_gen_thes ,
+{URI,rdf:type, gzmvoc:'ScheepsType'} >> gzmvoc_gen_thes ,
+{URI,skos:inScheme, gzmvoc:'ScheepsTypeConceptScheme'} >> gzmvoc_gen_thes ,
+{URI, skos:prefLabel, literal(ST)} >> gzmvoc_gen_thes .
+

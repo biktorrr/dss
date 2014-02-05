@@ -1,5 +1,6 @@
 @base         <das_thes_gen> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix  das: <http://purl.org/collections/nl/dss/das/> .
 
 # Named toplevel resources (7,026)
