@@ -84,14 +84,6 @@ literal_to_id(['place-',Pl],das,URI),
 {URI,rdf:type, das:'Place'},
 {URI, skos:prefLabel, literal(Pl)}.
 
-make_typeOfShip
-@@
-{S, das:typeOfShip ,literal(Pl)}
-<=>
-literal_to_id(['shiptype-',Pl],das,URI),
-{S, das:typeOfShip,URI},
-{URI,rdf:type, das:'ShipType'},
-{URI, skos:prefLabel, literal(Pl)}.
 
 
 make_chamber
@@ -124,3 +116,31 @@ literal_to_id(['person-',Num,'-',Ma],das,URI),
 {S, das:master,URI},
 {URI,rdf:type, das:'Person'},
 {URI, das:name, literal(Ma)}.
+
+
+% Make ship (new: promote to resource)
+
+
+
+make_typeOfShip
+@@
+{S, das:typeOfShip ,literal(Pl)}
+<=>
+literal_to_id(['shiptype-',Pl],das,URI),
+{S, das:typeOfShip,URI},
+{URI,rdf:type, das:'ShipType'},
+{URI, skos:prefLabel, literal(Pl)}.
+
+
+make_ship
+@@
+{S, das:number, literal(DASNR)}\
+{S, das:nameOfShip, literal(Name)},
+{S, das:typeOfShip , Type}?
+<=>
+sub_atom(DASNR,0,4,_,ShipNr),
+literal_to_id(['ship-',ShipNr,'-',Name],das,URI),
+{S, das:has_ship,URI},
+{URI, rdf:type, das:'Ship'},
+{URI, rdfs:label, literal(Name)},
+{URI, das:typeOfShip, Type}.

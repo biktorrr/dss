@@ -2,6 +2,8 @@
 	  [ run_dss/0,
 	    run_gzmvoc/0,
 	    run_mdb/0,
+	    run_das/0,
+
 	    load_mdb/0,
 	    run_vocop/0,
 	    clean_all/0,
@@ -156,9 +158,9 @@ load_vocop:-
 	load_opvarenden_sm.
 
 rewrite_vocop:-
+	rewrite_vocopv_opv,
 	rewrite_vocopv_sol,
-	rewrite_vocopv_beg,
-	rewrite_vocopv_opv.
+	rewrite_vocopv_beg.
 
 save_vocop:-
 	save_soldijboeken,

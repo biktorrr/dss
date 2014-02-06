@@ -34,7 +34,9 @@ das:Voyage
 	a rdfs:Class ;
 	rdfs:label "Voyage" .
 
-	
+das:Ship
+	a rdfs:Class ;
+	rdfs:label "Ship" .	
 	
 das:arrivalAtCape
 	a rdf:Property ;
@@ -137,7 +139,7 @@ das:tonnage
 
 das:typeOfShip
 	a rdf:Property ;
-	rdfs:domain das:Voyage ;
+	rdfs:domain rdfs:Resource ;
 	rdfs:subPropertyOf dct:type;
 	rdfs:label "typeOfShip" ;
 	rdfs:range das:ShipType .
@@ -147,3 +149,11 @@ das:yard
 	rdfs:domain das:Voyage ;
 	rdfs:label "yard" ;
 	rdfs:range rdfs:Literal .
+	
+das:has_ship
+	a rdf:Property ;
+	rdfs:domain das:Voyage ;
+	rdfs:label "has ship" ;
+	rdfs:range rdfs:Literal .
+
+	
