@@ -104,6 +104,16 @@ literal_to_id(['chamber-',Pl],das,URI),
 {URI, skos:prefLabel, literal(Pl)}.
 
 
+make_chamber
+@@
+{S, das:chamberForWhichCargoIsDestined ,literal(Pl)}
+<=>
+literal_to_id(['chamber-',Pl],das,URI),
+{S, das:chamberForWhichCargoIsDestined,URI},
+{URI,rdf:type, das:'Chamber'},
+{URI, skos:prefLabel, literal(Pl)}.
+
+
 % Master is parametrized by Number, since we do not know whether they
 % are the same person
 make_master@@

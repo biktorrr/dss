@@ -81,10 +81,10 @@ clean_all:-
 
 
 
+% --------------------------------------------------------
+% ---------------  Generale Zeemonsterrollen  ------------
+% --------------------------------------------------------
 
-% Generale Zeemonsterrollen
-%
-%
 load_gzmvoc:-
         absolute_file_name(data('xml/gzmvoc.xml'), File,
 			   [ access(read)
@@ -116,32 +116,16 @@ save_gzmvoc_thes:-
 
 
 
-% Monsterrollen database
-%
+% --------------------------------------------------------
+% -------------   Monsterrollen database    --------------
+% --------------------------------------------------------
+
 run_mdb:-
 	rdf_retractall(_,_,_,mdb),
 	load_mdb,
 	rewrite_mdb,
 	save_mdb.
 
-/*
-load_mdb:-
-        absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
-			   [ access(read)
-			   ]),
-	write(File),
-	rdf_current_ns(mdb, Prefix),
-	load('Row', mdb, File, Prefix).
-*/
-/*
-load_mdb:-
-        absolute_file_name(data('xml/monsterrollen_sm.xml'), File,
-			   [ access(read)
-			   ]),
-	write(File),
-	rdf_current_ns(mdb, Prefix),
-	load('Row', mdb, File, Prefix).
-*/
 
 load_mdb:-
 	absolute_file_name(data('xml/monsterrollen/monsterrollen_*'), FilePat),
@@ -157,27 +141,30 @@ save_mdb:-
 	rdf_save_turtle(File,[graph(mdb)]).
 
 
-% VOC Opvarenden
-%
+% --------------------------------------------------------
+% ------------------   VOC Opvarenden --------------------
+% --------------------------------------------------------
 
 run_vocop:-
 	load_vocop,
-	rewrite_vocop.
+	rewrite_vocop,
+	save_vocop.
 
 load_vocop:-
 	load_soldijboeken,
 	load_begunstigden_all,
-	load_opvarenden_all.
+	load_opvarenden_sm.
 
 rewrite_vocop:-
+	rewrite_vocopv_sol,
 	rewrite_vocopv_beg,
-	rewrite_vocopv_opv,
-	rewrite_vocopv_sol.
+	rewrite_vocopv_opv.
 
 save_vocop:-
 	save_soldijboeken,
 	save_begunstigden,
-	save_opvarenden.
+	save_opvarenden,
+	save_other_vocopv.
 
 
 load_soldijboeken:-
@@ -266,9 +253,21 @@ save_soldijboeken:-
 			   ]),
 	rdf_save_turtle(File,[graph(vocop_soldijboeken)]).
 
+save_other_vocopv:-
+	absolute_file_name(data('rdf/vocopv_2_das.ttl'), File,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File,[graph(vocop_2_das)]),
 
-% DAS Voyages
-%
+	absolute_file_name(data('rdf/vocopv_gen_thes.ttl'), File1,
+			   [ access(write)
+			   ]),
+	rdf_save_turtle(File1,[graph(vocopv_gen_thes)]).
+
+
+% --------------------------------------------------------
+% ------------------   DAS Voyages    --------------------
+% --------------------------------------------------------
 
 run_das:-
 	load_das,

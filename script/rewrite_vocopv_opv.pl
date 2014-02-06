@@ -63,12 +63,14 @@ give_class @@
 {S, rdf:type, vocopv:'OpvarendenRecord'}.
 
 
+/* Done in Soldijboek
+% Originele literal behouden
 link_to_soldijboeken @@
 {S, vocopv:soldijboek, SoldijID}
 	==>
 rdf(S1, vocopv:inventarisNummer, SoldijID, vocop_soldijboeken),
        {S, vocopv:has_soldijboek, S1}.
-
+*/
 
 
 % herkomst is promoted to SKOS concept, stored in separate
@@ -80,9 +82,9 @@ herkomst_to_concept @@
 {S,vocopv:herkomst, literal(H)}
 ==>
 literal_to_id(['place-',H],vocopv,URI),
-	rdf_assert(URI, rdf:type, skos:'Concept', vocopvplace),
-	rdf_assert(URI, skos:inScheme, vocopv:'VOCOpvPlaceScheme', vocopvplace),
-	rdf_assert(URI, skos:prefLabel, literal(H), vocopvplace),
+	{URI, rdf:type, vocopv:'Plaats'} ,
+	{URI, skos:inScheme, vocopv:'VOCOPVPlaceScheme'} >> vocopv_gen_thes,
+	{URI, skos:prefLabel, literal(H)},
 	{S, vocopv:has_herkomst, URI}.
 
 
@@ -101,8 +103,78 @@ rang_to_concept @@
 {S,vocopv:rang, literal(H)}
 ==>
 literal_to_id(['rank-',H],vocopv,URI),
-	rdf_assert(URI, rdf:type, skos:'Concept', vocopvthes),
-	rdf_assert(URI, skos:inScheme, vocopv:'VOCOpvThesaurus',vocopvthes),
-	rdf_assert(URI, skos:prefLabel, literal(H), vocopvthes),
-	rdf_assert(URI, skos:broader, vocopv:rangConcept, vocopvthes),
+	{URI, rdf:type, vocopv:'Rang'}  >> vocopv_gen_thes ,
+	{URI, skos:inScheme, vocopv:'VOCOPVRankScheme'} >> vocopv_gen_thes,
+	{URI, skos:prefLabel, literal(H)}  >> vocopv_gen_thes,
 	{S, vocopv:has_rang, URI}.
+
+
+make_chamber
+@@
+{S, vocopv:kamer ,literal(Pl)}
+<=>
+literal_to_id(['chamber-',Pl],das,URI),
+{S, vocopv:kamer,URI},
+{URI,rdf:type, vocopv:'Kamer'}  >> vocopv_gen_thes,
+{URI, skos:prefLabel, literal(Pl)}  >> vocopv_gen_thes,
+{URI, skos:inScheme, vocopv:'VOCOPV KamerScheme'} >> vocopv_gen_thes.
+
+
+% Vervang literal door link naar schip. Schip URI is geparameteriseerd
+% met ID om gelijkstelling van verschillende schepen met dezelfde naam
+% te voorkomen.
+make_ship @@
+{S, vocopv:'ID',literal(ID)}\
+{S, vocopv:schip, SN}
+<=>
+literal_to_id(['schip-',ID,'-',SN],vocopv,URI),
+{S, vocopv:has_schip,URI},
+{URI, rdf:type, vocopv:'Schip'},
+{URI, rdfs:label, SN}.
+
+% NAAMSCHIP geeft naam van schip waarnaar iemand is overgeplaatst (soms
+% andere kamer, administratief). nu vervangen door has_naamschip.
+% Vervang literal door link naar schip. Schip URI is geparameteriseerd
+% met ID om gelijkstelling van verschillende schepen met dezelfde naam
+% te voorkomen.
+
+make_ship @@
+{S, vocopv:'ID',literal(ID)}\
+{S, vocopv:'NAAMSCHIP', SN}
+<=>
+literal_to_id(['schip-',ID,'-',SN],vocopv,URI),
+{S, vocopv:has_naamschip,URI},
+{URI, rdf:type, vocopv:'Schip'},
+{URI, rdfs:label, SN}.
+
+
+
+
+% DAS MAPPINGS (DAS needs to be loaded for these to work
+%
+
+linkTBL
+@@
+{S, vocopv:tblSchipKaapDASNR, DASNR},
+{O, das:number, DASNR}
+==>
+{S, vocopv:has_tblSchipKaapDASURI, O} >> vocopv_2_das.
+
+
+linkvwPersoon
+@@
+{O, das:number, literal(DASNR1)},
+sub_atom(DASNR1,0,4,_,DASNR),
+{S, vocopv:vwPersoonSHOWDASNR, literal(DASNR)}
+==>
+{S, vocopv:has_vwPersoonDASURI, O} >> vocopv_2_das.
+
+
+linkdasuitreis
+@@
+{O, das:number, literal(DASNR1)},
+sub_atom(DASNR1,0,4,_,DASNR),
+{S, vocopv:dasuitreis, literal(DASNR)}
+==>
+{S, vocopv:has_dasuitreis, O} >> vocopv_2_das.
+

@@ -202,4 +202,3 @@ mdb:woonplaats
 	rdfs:label "woonplaats" ;
 	rdfs:range mdb:Plaats  ;
 	rdfs:subPropertyOf foaf:based_near.
-	

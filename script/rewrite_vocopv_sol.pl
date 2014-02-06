@@ -69,7 +69,8 @@ link_to_opvarenden @@
 {S, vocopv:inventarisNummer, SoldijID}
 	==>
 rdf(S1, vocopv:soldijboek, SoldijID, vocop_opvarenden),
-       {S, vocopv:has_soldijboek, S1}.
+       {S, vocopv:has_opvarende, S1},
+       {S1, vocopv:has_soldijboek, S}.
 
 
 
