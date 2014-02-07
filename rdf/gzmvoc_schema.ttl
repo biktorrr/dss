@@ -79,6 +79,7 @@ gzmvoc:achternaam
 	a rdf:Property ;
 	rdfs:domain rdfs:Resource ;
 	rdfs:label "achternaam"@nl ;
+	rdfs:subPropertyOf foaf:familyname ;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:asAanduidingSoldaten
@@ -251,12 +252,14 @@ gzmvoc:datum
 	a rdf:Property ;
 	rdfs:domain gzmvoc:Telling ;
 	rdfs:label "datum"@nl ;
+	rdfs:subPropertyOf dct:date ;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:geboorteplaats
 	a rdf:Property ;
 	rdfs:domain rdfs:Resource ;
 	rdfs:label "geboorteplaats"@nl ;
+		rdfs:subPropertyOf foaf:based_near;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:lokatie
@@ -281,12 +284,14 @@ gzmvoc:notitie
 	a rdf:Property ;
 	rdfs:domain gzmvoc:Telling ;
 	rdfs:label "notitie"@nl ;
+		rdfs:subPropertyOf rdfs:comment;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:opmerkingen
 	a rdf:Property ;
 	rdfs:domain gzmvoc:Telling ;
 	rdfs:label "opmerkingen"@nl ;
+		rdfs:subPropertyOf rdfs:comment;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:plaatsParthesius
@@ -299,11 +304,13 @@ gzmvoc:scheepsnaam
 	a rdf:Property ;
 	rdfs:domain rdfs:Resource ;
 	rdfs:label "scheepsnaam"@nl ;
+		rdfs:subPropertyOf rdfs:label;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:scheepstype
 	a rdf:Property ;
 	rdfs:label "scheepstype"@nl ;
+			rdfs:subPropertyOf rdfs:comment;
 	rdfs:range rdfs:Literal .
 
 gzmvoc:schip
