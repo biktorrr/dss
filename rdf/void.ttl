@@ -7,10 +7,29 @@
 @prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix       dc: <http://purl.org/dc/terms/> .
 
+@prefix vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
-@prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
 @prefix  das: <http://purl.org/collections/nl/dss/das/> .
+
+@prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
+
+
+<vocopv>
+        a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source vocopv: ;
+        dc:title "VOC Opvarenden " ;
+		dc:description "VOC Opvarenden" ;
+        owl:versionInfo "0.1" ;
+		void:dataDump
+                <vocopv_opv.ttl> ,
+                <vocopv_beg.ttl> ,
+                <vocopv_sol.ttl> ,
+				<vocopv_schema.ttl>,
+				<gzmvoc_gen_thes.ttl>,
+				<gzmvoc_2_das.ttl>.
+
 
 <gzmvoc>
         a void:Dataset ;

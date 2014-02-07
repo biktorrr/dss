@@ -158,6 +158,7 @@ load_vocop:-
 	load_opvarenden_sm.
 
 rewrite_vocop:-
+	rdf_retractall(_A, _B, literal('')), % do this here, for speed's sake
 	rewrite_vocopv_opv,
 	rewrite_vocopv_sol,
 	rewrite_vocopv_beg.
