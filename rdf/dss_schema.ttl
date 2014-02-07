@@ -1,0 +1,79 @@
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix  das: <http://purl.org/collections/nl/dss/das/> .
+@prefix dss: <http://purl.org/collections/nl/dss/> .
+
+
+# In this schema file, we map properties and classes from the different datasets to DSS classes and properties
+
+dss:Chamber
+	a rdfs:Class ;
+	rdfs:label "Chamber" .
+	
+das:Chamber
+	rdfs:subClassOf dss:Chamber.
+
+	
+	
+
+dss:Person
+	a rdfs:Class ;
+	rdfs:subClassOf foaf:Person;
+	rdfs:label "Person" .
+	
+das:Person rdfs:subClassOf dss:Person.
+gzmvoc:Schipper rdfs:subClassOf dss:Person.
+mdb:Persoon rdfs:subClassOf dss:Person.
+
+dss:Place
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept;
+	rdfs:label "Place" .
+	
+das:Place rdfs:subClassOf dss:Place.
+mdb:Plaats rdfs:subClassOf dss:Place.
+vocopv:Plaats rdfs:subClassOf dss:Place.
+
+dss:Ship
+	a rdfs:Class ;
+	rdfs:label "Ship" .	
+
+das:Ship rdfs:subClassOf dss:Ship.
+gzmvoc:Schip rdfs:subClassOf dss:Ship.
+mdb:Schip rdfs:subClassOf dss:Ship.
+vocopv:Schip rdfs:subClassOf dss:Ship.
+
+
+dss:ShipType
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept;
+	rdfs:label "ShipType" .
+	
+das:ShipType rdfs:subClassOf dss:ShipType.
+gzmvoc:ScheepsType rdfs:subClassOf dss:ShipType.
+mdb:ScheepsType rdfs:subClassOf dss:ShipType.
+	
+dss:Record
+	a rdfs:Class ;
+	rdfs:label "DSS Record" ;
+	rdfs:comment "The most general row type in DSS" .
+	
+das:Voyage rdfs:subClassOf dss:Record .
+gzmvoc:Telling rdfs:subClassOf dss:Record .
+mdb:Aanmonstering rdfs:subClassOf dss:Record .
+mdb:PersoonsContract rdfs:subClassOf dss:Record .
+vocopv:OpvarendenRecord	 rdfs:subClassOf dss:Record .
+vocopv:BegunstigdenRecord rdfs:subClassOf dss:Record .
+vocopv:OpvarendenRecord rdfs:subClassOf dss:Record .
+
+
+dss:Rank
+	a rdfs:Class ;
+	rdfs:subClassOf skos:Concept ;
+	rdfs:label "Rank" .
+	
+mdb:Rang rdfs:subClassOf dss:Rank.	
+	
