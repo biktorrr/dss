@@ -180,13 +180,16 @@ ground(V), !.
 % The new 'has_geboorteplaatas' link is added to this graph, the
 % old 'geboorteplaats' link is retained
 %
+% NEW VERSION: Now the places are stored in the same graph, as
+% instances of gzmvoc:Place (as is done in DAS)
+%
 geboorteplaats_to_concept @@
 {S,gzmvoc:geboorteplaats, literal(H)}
 ==>
 literal_to_id(['place-',H],gzmvoc,URI),
-	rdf_assert(URI, rdf:type, skos:'Concept', gzmvocplace),
-	rdf_assert(URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme', gzmvocplace),
-	rdf_assert(URI, skos:prefLabel, literal(H), gzmvocplace),
+	{URI, rdf:type, gzmvoc:'Plaats'} ,
+%	{URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme'}  ,
+	{URI, skos:prefLabel, literal(H)} ,
 	{S, gzmvoc:has_geboorteplaats, URI}.
 
 
@@ -198,9 +201,9 @@ lokatie_to_concept @@
 ==>
 snip_ter_rede(H,H1),
 literal_to_id(['place-',H1],gzmvoc,URI),
-	rdf_assert(URI, rdf:type, skos:'Concept', gzmvocplace),
-	rdf_assert(URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme', gzmvocplace),
-	rdf_assert(URI, skos:prefLabel, literal(H), gzmvocplace),
+	{URI, rdf:type, gzmvoc:'Plaats'} ,
+%	{URI, skos:inScheme, gzmvoc:'GZMVOCPlaceScheme'} >> gzmvocplace,
+	{URI, skos:prefLabel, literal(H)},
 	{S, gzmvoc:has_lokatie, URI}.
 
 
@@ -225,7 +228,7 @@ make_shiptype
 {S, gzmvoc:scheepstype,literal(ST)}
 ==>
 literal_to_id(['scheepstype-',ST],gzmvoc,URI),
-{S, gzmvoc:has_scheepstype,URI} >> gzmvoc_gen_thes ,
+{S, gzmvoc:has_scheepstype,URI}  ,
 {URI,rdf:type, gzmvoc:'ScheepsType'} >> gzmvoc_gen_thes ,
 {URI,skos:inScheme, gzmvoc:'ScheepsTypeConceptScheme'} >> gzmvoc_gen_thes ,
 {URI, skos:prefLabel, literal(ST)} >> gzmvoc_gen_thes .
