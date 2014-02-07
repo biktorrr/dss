@@ -6,6 +6,8 @@
 @prefix  das: <http://purl.org/collections/nl/dss/das/> .
 @prefix dss: <http://purl.org/collections/nl/dss/> .
 
+@prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      foaf: <http://xmlns.com/foaf/0.1/> .
 
 # In this schema file, we map properties and classes from the different datasets to DSS classes and properties
 
@@ -16,8 +18,6 @@ dss:Chamber
 das:Chamber
 	rdfs:subClassOf dss:Chamber.
 
-	
-	
 
 dss:Person
 	a rdfs:Class ;
