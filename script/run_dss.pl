@@ -14,7 +14,9 @@
 % gzmvoc csv file created by
 % http://www.luxonsoftware.com/Converter/CsvToXml
 
-user:file_search_path(data, 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
+user:file_search_path(data, '/home/vdeboer/DSS/DSS/').
+% user:file_search_path(data,
+% 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 
 :- use_module(library(semweb/rdf_db)).
 
@@ -208,6 +210,23 @@ load_opvarenden_all:-
 	expand_file_name(FilePat, Files),
 	write(Files),
 	load('record', vocop_opvarenden, Files, Prefix).
+
+run_opvarenden_one_by_one:-
+	absolute_file_name(data('xml/voc_opv/opvarenden_*.xml'), FilePat),
+	expand_file_name(FilePat, Files),
+	write(Files),
+	loadrunsave(Files).
+
+loadrunsave([]).
+loadrunsave([F|T]):-
+	atomic_list_concat([F, '.ttl'],SaveFile),
+	writeln('NOW LOADING'),writeln(SaveFile), flush,
+        rdf_current_ns(vocopv, Prefix),
+	load('record', vocop_opvarenden, F, Prefix),
+	rewrite_vocopv_opv,
+	rdf_save_turtle(SaveFile,[graph(vocop_opvarenden)]),
+	rdf_retractall(_,_,_,vocop_opvarenden),
+	loadrunsave(T).
 
 
 clean_vocop:-
