@@ -100,8 +100,7 @@ load_gzmvoc:-
 run_gzmvoc:-
 	load_gzmvoc,
 	rewrite_gzmvoc,
-	save_gzmvoc,
-	save_gzmvoc_thes.
+	save_gzmvoc.
 
 
 
@@ -110,13 +109,11 @@ save_gzmvoc:-
 	absolute_file_name(data('rdf/gzmvoc_data.ttl'), File,
 			   [ access(write)
 			   ]),
-	rdf_save_turtle(File,[graph(gzmvoc)]).
-
-save_gzmvoc_thes:-
-	absolute_file_name(data('rdf/gzmvoc_thes_gen.ttl'), File,
+	rdf_save_turtle(File,[graph(gzmvoc)]),
+	absolute_file_name(data('rdf/gzmvoc_thes_gen.ttl'), File1,
 			   [ access(write)
 			   ]),
-	rdf_save_turtle(File,[graph(gzmvoc_gen_thes)]).
+	rdf_save_turtle(File1,[graph(gzmvoc_gen_thes)]).
 
 
 

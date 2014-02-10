@@ -11,9 +11,20 @@
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
 @prefix  das: <http://purl.org/collections/nl/dss/das/> .
+@prefix dss: <http://purl.org/collections/nl/dss/> .
 
 @prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
 
+
+<dss>
+a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source dss: ;
+        dc:title "DSS Schema " ;
+		dc:description "Dutch Ships and Sailors common terms" ;
+        owl:versionInfo "0.1" ;
+		void:dataDump
+                <dss_schema.ttl>.
 
 <vocopv>
         a void:Dataset ;
