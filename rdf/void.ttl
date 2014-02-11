@@ -34,7 +34,7 @@ a void:Dataset ;
 		dc:description "VOC Opvarenden" ;
         owl:versionInfo "0.1" ;
 		void:dataDump
-                <vocopv_opv.ttl> ,
+                <vocopv_opv.ttl.gz> ,
                 <vocopv_beg.ttl> ,
                 <vocopv_sol.ttl> ,
 				<vocopv_schema.ttl>,
