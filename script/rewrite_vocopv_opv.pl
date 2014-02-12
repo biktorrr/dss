@@ -123,8 +123,11 @@ literal_to_id(['chamber-',Pl],das,URI),
 % Vervang literal door link naar schip. Schip URI is geparameteriseerd
 % met ID om gelijkstelling van verschillende schepen met dezelfde naam
 % te voorkomen.
+%
+% update: nu geparameteriseerd met DAS Uitreis
 make_ship @@
-{S, vocopv:'ID',literal(ID)}\
+%{S, vocopv:'ID',literal(ID)}\
+{S, vocopv:dasuitreis,literal(ID)}\
 {S, vocopv:schip, SN}
 <=>
 literal_to_id(['schip-',ID,'-',SN],vocopv,URI),
@@ -137,9 +140,12 @@ literal_to_id(['schip-',ID,'-',SN],vocopv,URI),
 % Vervang literal door link naar schip. Schip URI is geparameteriseerd
 % met ID om gelijkstelling van verschillende schepen met dezelfde naam
 % te voorkomen.
+%
+% Update, now parameteriszed by soldijboek
 
-make_ship @@
-{S, vocopv:'ID',literal(ID)}\
+make_naamship @@
+%{S, vocopv:'ID',literal(ID)}\
+{S, vocopv:soldijboek,literal(ID)}\
 {S, vocopv:'NAAMSCHIP', SN}
 <=>
 literal_to_id(['schip-',ID,'-',SN],vocopv,URI),
