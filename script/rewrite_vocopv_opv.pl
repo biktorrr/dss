@@ -117,7 +117,7 @@ literal_to_id(['chamber-',Pl],das,URI),
 {S, vocopv:kamer,URI},
 {URI,rdf:type, vocopv:'Kamer'}  >> vocopv_gen_thes,
 {URI, skos:prefLabel, literal(Pl)}  >> vocopv_gen_thes,
-{URI, skos:inScheme, vocopv:'VOCOPV KamerScheme'} >> vocopv_gen_thes.
+{URI, skos:inScheme, vocopv:'VOCOPVKamerScheme'} >> vocopv_gen_thes.
 
 
 % Vervang literal door link naar schip. Schip URI is geparameteriseerd

@@ -85,4 +85,3 @@ dss:Rank
 	rdfs:label "Rank" .
 	
 mdb:Rang rdfs:subClassOf dss:Rank.	
-	

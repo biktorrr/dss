@@ -7,72 +7,72 @@
 
 das:chamber-Zeeland
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Zeeland" .
 
 vocopv:chamber-Amsterdam
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Amsterdam" .
 
 vocopv:chamber-AmsterdamVerzoekboeken
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "AmsterdamVerzoekboeken" .
 
 vocopv:chamber-Delft
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Delft" .
 
 vocopv:chamber-Enkhuizen
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Enkhuizen" .
 
 vocopv:chamber-Hoorn
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Hoorn" .
 
 vocopv:chamber-HoornVerzoekboeken
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "HoornVerzoekboeken" .
 
 vocopv:chamber-Regiment_De_Meuron
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Regiment De Meuron" .
 
 vocopv:chamber-Regiment_Luxemburg
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Regiment Luxemburg" .
 
 vocopv:chamber-Regiment_Wurttemberg
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Regiment Württemberg" .
 
 vocopv:chamber-Rotterdam
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Rotterdam" .
 
 vocopv:chamber-RotterdamVerzoekboeken
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "RotterdamVerzoekboeken" .
 
 vocopv:chamber-Zeeland
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Zeeland" .
 
 vocopv:chamber-ZeelandVerzoekboeken
 	a vocopv:Kamer ;
-	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPV KamerScheme> ;
+	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "ZeelandVerzoekboeken" .
 
 vocopv:place-Aachtekerk
