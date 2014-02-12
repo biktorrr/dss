@@ -68,7 +68,8 @@ give_class @@
 link_to_opvarende @@
 {S, vocopv:fkPersoon, PersID}
 	==>
-rdf(S1, vocopv:'ID', PersID, vocop_opvarenden),
+rdf(S1, vocopv:'ID', PersID),
+rdf(S1, rdf:type, vocopv:'OpvarendenRecord'),	%vocop_opvarenden),
        {S, vocopv:has_persoon, S1}.
 
 
@@ -80,7 +81,7 @@ literal_to_id(['chamber-',Pl],vocopv,URI),
 {S, vocopv:has_kamersVanDeVOC,URI},
 {URI,rdf:type, vocopv:'Kamer'}  >> vocopv_gen_thes,
 {URI, skos:prefLabel, literal(Pl)}  >> vocopv_gen_thes,
-{URI, skos:inScheme, vocopv:'VOCOPV KamerScheme'} >> vocopv_gen_thes.
+{URI, skos:inScheme, vocopv:'VOCOPVKamerScheme'} >> vocopv_gen_thes.
 
 % Keep original ship as literal -> add resource
 make_ship
