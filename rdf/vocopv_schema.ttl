@@ -132,7 +132,7 @@ vocopv:jaarVertrek
 	a rdf:Property ;
 	rdfs:domain vocopv:SoldijRecord ;
 	rdfs:label "jaarVertrek" ;
-	rdfs:comment "Geeft vermoedelijk een jaartal weer."
+	rdfs:comment "Geeft vermoedelijk een jaartal weer." ;
 	rdfs:range rdfs:Literal .
 
 vocopv:kamersVanDeVOC
@@ -301,7 +301,7 @@ vocopv:OpvarendenRecord
 
 vocopv:Plaats
 	a rdfs:Class ;
-	rdfs:label "Plaats" 
+	rdfs:label "Plaats" ;
 	rdfs:subClassOf skos:Concept.
 
 vocopv:Schip
