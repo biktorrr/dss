@@ -58,7 +58,7 @@ gzmvoc:ScheepsType rdfs:subClassOf dss:ShipType.
 mdb:ScheepsType rdfs:subClassOf dss:ShipType.
 	
 dss:has_shiptype
-	a rdf:Property
+	a rdf:Property ;
 	rdfs:label "has ship type".
 	
 gzmvoc:scheepstype	rdfs:subPropertyOf dss:has_shiptype.
