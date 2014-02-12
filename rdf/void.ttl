@@ -37,8 +37,9 @@ a void:Dataset ;
                 <vocopv_opv.ttl.gz> ,
                 <vocopv_beg.ttl> ,
                 <vocopv_sol.ttl> ,
-               <vocopv_gen_thes.ttl>,
-		<vocopv_schema.ttl>.
+				<vocopv_gen_thes.ttl>,
+				<vocopv_schema.ttl>,
+				<vocopv_2_das.ttl>.
 
 
 <gzmvoc>
