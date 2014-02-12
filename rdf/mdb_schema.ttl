@@ -37,7 +37,7 @@ mdb:PersoonsContract
 
 mdb:Plaats
 	a rdfs:Class ;
-	rdfs:subClassOf skos:Concept,
+	rdfs:subClassOf skos:Concept ;
 	rdfs:label "Plaats" .
 
 mdb:Rang
