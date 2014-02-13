@@ -1,0 +1,6824 @@
+@base         <mdb_place_gen_thes> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+mdb:MDBPlaceScheme
+	a skos:ConceptScheme ;
+	rdfs:label "MDB Place Conceptscheme (generated)".
+	
+# Named toplevel resources (2,271)
+
+mdb:plaats-Aa_en_Hunze_Nieuwediep_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aalborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aalborg_Olborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aalsmeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aalsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aalzum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abbeville_Abevielle_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abbeville_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abenra_Apenraade_in_de_Belt_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abenra_Apenrade_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abenra_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aberdeen_Aberdeen_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aberdeen_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abo_DK_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Abo_Obo_DK_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Accumersiel_Akermerzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Accumersiel_Akumerzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Achtkarspelen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Adersleben_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Adorp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aduard_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aduarderzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Afrika
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ageterzijl_Weser_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ahrensburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Akkerwoude_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Akspil
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Akyab_BUR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Alba_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Alkemade
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Alkmaar_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Almelo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Almstedt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Alphen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Alsery_IRL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altefehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altena_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altenau_Aoltenou_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altenau_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altenberg_A_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altenwerder
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altfingezijhl_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altkelmuhle
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altona_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Altvarshausen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ameland_Hollum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ameland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ameland_Nes_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ameling
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amerika
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amersfoort_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amrum_Norddorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Amst_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Amst_d_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Amst_dam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Amsterd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Buiksloot_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL_Bordeaux_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL_Ceuta_Sita_E_Izmir_Smyrna_TR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL_Genua_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL_Sira_Istanbul_Konstantinopel_TR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_NL_St_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Nieuwendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Overtoom_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amsterdam_Watergraafsmeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Amvecht
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Anjum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Anloo_Anlo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Anloo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveenschekanaal_Ann_Kanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveenschekanaal_Anner_Canaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveenschekanaal_Annerv_Canaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveenschekanaal_Annv_Canaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Annerveenschekanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Antwerpen_Antwerpen_in_Belgie_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Antwerpen_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Apeldoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_App_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appgd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appind_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Apping_d_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appingadam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Appinged_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Opwierde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Opwierde_Opwierda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Solwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Appingedam_Solwerd_Solwert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Archangelsk_Archangel_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Archangelsk_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arendal_Arendalh_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arendal_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arhus_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arle_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arnhem_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Arum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aschaffenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aschendorf_Askendorp_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aschendorf_Asschendorp_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aschendorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aspenwal
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Assen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Assendelft_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Assens_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Augsburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Augustinusga_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Aurich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Averereest_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ayr_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baard_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baarderadeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baarn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Backemoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bad_Karlshafen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baflo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bahia_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baltijsk_Pillau_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Baltrum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bandholm_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bantholm
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barbados_BDS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barbados_Barbarus_BDS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barcelona_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barge
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barmen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barssel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Barth_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Basselt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Batfeld
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Batzlow_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bayonne_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bedum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beersten_Hamrik
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerster_Hamrik
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerta_Hamdijk_Hamdijk_onder_de_Beerta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerta_Kroonpolder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerta_Oude_Beerta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beerta_Oude_Beerte_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beetsterzwaag_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beilen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Belfast_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Belgie_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwedde_De_Bult_Bult_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwedde_Steenwijk_De_Bult_Bult_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwedde_Steenwijk_De_Bult_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwedde_Steenwijk_De_Bult_de_Bult_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwolde_Bellingwolda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwolde_Bellw_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwolde_Bellwold_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bellingwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Belt_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Benekamp
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bennighoefen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bensersiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berbice_GUY
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berchtesgarden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergen_Bergen_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergen_N_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergen_op_Zoom_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergum_Bergemerdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergum_Bergumerdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bergum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berlin-Charlottenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berlin-Neukoelln_Rixdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berlin_Berlijn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berlin_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bern_CH
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berne_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Berwick-upon-Tweed_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bevelszanderveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Beverwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bezum
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bierum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Biessum_Biesum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Biessum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bilbao_Bilbau_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bilbao_Bilbauw_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bilbao_Bilbouw_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bilbao_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bingum_Bingum_in_Oostvriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bingum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bingumergeest
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Birdaard_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Blender_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Blijham_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Blokzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Blumenthal_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Blyth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bo_ness_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bodegraven_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boegensee_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boekel_B_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boeklandsveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boekzelenfein_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bogt_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bogt_van_Frankrijk_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bokel_Bokel_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bokel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bokelermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bolsward_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bonderveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bonnerveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boom_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bordeaux_Berdeux_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bordeaux_Bourdeaux_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bordeaux_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borger_Buinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borger_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borger_Nieuw-Buinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borger_Nieuw-Buinen_Nieuwbuinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borger_Nieuw_Buinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borgercompagnie_Borgerkompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borgercompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borgsweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borkum_Borcum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borkum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Born_B_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bornholm_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bornholm_Hasle_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borssele_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borssum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Borth_Borth_in_Hamburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boston_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boulogne_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Boulogne_sur_Mer_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bourtange_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bovenburen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brake_Braak_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brake_Braake_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brake_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brake_De_Braak_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brandenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Braunschweig_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brazilie_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bredenbon
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breewick
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breiholz_Breiholtz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breiholz_Breiholtz_in_t_Holsteinsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breiholz_Breijholz_in_t_Holsteinschu_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breiholz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breinermohr
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breitenbronn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremen_Breemen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven-Geestemuende_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven-Geestemuende_Geestemuende_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven-Geestemuende_Geestemunde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven-Geestemuende_Geistermunde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven-Geestemuende_Gesemunde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven_Bremer_Haven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven_Bremerhav_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremerhaven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bremervoerde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breskens_B_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Breuwick
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brevik_Brevig_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brevik_Brewick_N_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brevik_Brewick_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brevik_Brewiek_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brevik_Brewig_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brewijk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brielle_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bristol_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Broek_in_Waterland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Broekerhaven_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Broel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brouwershaven_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brual_Brual_Han_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brual_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brugge_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brugge_Bruggen_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brunsbuettel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brunsbuettelkoog_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Brussel_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bruxelles_Brussel_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buedelsdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buenos_Aires_Buenos_Ayres_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buenos_Aires_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buitenpost_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunde_Bonda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunde_Bonde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunde_Buenda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunde_Bunda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunder-Neuland_Bonder_Nieland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunder-Neuland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhammrich_B_Hamrik_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhammrich_B_hamrik_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhammrich_Bonderhamrik_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhammrich_Bunderhamrik_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhammrich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhee_Bonderheide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhee_Bunderheid_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhee_Bunderheide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderhee_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bunderkee_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Bundernieland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Burlage_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Burntisland_Burnt_Island_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Burntisland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Burum_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Burum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Buxtehude_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cadiz_Cadix_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cadiz_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Caen_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cagliari_Cagliarie_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cappel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cappeln_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cardiff_Cadif_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cardiff_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cardiff_Kardif_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Carolinensiel_Carolinensyl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Carolinensiel_Carolinenziel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Carolinensiel_Carolynezijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Carolinensiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Caseburg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Celsnitz
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Charleston_Carleston_in_Noord_Amerika_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Charleston_Charleston_in_Noord_Amerika_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Charleston_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Charlestown_GB_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cherbourg_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Chernyshevskoye_Eydtkuhnen_Eidtkuhnen_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Christiaansand_Kristiansand_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Christian_Eberhards_Polder_Ch_Eberh_Polder_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Christian_Eberhards_Polder_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Christiansholm_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Clausthal_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cleve_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Coevorden_De_Kiel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Coldeburg_Coldeborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Coldenborn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Coll
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cork_IRL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Croonstad_Delfzijl_Kroonstad_NL_Kronstadt_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cuba_C
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cuxhaven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Cuxhaven_Kuckshaven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dago
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dantumadeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Danzig-Neufahrwasser_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Darlowo_Ruegenwalde_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Darlowo_Ruegenwalde_Rugenwalde_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-De_Belt_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-De_Bocht_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-De_Groeve_Groeve_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-De_Steeg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-De_Zijlen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dedgum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delft_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Bierum_Bierum_Godlinze_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Buurt_van_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delfsl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delfsyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delfyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delfz_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delsil_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Delsyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Desiel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Hoog_Watum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_Kroonstad_NL_Kronstadt_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Delfzijl_van_Farmsum_van_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Demerara_GUY
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Andel_Andel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Andel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Bosch_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Haag_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Haag_s_Hage_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Helder_Helder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Helder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Den_Helder_de_Helder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dendermonde_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dernes_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Detern_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Deutsch_Lauden
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Deventer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Devonport_Plymouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dielerheide
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Diemen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dieppe_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dieverbrug_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzum_Ditsum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzumerhammrich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzumerverlaat_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzumerverlaat_D_verlaat_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ditzumerverlaat_Ditz_verlaat_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dluga
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Doerpen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Doerpen_Dorpen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Doerverden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Doesburg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkum_Dockum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkumer_Nieuwe_Zijlen_Dokkemer-Nieuwezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkumer_Nieuwe_Zijlen_Dokkumerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkumer_Nieuwe_Zijlen_Dokkummerniezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkumer_Nieuwe_Zijlen_Dokkummerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkumer_Nieuwe_Zijlen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkummer_Nieuwe_Zijlen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dokkummer_Nieuwe_Zijlen_Nieuwe_Zijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dondangen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dongeradeel_Niawier_Nyawierde_in_Oostdongeradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dordt_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dordtrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dort_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dortdrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dorth_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dorthrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_Dortrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dordrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dorkwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dornum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dorpen_Doerpen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dortmund_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dortmund_Dortmund_Pruissen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dover_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drachten_Dragten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drachten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drammen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drebber_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drenthe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dresden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drie_Zijlen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Driesen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Driezum_Driesum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drouwenermond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Drouwenerveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dublin_IRL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duesseldorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duesseldorf_Dusseldorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duffel_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duisburg-Ruhrort_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duisburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Duitsland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dundee_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dunkerque_Duinkerken_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dunkerstub
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Durban_Port_Natal_SA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Durgerdam_Durkendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Durgerdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Durkendam
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Durkendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Dwischau
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eckernfoerde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Edam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Edinburgh_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eeknes_in_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eekwerderklap_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eelde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eenrum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eenum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eeserveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eext_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eexterveenschekanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Egersund_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eggesin_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Egmond-Binnen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Egmond_aan_Zee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eider_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eider_de_Eijder_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eiderkanal_Eider_Kanaal_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eidtkuhnen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eiland_H
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eisleben_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ekamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ekelguite_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eland_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elblag_Elbing_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elburg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ellershausen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elmshorn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elsfleth_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elsfleth_Elsfleet_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elsfleth_Elsflyt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elsfleth_Elsvliet_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Elzendammerzijl_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emden_Borssum_Gross_Borssum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emden_Embden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emden_Emden_in_Pruissen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emmen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emmer_Compascuum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emmerich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Emsfors_Emsfort_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engeland_Bristol_of_Glouchester_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engeland_Druble_of_Gloucester_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engeland_Engelland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engeland_Ingeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engelbert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engelholm_in_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Engwierum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Enkhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Enumatil_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Epe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Erpel_Erpel_Neuwied_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Esbjerg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Esloev_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Essaouira_Mogador_MA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Esterwegen_Esterwegen_in_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Eu_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Exeter_Exeter_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Exeter_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Exmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezinge_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezinge_Oostum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezumazijl_Eezummerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezumazijl_Ezemerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezumazijl_Ezumerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ezumazijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Faalzund_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Faalzund_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Faeroer_Feroe_FAE
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fahr_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fakse_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Falkenberg_D_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Falmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Falster_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Falvisund
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fanoe_Fano_Jutland_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Farmsum_Delfzijl_dorp_Farmsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Farmsum_Framsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Farmsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fasoe
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fecamp_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fedderwardersiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Feerwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fehmarn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fehmarn_Femern_in_Holstein_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ferstenborgum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ferwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ferwerderadeel_Marrum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ferwerderadeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fiemel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Finland_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Finsterwolde_Finsterw_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Finsterwolde_Finsterwold_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Finsterwolde_Finstw_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Finsterwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Flensburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Foehr_Eiland_Vuur_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Foereham
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fottefort
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Foxham_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Foxhol_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Franeker_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Frankfurt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Frankrijk_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fransen_Pommern
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Frauenau_Frautenau_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Frederikshavn_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Frederikssund_Friedrichsund_in_de_Belt_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrickstadt_Fredrikstad_N_Friedrichstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikshald_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikssund_Fredriksond_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikstad_Freederikstad_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikstad_Freedrikstad_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikstad_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fredrikstad_N_Friedrichstadt_D_Friedeksstad
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Freiberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichsgruen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_Frederikstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_Friederikstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_Friedrichs_Stad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_Friedriksstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friedrichstadt_Friedrikstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Friesland_Friesl_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fromstad
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fuenen_eiland_Fuehn_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fyn_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fyn_Vaun_in_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Fyn_eiland_Funen_Bodenzee_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gaensendorf_A
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gaevle_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Galati_Galatz_Galatz_in_de_Zwarte_Zee_RO
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Galati_Galatz_Gallatz_RO
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Galati_Gallatz_RO
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gammersdorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ganderkesee_Ganderkezel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Garmerwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Garnwerd_Klein_Garnwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Garnwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Garrelsweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Garsthuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselte_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_Gas_nijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_Gass_nijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_Gasselternijveenschemond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_Gassnijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_Gnijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gasselternijveenschemond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gdansk_Danzig_Dantsig_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gdansk_Danzig_Dantzig_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gdansk_Danzig_Danzig_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gdansk_Danzig_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geertruidenberg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geest
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geestemuende_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geestemuende_Geestermunde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geestendorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Geesthaven
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gefle_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gembrigshram_in_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Genemuiden_Genemuid_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Genemuiden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gent_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gent_Gend_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gent_Gendt_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Georgsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Georgsfehn_Georgsfehn_in_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Georgsfehn_Georgsfhen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gerkesklooster_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gerlach
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gibraltar_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gibraltar_Gibralter_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Giessendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gieten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gieterveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glasgow_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gleiwitz_Gliwice_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glemminge
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gloucester_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glueckstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glueckstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glueckstadt_Geluckstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Glueckstadt_Glukstad_in_Denemarken_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gmued
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Godlinze_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goes_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goes_Ter_Goes_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goeteborg_Gothenburg_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goeteborg_Gotthenburg_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goeteborg_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gollnon
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goole_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Goole_Goola_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gorinchem_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gorredijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gothesstadte
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gotland_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gotland_Visby_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gouda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grangemouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grangemouth_Greengmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grangemouth_Grensmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Granton
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grapste
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Great_Yarmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Great_Yarmouth_Jarmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Greetsijhl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Greetsijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Greetzijhl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Greetzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Grietziel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Grietzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greetsiel_Grietzyl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greifswald_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Greifswald_Grijfswald_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grena_Gena_in_het_Kattegat_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grevels_L
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grijpskerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grijpskerk_Niezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimsby_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimsby_Grensby_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimsby_Grimsbe_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimsby_Grimsbee_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimsby_Grimsbey_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grimstad_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grintendan
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_Gron_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_Groning_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_Helpman_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_NL_of_Slochteren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_Oosterhoogebrug_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_Vierverlaten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groningen_prov_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gronwald
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Groot-Brittannie_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grootegast_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grootgasleropld
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gross_Midlum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grossefehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grossefehn_Grootefehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grossefehn_Groteveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grossensiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Grouw_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gruenstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Gussew_Gumbinnen_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haarhuisen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haarlem_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haarlemmerliede_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haderslev_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haderslev_Hadersleben_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haere
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haernoesand_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halbemond_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halbover
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halfweg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halle_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hallum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halmstad_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halte
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halte_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Halte_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haltenau_bij_Bydgoszcz_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamburg-Blankenese_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamburg_Hamburg_in_Pruissen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamburg_Harburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamdijk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamina_Frederikshamn_Friedrichshem_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hammestet
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hamweddel
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harburg_Aarberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harburg_Aarburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harburg_Haarburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harderwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hardinxveld_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haren_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haren_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haren_Noord_Haren_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haringsfehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harkebrenk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harlingen_Almenum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harlingen_Harling_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harlingen_Herlinge_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harlingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harpendorf_Harpendorf_in_t_Oldenburgsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harpendorf_Harpendorff_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hartlepool_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Harwich_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haskerland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hasselt_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hasselt_B_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hasselt_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hateren
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hattorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hatzum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hatzum_Hatzum_Koningr_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hatzum_Hatzum_in_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haulerwijk_Haulvelerwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haulerwijk_Houwelerwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Haulerwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heede_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heede_Hede_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heede_Heede_onder_Meppen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heede_Hei_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heede_Hei_in_Papenborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heeg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heelendorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heenvliet_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heerenveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heese_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heilbronn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heiligenhafen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heiligenhafen_Heiligenhaven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heiligenstadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heiligerlee_Kloosterholt_onder_Winschoten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heiligerlee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helgoland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hellevoetsluis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hellum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helmond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helpen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helsingborg_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helsingoer_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helsingoer_Elseneur_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Helsinki_Helsingfors_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heppen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hepperis
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Herborn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Herkebrugge
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hertogdom_Oldenburg_het_Oldenburgsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Het_Hoge_Land_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Het_Kanaal_Britsch_Kanaal
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heule_Heul_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heusden_B_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Heveskes_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hewagtenberg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hildesheim_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hillegersberg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hillegom_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hilversum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Himmelwigen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hindeloopen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hindelopen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hinden
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hingesa
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hobro_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoek_van_Holland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hohewacht
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holbach_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holbaek_Holbeck_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holland_of_Belgie
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holmestrand_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holsdorp
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holstein
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holstein_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holstein_t_Holsteinsche_Denemarken_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holtenau_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holterfehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holterfehnheide
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holtermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthausen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthausen_Holthausen_in_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthusen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthusen_Holthuizen_in_Oost_Vriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthusen_Holthusen_in_t_Hanoversche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthusen_Holthuserheide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthusen_Holthuzen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthuserheide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holthuserheide_Holthuizerheide_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holwierde_Holwierda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holwierde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Holzminden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Honfleur_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogeveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Foxhol_Foxholderbosch_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Foxhol_Foxholsterbosch_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Hogesand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Hogezand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kalkwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kiel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kiel_Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kyl-Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kyl_Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kylwinderweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Kylwindeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel-Windeweer_Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel_Kielster_Kanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kiel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Kropswolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Lula_Kalkwijk_Lula_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Lula_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogezand_Windeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogkerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoogkerk_Vierverlaten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hooksiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hornhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Horsens_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Horstens_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Horten_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Houwerzijl_Houlezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Houwerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Houwerzijl_Vliedorp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hude_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hudiksvall_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Huizinge_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hull_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hullenerfehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hullengasveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Hulta
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Husum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-IJlst_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-IJmuiden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-IJssel_op_den_IJsel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ibbenbueren_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ichtershausen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Idaarderadeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Idskenhuizen_Jiskenhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ieper_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ierland_IRL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ihlowerfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ihringsback
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Indonesie_Neerdlands_India_RI
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ipswich_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Istanbul_Constantinopel_Constantinopel_TR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Istanbul_Konstantinopel_TR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Itzehoe_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Itzehoe_Ihsehoe_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Izmir_Smyrna_TR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jakarta_Batavia_RI
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jakobsdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jamaica_JA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jasnitz_A_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Java_RI
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jedsted_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jelgava_Mitau_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jemgum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jenkaus_in_Pruissen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jermen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jersey_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jersey_Jerzey_GBJ
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jeveler
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_Ihrens_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_Ihrenveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_Ihringsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_JHernigs_Foehn_in_Aurich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_Jeren_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_Jerrings_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jheringsfehn_bij_Emden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Joure_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Juist_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Juist_het_Eiland_Juist_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Juist_het_Eiland_Just_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Juist_t_Eiland_Juist_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Jutland_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kahlholtz_in_de_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kaliningrad_Koenigsberg_Koningsbergen_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kaliningrad_Koenigsberg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kallen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kalmar_Calmar_Swd_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kalmar_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kalundborg_Callundborg_in_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kalundborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kampen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kantens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kappel_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kappeln_Cappeln_in_de_Belt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kappeln_Kappeln_Sleeswijk-Holstein_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karleby_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karlshagen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karlshamn_Carlsham_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karlshamn_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karlskrona_Carlscrona_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karlskrona_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Karrebaeksminde_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Katwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Katwijk_aan_Zee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kaub_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Keelhof
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kenslau
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kerkira_Corfu_GR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Keulen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kibbelgaarn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kiel_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kiel_Kiel_Pruissen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kiel_NL_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kiertermunde_in_de_Belt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kinbackenhagen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-King_s_Lynn_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Klato
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Klein_Kadslein
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kleine_Oost_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kleine_Willebrack
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kloosterburen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Klosterholte_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koeln_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koenigsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koenug
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kogerpolder_Cogerpolder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kogerpolder_Koger_Polder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kogerpolder_Kooger_Polder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kogerpolder_Koogerpolder_in_Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kogerpolder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kolberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kolding_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kolham_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kollum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kollumerland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kommerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koog_aan_de_Zaan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koogerpolder
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kopenhagen_Coppenhage_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kopenhagen_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kopenhagen_Koppenhage_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kopenhagen_Koppenhagen_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kopitzsch_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kostverloren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kotka_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kottenhof
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Koudum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Krageroe_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Krakow_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Krefeld_Kerfeld_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Krewerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kristiansand_Christiaansand_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kristiansand_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Krommenie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kronsdorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kropswolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kruiningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kylcompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Kyllburg_Kylburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-L_k
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-La_Rochelle_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Laarvige
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lagemeeden_Lagemeden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lalleweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landschaftspolder_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landschaftspolder_Landschappolder_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landschaftspolder_Landschappolder_in_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landshut_Landshut_Duitschland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landskrona_Landscrona_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Landskrona_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Langen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Langeoog_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Langholz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Langsaand
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larrelt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larrelt_Larreld_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larrelt_Larrelt_in_Oostfriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larvik_Larwich_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larvik_Larwick_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larvik_Larwick_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larvik_Laurwich_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Larvik_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Le_Havre_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Le_Havre_Havre_de_Graas_Havre_de_Gras_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Le_Havre_Havre_de_Grace_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lebuur
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leek_de_Leek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leer_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leer_Heisfelde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leer_Holthusen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leer_Leer_in_Pruissen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leer_de_Noord_bij_Leer_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leermens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leerort_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leerort_Leeroort_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leerort_Leerorth_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leeuwarden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leeuwarderadeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leeuwen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leicester_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leiden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leipzig_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leiteschein
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leith_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leith_Lith_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lekkum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leliemoed
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lellens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lemmer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lemmer_de_Lemmer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lemsterland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leuven_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Leuven_Leuven_in_Belgie_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liechtenstein_FL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liepaja_Libau_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liepaja_Libau_Labiou_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lieth_Liet_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lima_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lissabon_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Litham
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liverpool_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liverpool_Leeverpool_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Liverpool_Leverpool_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Livorno_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Loccegendorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Loga_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lohne_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lohne_Lohne_in_t_Oldenburgsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lohne_Lone_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Londen_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Londen_Londen_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Londen_London_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Londen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Londonderry_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Loppersum_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Loppersum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Losdorp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Loviisa_Lovisa_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Luban_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ludwigsdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Luebeck_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lukstadt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lunberg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lund_DK_GB_N_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Lutjeloo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Maarhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Maassluis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Maastricht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Magdeburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Magdeburg_Maagdenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mainz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Makkum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Makkum_NL_Friedrichstadt_Friedrichstad_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Malaga_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Malaga_Mallaga_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Maldon_Maldon_Gr_Brittagne_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Malmoe_Malmoehus_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Malmoe_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mamonovo_Heiligenbeil-Hasselpusch_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Manslagt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mariaager_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marieldamn_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mariensiel_Marienziel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marlande
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marlow
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Maroium
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marrum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marseille_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Martenshoek_M_shoek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Martenshoek_Martensh_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Martenshoek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Martinique_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Marum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mattchowyk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mecklenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Medemblik_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meeden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meeden_de_Meede_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meedhuizen_Methuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meedhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meenen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Memele_Memel_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Menaldum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mensingeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meppel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meppen_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Messina_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Metslawier_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Metz_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meura_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Meyenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middelbert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middelburg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middelharnis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middellandse_Zee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middellandse_Zee_Corvu_of_Patrus
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middelstum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Middlesbrough_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Midlum_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Midwolda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Midwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Miltzow_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Minden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mobbau
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Moddergat_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Moehlenwarf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Moenchweiler_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Molde_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Molenwarf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Monnikendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Monster_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Montevideo_ROU
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Montreux_CH_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Morl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Morsum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlen_Muehlen_in_t_Oldenburgsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlen_Muhlen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlhausen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlheim-Saarn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muehlheim_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muenchen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muenster_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muiden_Muijden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muiden_Muijen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muiden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mulldrub_in_de_groote_Belt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Mundelnburg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Munnekezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Munsterous
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntendam
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntendam_Munt_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntendam_Muntend_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntendam_Trips_Compagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Muntjezijl
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Musselkanaal_Muss_Kanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Musselkanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-N_bracht
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nakskov_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nakskov_Naskau_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nakskov_Naskov_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Namsos_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nansum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nantes_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Napels_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Narva_EW
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Narva_Nerwa_EW
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Narvik_Narwich_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neede_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neerhouzen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neermoor
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nenndorf
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nesse_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nessmersiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neubirch
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neue_Wispie
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuefehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuemoor_Neumoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuenburg_CH_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuendorf_D_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuenhaus_Niewenhuis_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuenkirchen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuhafen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuharlingersiel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuharlingersiel_Nieuw_Harlingerzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuhaus_Neuhaus_in_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuroesmobeck
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neuss_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neustadt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Neustedt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-New_York_New_Jork_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-New_York_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newburgh_Nyburg_Schotland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcarlby
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_GB_Korfoe_Corfu_GR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_New-Castle_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_New_Castel_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_New_Castle_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_New_Castle_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Newcassel_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Newkastel_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Newkastle_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Niekassel_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Nieuw_Kassel_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newcastle_Ny_Kasseel_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newhaven_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newhaven_Nieuwhaven_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newport_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Newry_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niebert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieham
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niehove_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niehove_Niehoeve_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niekerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niekerk_Nykerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niekerrie
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nietap_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuveen_in_het_Hanoversche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuw-Beerta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuw-Beerta_N_Beerta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuw-Buinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuw-Scheemda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Diep_het_Nieuwediep_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_NL_of_Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_N_Pekel-a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_N_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_N_Pekel_a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_N_Pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_N_pekel-A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuw_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwe_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwe_Pekel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwe_pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwepekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Nieuwp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_Npekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Pekela_de_Nieuwe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Statenzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwe_Zijl
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwediep_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwediep_Nieuwe_Diep_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwediep_Nieuwediepen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwer_Amstel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_Hamdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_L_A_Schans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_Linteloopolder_Lit_Schans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_N_Schans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuweschans_Nieuwe_Schans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwolda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwolda_Nieuw_Wolda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwpoort_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieuwveen_Nieveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nieveenstermond
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Niezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nijdorpen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nijehaske_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nijehaske_Nije_Haske_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nijland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nijmegen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nokere_Nokeren_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordbroek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noorddijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordhorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordhorn_Noordhoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordlaren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordwijk_aan_Zee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordwijk_aan_Zee_Noordwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noordzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norddeich_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordenham_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norderditmarschen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norderney_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordersluis_westkust_van_Sleeswijk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordhorn_Nordhorn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordleda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordleda_Kampen_Noordleda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nordspring
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norrkoeping_Norkoebing_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norrkoeping_Norkoeping_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Norrkoeping_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-North_Shields_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nova_orth
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nuernberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nyborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nykoebing_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Nyland_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ober_Weser_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Obergum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Obergum_Obregum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oborg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ochtrup_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Odense_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Odense_Odenzee_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Odessa_UA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Odoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oerten_Noorwegen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oeslev_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oest
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oestersund_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oksbo_l_Oxbull_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oland_Arcadorn_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Eekamp_Midw_Eekamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Eekamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Eexta_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Ekamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Nieuw-Scheemda_Nieuw_Scheemda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldambt_Oostwold_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldeboorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldebroek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldehove_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldekerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldenburg_Oldenborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldenzaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldenzijl_NL_Oldensiel_D_Oude_Zijl
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldenzijl_Oude_Zijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldersum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldersum_Oldersen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldersum_Oldesum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oldsjoen_Oud_Soen_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oleron_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oleron_Obron_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oleron_Oleuron_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oleron_Olleron_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oleron_Olron_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ommelanderwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ommelanderwijk_Oml_wijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ommelanderwijk_Ommel_wijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onderdendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onsala_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onso_Sogn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onstwedde_Onstwedde_Stadskanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Onstwedde_het_Stadskanaal_onder_Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oost-Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostdongeradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostende_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostende_Ostende_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosteriesoer_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosteriser_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterisioer_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterisoer_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterisoer_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterisoer_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterisso_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostermoer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosternieland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostersoer_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oosterwijtwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostkustham
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostmahorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostwarungsfehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostwold_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostzaan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oostzee_Dantzig_of_Koningsbergen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ooterris_um
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Opdorff
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Opwierde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Orten_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oscarsand
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oskarshamn_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oslo_Christiania_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oslo_Kristiania_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osnabrueck_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osnabrueck_Esnabruech_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osteriseor_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osterisoer_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osterode_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Osterrusoer
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostfriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostfriesland_Oostvriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostgrossefehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostrhauderfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostrhauderfehn_Osterhauderfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostrhauderfehn_Ostrhandefehn
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostrhauderfehn_Ostrhaudefehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostrisoer_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ostwarsingsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oterdum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_P_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_Pekel-a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_Pekel_a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_Pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_O_pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Opekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Opekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Oude_Pekel-a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Oude_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Oude_Pekel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Oudepekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_Pekela_O_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_oude_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Pekela_oude_pekel_a_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Tonge_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oude_Wetering_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oudehaske_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oudeschans_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oudezijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Oulu_Uleaborg_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-PP
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paderborn_het_Paderbornsche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paernu_Pernau_EST
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paesens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paesens_Peesens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paesens_Pesens_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pahlhude_Pahlhuede_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papenburg_Braak_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papenburg_Papenborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papenburg_Papnb_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papenburg_Paupenborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Papendrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Para_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Parssen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paruga
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pasaia_Pasajes_Port_Passajes_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Paterswolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Peize_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pekela_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pekela_Pekel_A_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pensacola_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Peperga_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pernambuco_Pernabuck_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pernis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pesum
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Peterhead_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Peterhead_Pieterhead_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Petersdorf_A_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Petersdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Petkum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Petum
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pewsum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Philadelphia_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pietarsaari_Jakobstad_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pieterburen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pieterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pilsum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pingjum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Piosen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pitsien
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Plauen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Plymouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Plymouth_Plumout_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pohlitz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Polen_Stettin_of_Dantzig_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Poole_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Port_Kunda_EW
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Porto_Alegre_Porto_Allegro_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Portsmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Porvoo_Borga_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Poseritz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Potsdam_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Poznan_Posen_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Praestoe_Prestow_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Preston_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Prinshagen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pruischpolder
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Pruisen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Puerto_Rico_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Purmerend_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Purmerend_Purmerende_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Putbus_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Puttershoek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Raalte_Luttenberg_Lutenburg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Raamsdonk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Radmoe
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rafsoe_in_Finland
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Randers_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rasquert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rauma_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rauma_Raumo_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Redon_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Reinderkheim_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rendsburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rendsburg_Rensborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rendsburg_Rensburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Repplinge
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Reudnitz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rauderveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rauerderveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rhauderfehn_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rhauderwick_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rouwderveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhauderfehn_Rouwerderveen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhaudermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhaudermoor_Raudermeer_in_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhaudermoor_Rauerdermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhaudermoor_Rhaudermoor_Hanoversche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhaudermoor_Rhaudermorr_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rhede_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rheder_Moor_Rheidermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rheinanstoerf_Saksen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ridderkerk_Bolnes_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ridderkerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Riga_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Riga_Richa_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rijperkerk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_Grande_do_Sul_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_Maroim_Maroim_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_de_Janeiro_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_de_Janeiro_Rio_Jenairo_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rio_de_Janeiro_Rio_Jeneiro_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Risoer_Riseroer_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rissnow
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rochester_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Roden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Roene_Ronne_in_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Roennebeck_Ronnebeck_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ronneby_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Roodeschool_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rorichmoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rorichmoor_Rorichmoor_Oostvriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rosario_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rosario_Rosaria_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rosario_Rozario_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rostock_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rostock_Rosstok_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Delfshaven_Delftshaven_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Delfshaven_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_IJsselmonde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Katendrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Rot_d_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Rottd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Vegesack_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rotterdam_Zwijndrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rottevalle_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rottevalle_Rotteval_in_Friesland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rottum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rouan_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rouan_Rouaan_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rouen_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rouen_Rouan_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rudkoebing_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rudkoebing_Rubekioping_in_de_Belt_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruegen_Breege_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruegen_Jasmund_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rugenwalde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruigezand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruinen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruinerwold_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Runcorn_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ruppin
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rusland_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Rysum_Rijzum_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Saaksum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Saaksum_Saaxum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Saaxum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Saaxumhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sachsen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Safi_MA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Saint-Nazaire_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sakskoebing_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sandbauerschaft_bij_Norden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sandhof_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sapelo_in_Georgia_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Kleine_Meer_Kleenemeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Kleine_Meer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Sacuneer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Sapmeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Sappem_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sappemeer_Sappemer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sassnitz_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sauwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schaaphalstezijl
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schaprode_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Scharmer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Scheemda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Scheemda_Oud_Scheemda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Scheveningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schiedam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schien_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schiermonnikoog_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schildmeer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schildwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schildwolde_Schildwolda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schleswig_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schleswig_Holstein_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schmiedeberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schmolsin
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schney_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schoetmar_Schoetmar_in_Duitschland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schokland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schore_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schotland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schouwerzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schramberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schranckhausen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schwartgort_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schweigheim
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schwerin_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Schwisschenhagen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sebaldeburen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Seden_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Seelensdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Seestermuhle
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Segelson
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Segestadt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Seifersdorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Selebert
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sellingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sellingen_Zellingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sete_Cette_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Setubal_Sint_Ubes_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Setubal_St_Ubes_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sevendburg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sevilla_Seville_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sexbierum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Shoreham_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Shoreham_Sjorham_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sicilie_Catania_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Siddeburen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint-Annaparochie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint-Jacobiparochie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint-Jacobiparochie_St_Jacob_bij_Leeuwarden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint_Maartensdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint_Petersburg_Sint_Pietersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint_Petersburg_St_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sint_Petersburg_St_Pietersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Skakenkar
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Skeberg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Skellefteaa_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Skien_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Skien_Skien_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sleeswijk
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sleeswijk_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sleeuwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sliedrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Slochteren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sloten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sloten_Sloten_in_Vriesland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sluis_B_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Smilde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sneek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Soenderborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Soenderborg_Sonderborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Soest_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Soltberg
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Soltborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Solwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sommelsdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sonwater_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Souns
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-South_Shields_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Southampton_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spaarndam_Sparendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spaiard
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spanje_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spanje_of_Portugal_E_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spetzerfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spiekeroog_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spijkerboor_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Spijkerboor_Spiekerboor_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-St_Davids_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-St_Petersburg_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-St_Petersburg_Pietersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-St_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-St_Valery_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stad_aan_t_Haringvliet_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stade_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stade_Staade_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadmusselkanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Gasselte_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Horsten_Horsten_gem_Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Kanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Nieuwe_Stadskanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_St_Kanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stads_Canaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stads_te_Wildervank_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskanaal_O_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskanaal_W_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskanaal_Wildervank_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskanaal_Wildv_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Stadskanaal_gem_Onstwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_Wildervank_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stadskanaal_onder_de_Wildervk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stapelholm_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stapelmoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Staphorst_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Starbach_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stargard_Szczecinski_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Statenzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Statenzijl_Staatenzn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stavanger_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stavenisse_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stavoren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stedum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steege_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steenveld
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steenwijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steinbild_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steinfeld_A_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steinfeld_Stijnveld_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Steinhausen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stekelhemperveen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stewendam
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stiekelkamperfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stockholm_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stockholm_Stokholm_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stockton_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stolberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stolpe_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stolzenau_Ambt_Stolzenau_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stralsund_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stralsund_Straalsund_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stralsund_Straalzond_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stroemfors_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stroemstad_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stroobos_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stroobos_Strobos_onder_Blijham_gem_Wedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stuisten_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stuterhof_Stuterhoff_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Stuur
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Suederneuland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sund_Wiese
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sunde_Sunde_onder_Oldenborg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sunderborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sunderland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sundsvall_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Sundsvall_Sundswal_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Surham_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Suriname_SME
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Svendborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Swagerau
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Swartshutten
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Swinoujouscie_Swinemuende_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Swinoujscie_Swinemuende_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Szczecin_Stettin_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tallinn_Reval_EST
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tammisaari_Ekenaes_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ten_Boer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ten_Boer_Tenboer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ten_Boer_Woltersum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ten_Post_Kroddeburen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ten_Post_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tenerife_Teneriffe_GC
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ter_Apel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ter_Apelkanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Terhorne_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunten_Termunt_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunterzijl_Termynterzyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunterzijl_Termzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Termunterzijl_Termzyl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ternaard_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Terschelling_Midsland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Terschelling_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Terschelling_West_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Terwispel_Ter_Wispel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Texel_Den_Hoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Texel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Thesinge_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Thisted_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tholen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tietjerksteradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tilburg_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Timmel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tinallinge_Tinallingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tiree_Vaul_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tjalleberd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tjamsweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tjelskeur
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tjuchem_Tjuchum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toenning_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toenning_Tonnigen_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toenning_Tonning_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toenning_Tonningen_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toenning_Tonningen_in_Denemarken_D_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Toensberg_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tolbert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Triest_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Trieste_Triest_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Trinidad_TD
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Trinidad_TT
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tromsoe_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Trondheim_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Truro_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Tweelbaeke
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Twisk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uddevalla_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ueckermuende_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uitgeest_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizermeeden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizermeeden_Uith_meden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizermeeden_Uith_meeden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizermeeden_Uithuizerm_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uithuizermeeden_Uithuizermeden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uitwierde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uitwierde_Uitwierda_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ulrum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ultsby
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Unislawice_Wilhelmsbruch_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ureterp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Urk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Usquert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Usquert_Uskwert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ustka_Stolpmuende_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ustka_Stolpmuende_Stolpemuende_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ustka_Stolpmuende_Stolpemunde_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Utrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Uusikaupunki_Nystad_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vaasa_Vasa_FIN
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Valkenburg_ZH_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Valparaiso_RCH
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Valthermond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vardoe_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Varel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Varel_Farel_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Varel_Varel_D_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Varezond_in_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Borgercompagnie_Borkompenie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Borgercompagnie_Burger_Compagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Borgercompagnie_Burger_Kompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Borgercompagnie_Burgercompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Borgercompagnie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Vdm_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veendam_Veend_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veenderank
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veenendaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veenhuizen_NL_Veenhusen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veenwouden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vegesack_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vegesack_Fegesak_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vegesack_Vegesak_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vegesack_Vegezak_onder_Bremen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vellage
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vellen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Velsen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Venetie_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Venle
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ventspils_Windau_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ventspils_Windau_Wendau_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Veracruz_MEX
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Verden_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Viborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vierhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vile_Viele_in_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Villag_in_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vinterbommln
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Visby_DK_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Visquard_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Visquard_Visquard_in_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Visquard_Visquard_onder_Greetzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Visvliet_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlaardingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlagtwedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlagtwedde_Weerdingermond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vledderveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vliedorp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlieland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlieland_t_Vlie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vlissingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellen_Voellen_Hannover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellen_Voellen_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellenerfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voellenerfehn_Vollenerfehn_Hanover_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Voerlin
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vollen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vollenhove_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Volnerousen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vreeswijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vriescheloo_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vriesland_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vrouwenparochie_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Vyborg_Wijburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wadderensiel
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wagenborgen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wales_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Walle_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wallin
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wandorp
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wangerooge_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wardenzerziel
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warffum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warffum_Warfum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warfhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warga_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warkworth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warns_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Waringssingsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Warnings_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Warsings_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Warsings_hefn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Warsingsfehen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Warssings_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Wassing_Veen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Wassings_Vee_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Wassingsfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Warsingsfehn_Wassingsvee_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wassa_Finland
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Waterhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Waterhuizen_Waterhuissen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wateringen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wedde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wedde_Wede_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wedde_Weder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wedde_Winschoterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wede
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wederlee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener-Beschotenweg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_Holthuizermede_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_Weender_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_Weender_in_Oostfriesland_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_Weenr_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weener_Wener_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weenermoor_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weerden
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weesp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wehe-Den-Hoorn_Wehe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wehe-Den_Hoorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wehe-Den_Hoorn_Wehe_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weimar_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weiwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weiwerd_Weiwert_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Welawa_Wehlau_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wells_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Werkendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Werum
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weser_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weser_Wezer_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-West_Indies
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-West_Indies_West-Indien
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-West_Relen
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westaccumersiel_Westaccummerzijl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westaccumersiel_Westeraccumersyhl_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westdongeradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westdongeradeel_West_Dongeradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wester_Wick
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerbork_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerbroek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westeremden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westeremden_Wester_Emden_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerlee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerlee_Westerl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westermoordorf_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westernieland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerschau
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerveld_Vledder_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerwick_in_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westerwijtwerd_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westfeld_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westonpoint
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westoverledingen-Steenfelde_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westoverledingen-Steenfelderfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westoverledingen-Steenfelderfehn_Steenfeldmerfeen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westrhauderfehn_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westwijmers
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Westzaan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weveling_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Weyhe_D_Wijhe_NL_Weije
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Whitby_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Whitby_Wittby_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wieile
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wierhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wieringen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wierum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wierumerschouw_Wierumerschol_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wijckel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wijmensterzijl
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilderhof
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wild_vnk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wilderv_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wilderv_k_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wilderva_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wildervank_Stadskan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wildevan_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wildervank_Wildv_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilhelmshaven-Kniphausen_Kniphuisen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilhelmshaven-Kniphausen_Kniphuizen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilhelmshaven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilhelmshaven_Wilhelm_Haven_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wilhelmshaven_Wilhelmhaven_Jade_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Willen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Windan
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winden_CH_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Windsor_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winkel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winschoten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winschoterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winsum_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Winsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wirdum_D_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wirdum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wisbech_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wisbech_Wisbach_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wisbech_Wisback_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wisbech_Witsbach_in_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wismar_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wismar_Wismer_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wittenberg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wittewierum_Witte_Wierum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wittmund_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wittmund_het_ambt_Witmunnd_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Woldendorp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wolgast_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wolmirstedt_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wolstadt
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wolsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Woltersum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wonseradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wonuradeel
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Workum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Workum_Worcum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wormerveer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Worms_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Woudrichem_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Woudsend_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wroclaw_Breslau_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wymbritseradeel_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wymeer_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wymouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Wyvenhoe_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Yarmouth_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ysane_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Ystad_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zaandam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zaandam_Saandam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zaandam_Sardam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zandeweer_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zanow
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zarpen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zeerijp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zelzate_Selzaete_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zevenhuizen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zierikzee_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zijldijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zingst_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zoutkamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zoutkamp_Zoltkamp_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuid-Amerika
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidbroek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidbroek_Zoudbroek_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidbroek_Zuidbr_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidhorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidhorn_Oldehove_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidhorn_Ruigezand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidlaarderveen_Zuidl_Veen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidlaren_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidlone_in_Oldenburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidoost-Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidwending_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidwending_Zuidwennige_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidwolde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuidzee_Eilanden
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zutphen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zuurdijk_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwaagwesteinde_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwaagwesteinde_Zwavelsteine_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwartsluis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwartsluis_Swartsluis_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zweden_Sweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwijndrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwolle_Langenholte_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwolle_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-Zwolle_Zwol_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-bij_zijn_ouders_in_t_schip
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-de_Belt_de_Beld
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Adorp_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Amsterdam_NL_daarna_Stockholm_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Amsterdam_NL_later_Groningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Amsterdam_NL_later_Hilversum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Amsterdam_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Anloo_NL_later_Stadskanaal_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Appingedam_NL_daarna_Londen_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Amsterdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Amsterdam_of_Rotterdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Delfzijl_of_Groningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Livorno_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Archangelsk_Archangel_RUS_daarna_Zaandam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bari_I_daarna_Trieste_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bayonne_F_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bierum_NL_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Borkum_Borcum_D_later_Appingedam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Borkum_D_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bremen_D_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bremerhaven-Geestemuende_D_daarna_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Brevik_Brevig_N_S_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Bunde_D_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Burntisland_GB_daarna_Riga_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Cadiz_E_daarna_Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Capelle_a_d_IJssel_NL_later_Gasselternijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Cardiff_GB_daarna_Jamaica_JA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Cardiff_GB_daarna_Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Cardiff_GB_daarna_West_Indies
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Dalen_NL_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Delfzijl_NL_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Delfzijl_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Dokkum_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Emden_D_daarna_Gdansk_PL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Emden_D_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Emden_D_daarna_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Emden_D_daarna_Winschoten_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Emden_D_daarna_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Amerika
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Archangelsk_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Buenos_Aires_RA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Gdansk_Danzig_Dantzig_PL_en_Holland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Jamaica_JA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Lissabon_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Memele_Memel_LV
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Middellandse_Zee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Noord_Amerika_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Oostzee_en_Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Spanje_E
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Uerdingen_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Engeland_GB_daarna_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Ferwerderadeel_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Fredrikstad_Frederikstad_N_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gasselte_NL_later_Gasselternijveen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gdansk_Danzig_Dantsig_PL_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gdansk_Danzig_Dantzig_PL_daarna_Delfzijl_Amsterdam_NL_of_Antwerpen_B
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gdansk_Danzig_Dantzig_PL_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gibraltar_GBZ_daarna_Brazilie_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Gozendorp_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Grijpskerk_NL_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Groningen_NL_daarna_Bristol_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Groningen_NL_daarna_Bunde_Bonda_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Groningen_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Groningen_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Guadeloupe_GDL_daarna_Pensacola_USA
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hamburg_D_daarna_Porte_Negre
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hamburg_D_daarna_Punta_Arenas_RCH
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hamburg_D_daarna_Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hamburg_D_later_Farmsum_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Harlingen_NL_daarna_Sint_Petersburg_RUS
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Harlingen_NL_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Helsingborg_S_daarna_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hoogezand_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Hoogezand_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Kaliningrad_Koenigsberg_Koningsbergen_RUS_daarna_Amsterdam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Kaliningrad_Koenigsberg_Koningsbergen_RUS_daarna_Sundsvall_Sundsval_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Kantens_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Kotka_FIN_daarna_Viborg_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Leer_D_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Leer_D_daarna_Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Lissabon_P_daarna_Flensburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Londen_GB_daarna_Oostzee
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Londen_GB_daarna_Zweden_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Luebau_D_daarna_de_Maas_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Luebau_Lubau_D_daarna_de_Maas_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Lutjegast_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Newcastle_GB_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Newcastle_GB_daarna_Harburg_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Newcastle_GB_daarna_Lissabon_P
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Newcastle_GB_daarna_Sete_F
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Niekerie_daarna_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Nieuwe_Pekela_NL_later_Veendam_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Delfzijl_of_Termunterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Goeteborg_S
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Groningen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Harlingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Termunterzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Noorwegen_N_daarna_Vegesack_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oldambt_Eexta_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oldeberkoop_NL_later_Borger-Odoorn_Drouwenermond_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oostzee_daarna_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Osterisoer_N_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Osterrissoer_N_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oude_Pekela_NL_daarna_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oude_Pekela_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Oude_Pekela_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Papenburg_D_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Rendsburg_D_later_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Riga_LV_daarna_Delfzijl_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Rotterdam_NL_daarna_Savona_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Rottum_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Sappemeer_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Sappemeer_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Schagen_Callantsoog_Calansoog_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Setubal_St_Ubes_P_daarna_Rio_Grande_BR
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Sexbierum_NL_later_Oostmahorn_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Szczecin_Stettin_PL_daarna_Nederland_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Termunterzijl_NL_daarna_Engeland_GB
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Termunterzijl_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Terneuzen_Hoek_NL_later_Terneuzen_Neuzen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Tietjerksteradeel_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Tolbert_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Tzummarum_NL_later_Harlingen_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Veendam_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Ventspils_Windau_LV_daarna_Denemarken_DK
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Vlagtwedde_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Warffum_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Weener_D_daarna_Noorwegen_N
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Wildervank_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Winschoten_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Winsum_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Zoutkamp_NL_later_geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Zuidbroek_NL_later_geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-eerst_Zweden_S_daarna_Dordrecht_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-geen_vaste_woonplaats
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-geen_vaste_woonplaats_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-geen_vaste_woonplaats_bij_ouders_aan_boord
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-het_Hannoversche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-het_Hanoversche_D
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-s-Gravenzande_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-t_Waar_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-t_Zandt_NL
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-westkust_van_Italie_I
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-wonende_in_het_schip
+	skos:inScheme mdb:MDBPlaceScheme .
+
+mdb:plaats-zee_om_te_visschen
+	skos:inScheme mdb:MDBPlaceScheme .

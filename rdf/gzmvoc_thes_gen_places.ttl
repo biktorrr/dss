@@ -1,0 +1,1779 @@
+@base           <gzmvoc_place_gen_thes> .
+@prefix   skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+# by hand
+
+gzmvoc:GZMPlaceScheme
+	a skos:ConceptScheme ;
+	rdfs:label "GZM Place Conceptscheme (generated)".
+	
+# generated Named toplevel resources (589)
+
+gzmvoc:place-Alblasserdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Aldenburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Alkmaar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Als
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Alsmeer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Altena
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Altona_Altena
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amboina
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amboina_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amerongen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amersfoort
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amersfort
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amsterdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Amterdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Andermijen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Antwerpen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Appenraade
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Appenroode
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Aspegendam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Backhuizen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bancahoulo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banda
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banda_baaij_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banda_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banjarmassing
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banjer_Massingh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banjermassing
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banka_de_straat_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Banka_straat_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bankalis_rivier
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bantam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bantham
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Batacaloa
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Batavia_Ter_Rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Batticaloa
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Beijerlant
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bellesoon_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bellesoor
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_in_de_rivier_de_Ganges_voor_Houglij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_in_de_rivier_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_rivier
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_rivier_Ganges
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_rivier_of_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bengalen_zeijlende_na
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bergen_Noorwegen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bergen_op_Zoom
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Beukenhoven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bicaralore
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Biltziel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Blockziel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Boeton_zeijlende_langszij_het_eijland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Boluwe
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bombaia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bombaia_in_de_baaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bommel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Borch
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bornholm
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Breemen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bremen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bremershaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Brems
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bremshaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Brewerlee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Brommee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Brouwershaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Bruggen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Brussel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Buijksloot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Buijtstet
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Caab_Houtbhaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Caab_Saldanhabhaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Caabsbaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cabo_de_Goede_Hoop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Calpentijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Calpettij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Calpettij_bij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Calpettijn_kruisende_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Calpettijn_leggende_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Campe
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Campen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Carelshaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Catwijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ceijlon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cheribon_ten_comptoire
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-China_zeijlend_na
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Chirebon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Chiribon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Christiaanstad
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Christiansant
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cochin
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cochin_In_de_rivier_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cochin_Rivier_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coevert
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Colombo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Colombo_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coningsbergen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coningxbergen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Copenhagen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coppenhaage
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coppenhage
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coppenhagen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cormandel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cormandel_zeijlende_na
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cornebaijje
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coromandal_onderweg_naar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coufensh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coupang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Coupang_voor_casteel_Concordia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cquinxbergen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Csadraspatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cuijper_aan_het_eijland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Cuijper_eiland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Danawsz
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dansig
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dansigh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dansk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dantsig
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dantzig
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dantzigh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-De_Jouden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-De_Jouwer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-De_Kelder
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-De_Leeuwen_van_Rotterdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-De_Zouwen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Delfshaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Delft
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Deltena
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Den_Briel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Den_Haag
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Deventer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ditmarsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doct
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doekziel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doesburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doevere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doevre
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doevres_in_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doewere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Donsh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doordh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Doorne
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dordrecht
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dors
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dort
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dorth
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dramme
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Drammen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dronthem
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Dukhuijsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Edam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Edam_aan_het_eiland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Edam_gemonsterd_voor_t_eiland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Edam_op_het_eijland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Edam_voor_het_eijland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Eijselstijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Enckuse
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Enkhuijsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Enkhuijsen_De_Haringtuijn_1714_E
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Enkhuijzen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Eufrates_in_de_rivier_naar_Bassoura
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Femeeren
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Feur
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Flaenderingen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Flensberg_Flensburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Flensburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Fleurse
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Fleusb_g
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Flora_1705
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Forsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Franecail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Franiker
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Frijburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_Punte_Gale_zeijbreed_leggende_om_te_repatrieeren
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_baai
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_baaij_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_in_de_baai_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_in_het_gouvernement
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gale_leggende_in_de_baaij_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Galen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Galenburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gamron
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gamron_Persia_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ganges_in_de_rivier
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gestrand_Kaap_de_Goede_Hoop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Godland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gorcum
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gottenburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gouda
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Gouree
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Graafdijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Grasmeijer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Grisse
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Groeinings
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Groningen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Guinea_Nova
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Haarlem
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Halberstad
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hamburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hanouw
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hardewijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Harlem
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Harlingen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Helsing
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Helsinglande
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Helsinglant
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Herfert
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hersingland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Herst_Leeuw_1710_Z
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoesent
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoeson
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoesum
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Holden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Holfaers
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Holstijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Holwert
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Honslaardijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoogcarspel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoogwout
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hoorn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Houglij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Houglij_in_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Houglij_ter_rheede_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Huijsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Hulst
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ijapad
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ijapau
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-In_Zee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-In_zee_gemonstert
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-India_op_de_cust_van_onder_de_vlag_van_den_vice_Commandeur_Harmen_Voet
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Intormaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jaffanapatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jaffenapatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jafnapatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jambij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jambij_rivier
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jambij_ten_comptoire
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Japan_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Japan_zeijlende_na
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Japara
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Japara_ter_rheede_Noordoostkust_Java
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Japara_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_Oostkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_oostcust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_oostkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_oostkust_ter_rede_en_in_de_cruijsvloot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_op_de_kruijsvloot_bij_Javas_oostkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_s_Noordoostcust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Java_zeijlend_af_en_aan_de_hoek_van_Javaas_oostkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Javaas_oostkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Jeverland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Joana
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Kaap_de_Goede_Hoop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Kamperwijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Katwijk_op_Zee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Koningsbergen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Kruijsende_vaartuijgen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Kuijper
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Kukhuijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lamhertijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Landsmeer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Langedijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Langehoven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Leeubaarde
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Leeuwarden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Leijden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Leijendorp
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Leijerdorp
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Li_t
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lijden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lijpstad
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lis
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lubeek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Lukhuijsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maasensluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maaslands
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maaslandsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maaslansluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maaslantsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maasslandsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maassluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maastlandsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Macassar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maccassar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maccassar_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maccasser
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maccum
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maekum
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maeslandsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maijo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Makassar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Malabar_in_de_modderbaij_op_de_cust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Malacca
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Malacca_kruijsend_omtrent
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Malacca_omtrent
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Malacca_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mallabaar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mallacca
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mallacca_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mallaka
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Manilla
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Manilla_baai
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mannepaar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Martendijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maselantsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maslands_luis
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Maslandsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Masulipatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mauritius
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Medembliek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Middelburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Middelburgh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mijdregt
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mocha
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mocha_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Mocha_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Munnikend
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Munnikendam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nagapatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nassauw
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nedervorden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nederworden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Niet_gegeven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieupoort
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwegen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwendam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwenkerk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwerkerk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwkerk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nieuwpoort
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nijmegen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Nimwegen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Noordoost_Cust_Java_zijlende_langs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Noordwijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Noordwijk_Binnen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Noordwijk_buumen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Noordwijkerhout
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Oetjesplaat
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Olfert
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Onrust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Onrust_leggende_aan_het_eiland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ooltjenplat
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Oosterh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Oosterhout
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Oostgeest
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Oostzaenen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Paccolongang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Padang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Padangh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Padangh_Sumatra
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Padjang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Palembang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Palembang_ten_comptoire
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Palembangh
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Paliacatta
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Palimbang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Palingbang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Pallembang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Panekoke_voor
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Panicail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Paradessie
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Passourawang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Paterborn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Pattena
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Persia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Persia_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Pointecail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponecaijl
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponncail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponnecaijl
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponnecail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponnecail_zuijderbreedte
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponnekail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponnekail_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponntewele
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Pontcail
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ponte_Cinco
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Prinseneiland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Puntecais
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Puntekijl_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Purmerent
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Quale_de_Mack
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Qualla_d_Amak_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Qualla_d_Qualla_Damos
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rambang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rdm
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rederworden
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rembang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Remik
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rijkwijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rijswijk
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rilsibuttel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rio_de_La_Goa
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rio_de_La_Goa_fortres_De_Leijdsaamheijd
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rio_de_La_Goa_voor_het_vortres_de_Leijdsaamh_t
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ritters
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ritthem
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rostock
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rostok
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rotterdam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Rugen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Samarang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sandau
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Saval
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Schagen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Scheerbeek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Schermerkroon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Schiedam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Schoonhoven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Semeren
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Siam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Siam_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sijbencappel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sillo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Simonsbaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Simonsbay
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Simonsbay_Kaap_de_Goede_Hoop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sint_Malo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Smierna
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Smirna
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Someren
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Somorgen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sourabaija
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sourabaija_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sourabaja
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Souratta
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Souratta_rivier
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Spanbroeck
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Spijkenes
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Spijkennis
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Stavangen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Stavanger
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Stettijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Stockholm
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Stokholm
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Straalsond
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Straalsont
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Streek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sunda_kruijsend_in_de_straat_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Sunda_straat_van
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Suratte
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Suriname
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Swartsluijs
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tagal_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Taroena
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Teming
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tengal
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ter_Gouw
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ter_Veen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ter_Veer
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ter_Veere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ternaten
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ternaten_liggende_zijlvaardig_om_van_Ternaten_of_Biema_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ternaten_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Texel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Thiel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Timor
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Timor_ter_rheede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Timor_tot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Toncquin
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tonderen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trincolamale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trincolemale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trinconemale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trinconomale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trinconomalle
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trincquenemale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trinquene
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Trinquenemale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutecorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutucorijn_en_Gale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutucorijn_geankerd_op_de_hoekersrhee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutucorijn_ter_rhede
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Tutucorijn_zeijlend_omtrent
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijt_de_Streek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijtdebroek
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijthuijsen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijtrecht
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijtreght
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uijtregt
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Utrecht
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Utregt
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Uwa
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-V_lielo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Veere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Veur
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Veur_Veere
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlaardinge
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlaardingen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlieland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlielant
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlissingen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Vlssingen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Volta
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Volta_voor_de_spruijt
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Waelscloot
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Walengang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Watergang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Werckhoven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Werf
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Werkendam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Wesop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-West_terschelling
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Westcappel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Westcappelle
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Westkappel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Westkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Wismar
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Woensdorp
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Wolshoop
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Worcum
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Wrevehaven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Yoltha
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zadan_baaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zaldanhabaaij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zaldanhabaij_geankter_in_de
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zallam_1689
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_Batavia_-_Java
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_Straat_Banka
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_Sumatra_s_westkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_Sumatras_westkust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_aan_het_eiland_Mandalique
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_in_commissie_naar_de_Manado
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Canton
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Ceijlon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_China
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Cormandel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Jambij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Japan
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Java
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Malacca
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Nagapatnam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Palembang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Samarang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Tagal
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_Tucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_naar_tutucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_op_reis_naar_Japan
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_over_China_na_Patria
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_tussen_Kilkarre_en_Ramenckoij
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_tussen_Tagal_en_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Canton
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Cormandel
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Gale
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Japan
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Japara
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Padang
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Batavia_naar_Tutucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Bengalen_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Ceijlon_naar_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Gale_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Java_noordoostkust_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Nagapatnam_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Nagapatnam_naar_Tutucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Rembang_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Samarang_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Souratta_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Sumatra_s_westkust_naar_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Sumatras_West_naar_Bengalen
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Ternaten_naar_Batavia
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_van_Tutocorijn_naar_Colombo
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlend_naar_Japan
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlend_van_Gamnon_naar_Tutocorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlende_langs_Ceijlon
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlende_langs_Sumatra
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlende_omtrent_de_buiten_westcust
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zeijlende_over_Bengalen_na_Patria
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zijlende_tussen_Colombo_en_Calture
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zee_zijlende_van_Tutucorijn
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zeven
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Ziam
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zierikzee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zirkzee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zonderburg
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zuijdland
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zurikszee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-Zzee
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-_
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-s_Hertogenbosch
+	skos:inScheme gzmvoc:GZMPlaceScheme .
+
+gzmvoc:place-zee
+	skos:inScheme gzmvoc:GZMPlaceScheme .

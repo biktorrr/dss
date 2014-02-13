@@ -53,6 +53,7 @@ a void:Dataset ;
                 <gzmvoc_data.ttl> ,
                 <gzmvoc_2_das.ttl> ,
 				<gzmvoc_schema.ttl>,
+				<gzmvoc_thes_gen_places.ttl>
 				<gzmvoc_thes_gen.ttl>.
 
 <mdb>
@@ -67,6 +68,7 @@ a void:Dataset ;
                 <mdb_schema.ttl>,
 				<mdb_thes_rangen>,
 				<mdb_thes_generated>,
+				<mdb_thes_places>,
 				<alignments/ranks_and_shiptypes_1.ttl>.
 
 				
