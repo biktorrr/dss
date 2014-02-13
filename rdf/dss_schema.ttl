@@ -37,6 +37,7 @@ dss:Place
 das:Place rdfs:subClassOf dss:Place.
 mdb:Plaats rdfs:subClassOf dss:Place.
 vocopv:Plaats rdfs:subClassOf dss:Place.
+gzmvoc:Plaats rdfs:subClassOf dss:Place.
 
 dss:Ship
 	a rdfs:Class ;
