@@ -53,7 +53,7 @@ a void:Dataset ;
                 <gzmvoc_data.ttl> ,
                 <gzmvoc_2_das.ttl> ,
 				<gzmvoc_schema.ttl>,
-				<gzmvoc_thes_gen_places.ttl>
+				<gzmvoc_thes_gen_places.ttl>,
 				<gzmvoc_thes_gen.ttl>.
 
 <mdb>
