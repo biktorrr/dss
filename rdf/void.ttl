@@ -24,7 +24,8 @@ a void:Dataset ;
 		dc:description "Dutch Ships and Sailors common terms" ;
         owl:versionInfo "0.1" ;
 		void:dataDump
-                <dss_schema.ttl>.
+                <dss_schema.ttl>,
+				<alignments/al_all_place_2_geonames.ttl>.
 
 <vocopv>
         a void:Dataset ;
