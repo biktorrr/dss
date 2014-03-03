@@ -70,9 +70,10 @@ a void:Dataset ;
 				<mdb_thes_rangen>,
 				<mdb_thes_generated>,
 				<mdb_thes_places>,
-				<alignments/ranks_and_shiptypes_1.ttl>.
+				<alignments/ranks_and_shiptypes_1.ttl>,
+				<mdb_2_kb>.
 
-				
+
 <aatned>
         a void:Dataset ;
 		a lib:CloudNode ;
@@ -95,4 +96,4 @@ a void:Dataset ;
                 <das_data.ttl> ,
 				<das_thes_gen.ttl>,
                 <das_schema.ttl>.
-								
+
