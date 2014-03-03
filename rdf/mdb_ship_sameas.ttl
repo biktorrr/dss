@@ -32393,7 +32393,7 @@ mdb:schip-veen_veen-1851-35-Rieka owl:sameAs mdb:schip-veen_veen-1855-33-Rieka .
 mdb:schip-veen_veen-1851-35-Rieka owl:sameAs mdb:schip-veen_veen-1856-19-Rieka .
 mdb:schip-veen_veen-1851-37-Ida_Hillechiena owl:sameAs mdb:schip-veen_veen-1856-45-Ida_Hillechiena .
 mdb:schip-veen_veen-1851-38-Elsina owl:sameAs mdb:schip-veen_veen-1853-16-Elsina .
-mdb:schip-veen_veen-1851-40-Roelf_Giezen_Jr. owl:sameAs mdb:schip-veen_veen-1854-42-Roelf_Giezen_Jr. .
+mdb:schip-veen_veen-1851-40-Roelf_Giezen_Jr owl:sameAs mdb:schip-veen_veen-1854-42-Roelf_Giezen_Jr .
 mdb:schip-veen_veen-1851-42-Castor owl:sameAs mdb:schip-veen_veen-1853-7-Castor .
 mdb:schip-veen_veen-1851-42-Castor owl:sameAs mdb:schip-veen_veen-1854-40-Castor .
 mdb:schip-veen_veen-1851-42-Castor owl:sameAs mdb:schip-veen_veen-1855-69-Castor .
