@@ -86,3 +86,9 @@ dss:Rank
 	rdfs:label "Rank" .
 	
 mdb:Rang rdfs:subClassOf dss:Rank.	
+
+
+dss:has_kb_link
+	a rdf:Property ;
+	rdfs:comment "related KB article" ;
+	rdfs:label "has KB article".
