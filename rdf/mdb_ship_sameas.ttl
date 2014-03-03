@@ -1,3 +1,9 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  owl: <http://www.w3.org/2002/07/owl#> .
+
 mdb:schip-gron_nsm-1887-1-Zeemeeuw owl:sameAs mdb:schip-del_gem-1889-46-Zeemeeuw .
 mdb:schip-gasselte-1903-1-Ora_et_Labora owl:sameAs mdb:schip-del_gem-1902-8-Ora_et_Labora .
 mdb:schip-gasselte-1903-1-Ora_et_Labora owl:sameAs mdb:schip-del_gem-1905-36-Ora_et_Labora .
