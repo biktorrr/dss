@@ -71,7 +71,8 @@ a void:Dataset ;
 				<mdb_thes_generated>,
 				<mdb_thes_places>,
 				<alignments/ranks_and_shiptypes_1.ttl>,
-				<mdb_2_kb>.
+				<mdb_2_kb>, # links to KB, by Andrea
+				<mdb_ship_sameas> # sameAs links by Robin.
 
 
 <aatned>
