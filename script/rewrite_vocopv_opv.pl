@@ -113,7 +113,7 @@ make_chamber
 @@
 {S, vocopv:kamer ,literal(Pl)}
 <=>
-literal_to_id(['chamber-',Pl],das,URI),
+literal_to_id(['chamber-',Pl],vocopv,URI),
 {S, vocopv:kamer,URI},
 {URI,rdf:type, vocopv:'Kamer'}  >> vocopv_gen_thes,
 {URI, skos:prefLabel, literal(Pl)}  >> vocopv_gen_thes,
