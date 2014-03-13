@@ -50,6 +50,11 @@ vocopv:VOCOPVRankScheme
 	a skos:ConceptScheme ;
 	 rdfs:label 'VOC Opvarenden Rank ConceptScheme'.
 	 
+	 
+vocopv:Rang
+	a rdfs:Class ;
+	rdfs:label "VOC OPV Rang";
+	rdfs:subClassOf skos:Concept.
 # -----------------------------------------------------------------------	
 # soldijboeken
 # Named toplevel resources (19)
