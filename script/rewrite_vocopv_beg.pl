@@ -89,6 +89,6 @@ make_ship
 {S, vocopv:scheepsnamen,literal(Sch)}
 ==>
 literal_to_id(['ship-',Sch],vocopv,URI),
-	{S, das:has_schip, URI},
+	{S, vocopv:has_schip, URI},
 	{URI,rdf:type, vocopv:'Schip'} ,
 	{URI, rdfs:label, literal(Sch)}.
