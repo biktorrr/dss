@@ -26,7 +26,8 @@ a void:Dataset ;
 		void:dataDump
                 <dss_schema.ttl>,
 				<alignments/al_all_place_2_geonames.ttl>,
-				<alignments/dbpedia_links.ttl>.
+				<alignments/dbpedia_links.ttl>,
+				<dss_provenance>.
 
 <vocopv>
         a void:Dataset ;
