@@ -4,195 +4,197 @@
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
 @prefix   ns: <http://localhost/ns/> .
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      owl: <http://www.w3.org/2002/07/owl#> .
 
 @prefix dss: <http://purl.org/collections/nl/dss/> .
 
 
 dss:VictorDeBoer
-	a prov:Agent;
-	a foaf:Person;
-	rdfs:label "Victor de Boer"
-	owl:sameAs <http://www.few.vu.nl/~vbr240/foaf.rdf>.
+	a prov:Agent ;
+	a foaf:Person ;
+	rdfs:label "Victor de Boer" ;
+	owl:sameAs <http://www.few.vu.nl/~vbr240/foaf.rdf> .
 	
 	
 <http://purl.org/collections/nl/dss/al_all_place_2_geonames.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_data.ttl>
 		a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_thes_gen.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/dbpedia_links.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/dss_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_2_das.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_thes_gen.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_thes_gen_places.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 mdb:mdb_2_kb
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/mdb/mdb_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 mdb:mdb_ship_sameas
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 mdb:mdb_thes_generated
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 mdb:mdb_thes_places
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/mdb/ranks_and_shiptypes_1.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_2_das.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_gen_thes.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
 
 <mdb_place_gen_thes>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer .
+		prov:wasAttributedTo dss:VictorDeBoer 
 		] .
