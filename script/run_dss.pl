@@ -14,9 +14,9 @@
 % gzmvoc csv file created by
 % http://www.luxonsoftware.com/Converter/CsvToXml
 
-user:file_search_path(data, '/home/vdeboer/DSS/DSS/').
-% user:file_search_path(data,
-% 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
+% user:file_search_path(data, '/home/vdeboer/DSS/DSS/').
+ user:file_search_path(data,
+ 'C:/Users/victor/DSS/dss_semlayer/data/DSS/').
 
 :- use_module(library(semweb/rdf_db)).
 
@@ -296,7 +296,8 @@ run_das:-
 
 load_das:-
 	rdf_current_ns(das, Prefix),
-	absolute_file_name(data('xml/das/DAS_voyages_with_details_victor.xml'), File,
+	absolute_file_name(data('xml/das/voyages_with_details.xml'),
+	File,
 			   [ access(read)
 			   ]),
 	write(File),
