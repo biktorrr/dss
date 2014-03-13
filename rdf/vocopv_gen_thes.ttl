@@ -5,7 +5,7 @@
 
 # Named toplevel resources (12,595)
 
-das:chamber-Zeeland
+vocopv:chamber-Zeeland
 	a vocopv:Kamer ;
 	skos:inScheme <http://purl.org/collections/nl/dss/vocopv/VOCOPVKamerScheme> ;
 	skos:prefLabel "Zeeland" .
