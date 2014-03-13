@@ -22,6 +22,386 @@
 @prefix                      yago: <http://dbpedia.org/class/yago/> .
 @prefix   resource-org-dbpedia-cs: <http://cs.dbpedia.org/resource/> .
 
+# Links
+
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix   vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
+@prefix      mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix   gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix      das: <http://purl.org/collections/nl/dss/das/> .
+@prefix resource: <http://nl.dbpedia.org/resource/> .
+
+# Named toplevel resources (123)
+
+das:shiptype-brigantijn
+	skos:exactMatch resource:Brigantijn .
+
+das:shiptype-brik
+	skos:exactMatch resource:Brik .
+
+das:shiptype-buis
+	skos:exactMatch resource:Buis .
+
+das:shiptype-fluit
+	skos:exactMatch resource:Fluit .
+
+das:shiptype-fluitje
+	skos:exactMatch resource:Fluitje .
+
+das:shiptype-fregat
+	skos:exactMatch resource:Fregat .
+
+das:shiptype-galjoot
+	skos:exactMatch resource:Galjoot .
+
+das:shiptype-hoeker
+	skos:exactMatch resource:Hoeker .
+
+das:shiptype-jacht
+	skos:exactMatch resource:Jacht .
+
+das:shiptype-kat
+	skos:exactMatch resource:Kat .
+
+das:shiptype-logger
+	skos:exactMatch resource:Logger .
+
+das:shiptype-loodsboot
+	skos:exactMatch resource:Loodsboot .
+
+das:shiptype-pinas
+	skos:exactMatch resource:Pinas .
+
+das:shiptype-pink
+	skos:exactMatch resource:Pink .
+
+gzmvoc:scheepstype-Bark
+	skos:exactMatch resource:Bark .
+
+gzmvoc:scheepstype-Boot
+	skos:exactMatch resource:Boot .
+
+gzmvoc:scheepstype-Brigantijn
+	skos:exactMatch resource:Brigantijn .
+
+gzmvoc:scheepstype-Buijs
+	skos:exactMatch resource:Buijs .
+
+gzmvoc:scheepstype-Fregat
+	skos:exactMatch resource:Fregat .
+
+gzmvoc:scheepstype-Galjoot
+	skos:exactMatch resource:Galjoot .
+
+gzmvoc:scheepstype-Gonting
+	skos:exactMatch resource:Gonting .
+
+gzmvoc:scheepstype-Hoeker
+	skos:exactMatch resource:Hoeker .
+
+gzmvoc:scheepstype-Kotter
+	skos:exactMatch resource:Kotter .
+
+gzmvoc:scheepstype-Prauw
+	skos:exactMatch resource:Prauw .
+
+gzmvoc:scheepstype-Scheepje
+	skos:exactMatch resource:Scheepje .
+
+gzmvoc:scheepstype-Schip
+	skos:exactMatch resource:Schip .
+
+gzmvoc:scheepstype-Schouw
+	skos:exactMatch resource:Schouw .
+
+gzmvoc:scheepstype-Schouwen
+	skos:exactMatch resource:Schouwen .
+
+mdb:rang-afhouder
+	skos:exactMatch resource:Afhouder .
+
+mdb:rang-bediende
+	skos:exactMatch resource:Bediende .
+
+mdb:rang-boekhouder
+	skos:exactMatch resource:Boekhouder .
+
+mdb:rang-bootsman
+	skos:exactMatch resource:Bootsman .
+
+mdb:rang-hofmeester
+	skos:exactMatch resource:Hofmeester .
+
+mdb:rang-kapitein
+	skos:exactMatch resource:Kapitein .
+
+mdb:rang-kok
+	skos:exactMatch resource:Kok .
+
+mdb:rang-kwartiermeester
+	skos:exactMatch resource:Kwartiermeester .
+
+mdb:rang-kwekeling
+	skos:exactMatch resource:Kwekeling .
+
+mdb:rang-leerling
+	skos:exactMatch resource:Leerling .
+
+mdb:rang-lichtmatroos
+	skos:exactMatch resource:Lichtmatroos .
+
+mdb:rang-machinist
+	skos:exactMatch resource:Machinist .
+
+mdb:rang-matroos
+	skos:exactMatch resource:Matroos .
+
+mdb:rang-novice
+	skos:exactMatch resource:Novice .
+
+mdb:rang-olieman
+	skos:exactMatch resource:Olieman .
+
+mdb:rang-oudste
+	skos:exactMatch resource:Oudste .
+
+mdb:rang-passagier
+	skos:exactMatch resource:Passagier .
+
+mdb:rang-reder
+	skos:exactMatch resource:Reder .
+
+mdb:rang-reepschieter
+	skos:exactMatch resource:Reepschieter .
+
+mdb:rang-scheepsjongen
+	skos:exactMatch resource:Scheepsjongen .
+
+mdb:rang-schipper
+	skos:exactMatch resource:Schipper .
+
+mdb:rang-secretaris
+	skos:exactMatch resource:Secretaris .
+
+mdb:rang-stewardess
+	skos:exactMatch resource:Stewardess .
+
+mdb:rang-stoker
+	skos:exactMatch resource:Stoker .
+
+mdb:rang-stuurman
+	skos:exactMatch resource:Stuurman .
+
+mdb:rang-supercargo
+	skos:exactMatch resource:Supercargo .
+
+mdb:rang-timmerman
+	skos:exactMatch resource:Timmerman .
+
+mdb:rang-tolk
+	skos:exactMatch resource:Tolk .
+
+mdb:rang-volmatroos
+	skos:exactMatch resource:Volmatroos .
+
+mdb:rang-vrouw
+	skos:exactMatch resource:Vrouw .
+
+mdb:rang-zeeman
+	skos:exactMatch resource:Zeeman .
+
+mdb:rang-zeilmaker
+	skos:exactMatch resource:Zeilmaker .
+
+mdb:shiptype-aak
+	skos:exactMatch resource:Aak .
+
+mdb:shiptype-bark
+	skos:exactMatch resource:Bark .
+
+mdb:shiptype-brigantijn
+	skos:exactMatch resource:Brigantijn .
+
+mdb:shiptype-brik
+	skos:exactMatch resource:Brik .
+
+mdb:shiptype-fluit
+	skos:exactMatch resource:Fluit .
+
+mdb:shiptype-fregat
+	skos:exactMatch resource:Fregat .
+
+mdb:shiptype-galjoot
+	skos:exactMatch resource:Galjoot .
+
+mdb:shiptype-klipper
+	skos:exactMatch resource:Klipper .
+
+mdb:shiptype-klipperaak
+	skos:exactMatch resource:Klipperaak .
+
+mdb:shiptype-kof
+	skos:exactMatch resource:Kof .
+
+mdb:shiptype-kotter
+	skos:exactMatch resource:Kotter .
+
+mdb:shiptype-lichter
+	skos:exactMatch resource:Lichter .
+
+mdb:shiptype-logger
+	skos:exactMatch resource:Logger .
+
+mdb:shiptype-motorschip
+	skos:exactMatch resource:Motorschip .
+
+mdb:shiptype-schoener
+	skos:exactMatch resource:Schoener .
+
+mdb:shiptype-schoeneraak
+	skos:exactMatch resource:Schoeneraak .
+
+mdb:shiptype-schoenerbrik
+	skos:exactMatch resource:Schoenerbrik .
+
+mdb:shiptype-sleepboot
+	skos:exactMatch resource:Sleepboot .
+
+mdb:shiptype-smak
+	skos:exactMatch resource:Smak .
+
+mdb:shiptype-stoomschip
+	skos:exactMatch resource:Stoomschip .
+
+mdb:shiptype-tjalk
+	skos:exactMatch resource:Tjalk .
+
+mdb:shiptype-zeilschip
+	skos:exactMatch resource:Zeilschip .
+
+vocopv:rank-Adelborst
+	skos:exactMatch resource:Adelborst .
+
+vocopv:rank-Assistent
+	skos:exactMatch resource:Assistent .
+
+vocopv:rank-Barbier
+	skos:exactMatch resource:Barbier .
+
+vocopv:rank-Beeldhouwer
+	skos:exactMatch resource:Beeldhouwer .
+
+vocopv:rank-Blokmaker
+	skos:exactMatch resource:Blokmaker .
+
+vocopv:rank-Bootsman
+	skos:exactMatch resource:Bootsman .
+
+vocopv:rank-Bottelier
+	skos:exactMatch resource:Bottelier .
+
+vocopv:rank-Chirurgijn
+	skos:exactMatch resource:Chirurgijn .
+
+vocopv:rank-Essayeur
+	skos:exactMatch resource:Essayeur .
+
+vocopv:rank-Fiscaal
+	skos:exactMatch resource:Fiscaal .
+
+vocopv:rank-Hofmeester
+	skos:exactMatch resource:Hofmeester .
+
+vocopv:rank-Jongen
+	skos:exactMatch resource:Jongen .
+
+vocopv:rank-Kok
+	skos:exactMatch resource:Kok .
+
+vocopv:rank-Koopman
+	skos:exactMatch resource:Koopman .
+
+vocopv:rank-Koperslager
+	skos:exactMatch resource:Koperslager .
+
+vocopv:rank-Korporaal
+	skos:exactMatch resource:Korporaal .
+
+vocopv:rank-Kuiper
+	skos:exactMatch resource:Kuiper .
+
+vocopv:rank-Kwartiermeester
+	skos:exactMatch resource:Kwartiermeester .
+
+vocopv:rank-Loodgieter
+	skos:exactMatch resource:Loodgieter .
+
+vocopv:rank-Loods
+	skos:exactMatch resource:Loods .
+
+vocopv:rank-Matroos
+	skos:exactMatch resource:Matroos .
+
+vocopv:rank-Metselaar
+	skos:exactMatch resource:Metselaar .
+
+vocopv:rank-Molenmaker
+	skos:exactMatch resource:Molenmaker .
+
+vocopv:rank-Predikant
+	skos:exactMatch resource:Predikant .
+
+vocopv:rank-Provoost
+	skos:exactMatch resource:Provoost .
+
+vocopv:rank-Scheepstimmerman
+	skos:exactMatch resource:Scheepstimmerman .
+
+vocopv:rank-Schipper
+	skos:exactMatch resource:Schipper .
+
+vocopv:rank-Schrijnwerker
+	skos:exactMatch resource:Schrijnwerker .
+
+vocopv:rank-Schrijver
+	skos:exactMatch resource:Schrijver .
+
+vocopv:rank-Sergeant
+	skos:exactMatch resource:Sergeant .
+
+vocopv:rank-Smid
+	skos:exactMatch resource:Smid .
+
+vocopv:rank-Soldaat
+	skos:exactMatch resource:Soldaat .
+
+vocopv:rank-Steenhouwer
+	skos:exactMatch resource:Steenhouwer .
+
+vocopv:rank-Stuurman
+	skos:exactMatch resource:Stuurman .
+
+vocopv:rank-Tamboer
+	skos:exactMatch resource:Tamboer .
+
+vocopv:rank-Timmerman
+	skos:exactMatch resource:Timmerman .
+
+vocopv:rank-Trompetter
+	skos:exactMatch resource:Trompetter .
+
+vocopv:rank-Vaandrig
+	skos:exactMatch resource:Vaandrig .
+
+vocopv:rank-Verstekeling
+	skos:exactMatch resource:Verstekeling .
+
+vocopv:rank-Zeilmaker
+	skos:exactMatch resource:Zeilmaker .
+
+vocopv:rank-Ziekentrooster
+	skos:exactMatch resource:Ziekentrooster .
+
 # Named toplevel resources (1,864)
 
 <http://nl.dbpedia.org/resource/A.E._van_Vogt>

@@ -25,7 +25,8 @@ a void:Dataset ;
         owl:versionInfo "0.1" ;
 		void:dataDump
                 <dss_schema.ttl>,
-				<alignments/al_all_place_2_geonames.ttl>.
+				<alignments/al_all_place_2_geonames.ttl>,
+				<alignments/dbpedia_links.ttl>.
 
 <vocopv>
         a void:Dataset ;
