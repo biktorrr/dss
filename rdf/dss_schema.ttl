@@ -88,7 +88,23 @@ dss:Rank
 mdb:Rang rdfs:subClassOf dss:Rank.	
 
 
+# properties
+
 dss:has_kb_link
 	a rdf:Property ;
 	rdfs:comment "related KB article" ;
 	rdfs:label "has KB article".
+
+	
+dss:has_ship
+	a rdf:Property ;
+	rdfs:comment "link between a resource and a ship" ;
+	rdfs:range dss:Ship;
+	rdfs:label "related to ship" .
+	
+mdb:ship rdfs:subPropertyOf dss:has_ship.
+das:has_schip rdfs:subPropertyOf dss:has_ship.
+vocopv:has_schip rdfs:subPropertyOf dss:has_ship.
+gzmvoc:schip rdfs:subPropertyOf dss:has_ship.
+
+		

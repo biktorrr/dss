@@ -172,7 +172,7 @@ vocopv:vertrekKaap
 	# Named toplevel resources (16)
 # -----------------------------------------------------------------------	
 
-das:has_schip
+vocopv:has_schip
 	a rdf:Property ;
 	rdfs:domain rdfs:Resource ;
 	rdfs:label "has_schip" ;
