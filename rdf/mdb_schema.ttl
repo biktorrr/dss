@@ -64,7 +64,7 @@ mdb:achternaam
 	rdfs:domain mdb:Persoon ;
 	rdfs:label "achternaam" ;
 	rdfs:range rdfs:Literal ;
-	rdfs:comment "Achternaam van een bemanningslid, met eventuele tussenvoegsels erachter: 'Van der Woude' wordt 'Woude, van der'. Afkortingen worden onveranderd overgenomen. Indien geen 'echte' achternaam wordt gegeven, geldt het patroniem als zodanig. Archaïsche postfixen van patroniemen zoals 'Hzn.' worden overgenomen en na de achternaam geplaatst, bv. als 'Oldenburger Hzn.' Varianten van een achternaam staan tussen haken. Onduidelijke namen staan geheel tussen haakjes, bij onleesbaarheid van de bron, bv. door brandschade, staan de onleesbare letters tussen vierkante haken. Geen standaardisering toegepast. "
+	rdfs:comment "Achternaam van een bemanningslid, met eventuele tussenvoegsels erachter: 'Van der Woude' wordt 'Woude, van der'. Afkortingen worden onveranderd overgenomen. Indien geen 'echte' achternaam wordt gegeven, geldt het patroniem als zodanig. Archaïsche postfixen van patroniemen zoals 'Hzn.' worden overgenomen en na de achternaam geplaatst, bv. als 'Oldenburger Hzn.' Varianten van een achternaam staan tussen haken. Onduidelijke namen staan geheel tussen haakjes, bij onleesbaarheid van de bron, bv. door brandschade, staan de onleesbare letters tussen vierkante haken. Geen standaardisering toegepast. " ;
 	rdfs:subPropertyOf foaf:familyName .
 
 mdb:bestemming
