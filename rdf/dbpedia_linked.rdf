@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+<rdf:RDF>
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Afhouder">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T21:28:59Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Afhouder</rdfs:label>
@@ -34,17 +22,17 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Afhouder">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Afhouder" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/" >
+
+
+
+
+
+
+
+	
+	
+	
+
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Lode_Vereeck">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
     <dbpedia-owl:personFunction rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
@@ -52,15 +40,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Assistent">
     <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bediende">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T00:00:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bediende</rdfs:label>
@@ -100,18 +88,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bediende">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bediende" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Boekhouder">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T22:37:26Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Boekhouder</rdfs:label>
@@ -143,14 +131,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Boekhouder">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Boekhouder" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bootsman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T20:59:31Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bootsman</rdfs:label>
@@ -172,46 +160,46 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bootsman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bootsman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Derde">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T03:15:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Derde</rdfs:label>
@@ -234,14 +222,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Derde">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Derde" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Derde">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T03:15:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Derde</rdfs:label>
@@ -264,22 +252,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Derde">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Derde" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Eerste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:45:34Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Eerste</rdfs:label>
@@ -297,14 +285,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Eerste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Eerste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Eerste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:45:34Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Eerste</rdfs:label>
@@ -322,14 +310,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Eerste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Eerste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Eerste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:45:34Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Eerste</rdfs:label>
@@ -347,14 +335,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Eerste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Eerste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Eerste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:45:34Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Eerste</rdfs:label>
@@ -372,18 +360,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Eerste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Eerste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Hofmeester">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T10:56:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Hofmeester</rdfs:label>
@@ -406,47 +394,47 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Hofmeester">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Hofmeester" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kapitein">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T22:58:10Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kapitein</rdfs:label>
@@ -482,19 +470,19 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Henry_Balfour">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Kapitein" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kapitein">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T22:58:10Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kapitein</rdfs:label>
@@ -530,39 +518,39 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Henry_Balfour">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Kapitein" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kok">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T01:35:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kok</rdfs:label>
@@ -630,39 +618,39 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kok">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kok" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kok">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T01:35:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kok</rdfs:label>
@@ -730,15 +718,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kok">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kok" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kok">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T01:35:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kok</rdfs:label>
@@ -806,30 +794,30 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kok">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kok" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kwartiermeester">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T17:27:19Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kwartiermeester</rdfs:label>
@@ -847,15 +835,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kwartiermeester">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kwartiermeester" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kwekeling">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T22:03:12Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kwekeling</rdfs:label>
@@ -876,18 +864,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kwekeling">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kwekeling" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Leerling">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T09:58:20Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Leerling</rdfs:label>
@@ -917,14 +905,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Leerling">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Leerling" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Leerling">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T09:58:20Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Leerling</rdfs:label>
@@ -954,14 +942,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Leerling">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Leerling" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Lichtmatroos">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-24T08:02:31Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Lichtmatroos</rdfs:label>
@@ -983,43 +971,43 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Lichtmatroos">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Lichtmatroos" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Machinist">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T09:04:37Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Machinist</rdfs:label>
@@ -1039,18 +1027,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Machinist">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Machinist" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Matroos">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-20T17:57:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Matroos</rdfs:label>
@@ -1083,42 +1071,42 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Matroos">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Matroos" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Matroos">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-20T17:57:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Matroos</rdfs:label>
@@ -1151,15 +1139,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Matroos">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Matroos" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Novice">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-18T22:55:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Novice</rdfs:label>
@@ -1191,15 +1179,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Novice">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Novice" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Olieman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T10:32:59Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Olieman</rdfs:label>
@@ -1224,27 +1212,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Olieman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Olieman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Oudste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T16:32:15Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Oudste</rdfs:label>
@@ -1265,15 +1253,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Oudste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Oudste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Passagier">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-01T17:00:57Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Passagier</rdfs:label>
@@ -1307,22 +1295,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Passagier">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Passagier" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Reder">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:56:06Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Reder</rdfs:label>
@@ -1340,14 +1328,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Reder">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Reder" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Reepschieter">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T21:29:03Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Reepschieter</rdfs:label>
@@ -1368,14 +1356,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Reepschieter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Reepschieter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Scheepsjongen">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/MarineOccupations" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T14:59:13Z</dcterms:modified>
@@ -1407,23 +1395,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Scheepsjongen">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Scheepsjongen" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schipper">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T05:41:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schipper</rdfs:label>
@@ -1456,19 +1444,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schipper">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schipper" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schipper">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T05:41:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schipper</rdfs:label>
@@ -1501,39 +1489,39 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schipper">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schipper" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/William_Henry_Harrison">
     <dbpedia-owl:successor rdf:resource="http://nl.dbpedia.org/resource/Secretaris" />
   </rdf:Description>
@@ -1682,14 +1670,14 @@
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Secretaris" />
     <dbpedia-owl:personFunction rdf:resource="http://nl.dbpedia.org/resource/Secretaris" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Stewardess">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T09:29:09Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Stewardess</rdfs:label>
@@ -1707,14 +1695,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stewardess">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stewardess" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Stewardess">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T09:29:09Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Stewardess</rdfs:label>
@@ -1732,15 +1720,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stewardess">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stewardess" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Stoker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-01T18:17:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Stoker</rdfs:label>
@@ -1769,27 +1757,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stoker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stoker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Stuurman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T03:21:49Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Stuurman</rdfs:label>
@@ -1818,22 +1806,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stuurman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stuurman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Supercargo">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T22:12:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Supercargo</rdfs:label>
@@ -1858,14 +1846,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Supercargo">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Supercargo" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Supercargo">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T22:12:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Supercargo</rdfs:label>
@@ -1890,15 +1878,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Supercargo">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Supercargo" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Timmerman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T16:59:23Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Timmerman</rdfs:label>
@@ -1962,23 +1950,23 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Timmerman_(hoofdbetekenis)">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Timmerman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tolk">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:13:07Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tolk</rdfs:label>
@@ -1999,18 +1987,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tolk">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tolk" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2028,14 +2016,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2053,14 +2041,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2078,14 +2066,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2103,14 +2091,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2128,14 +2116,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -2153,18 +2141,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Volmatroos">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T10:52:32Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Volmatroos</rdfs:label>
@@ -2191,15 +2179,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Volmatroos">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Volmatroos" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Vrouw">
     <rdfs:label xml:lang="nl">Vrouw</rdfs:label>
     <rdfs:comment xml:lang="nl">Een vrouw is een volwassen mens van het vrouwelijk geslacht. De term vrouw wordt meestal gebruikt voor een volwassen, waar meisje gewoonlijk voor kinderen, tieners of (vroege) twintigers gebruikt wordt. De term vrouw wordt echter ook gebruikt voor vrouwelijke mensen, ongeacht de leeftijd, in termen als &quot;vrouwenrechten&quot;. Sommige personen met een geslachtsidentiteitsstoornis hebben wel de geslachtsidentiteit van een vrouw maar zijn chromosomaal gezien van het mannelijk geslacht.</rdfs:comment>
@@ -2631,19 +2619,19 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Glamour_(tijdschrift)">
     <dbpedia-owl:category rdf:resource="http://nl.dbpedia.org/resource/Vrouw" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Zeeman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T01:52:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Zeeman</rdfs:label>
@@ -2675,14 +2663,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Zeeman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Zeeman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Zeilmaker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T22:08:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Zeilmaker</rdfs:label>
@@ -2700,31 +2688,31 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Zeilmaker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Zeilmaker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Adelborst">
     <rdfs:label xml:lang="nl">Adelborst</rdfs:label>
     <rdfs:comment xml:lang="nl">Een adelborst is een marineofficier in opleiding aan het Koninklijk Instituut voor de Marine (KIM). Een adelborst is op het KIM onderdeel van het Korps Adelborsten. Bij andere krijgsmachtonderdelen dan de Marine heet zo iemand vaker een cadet. Het woord adelborst is een verbastering van het woord adelbursche, dat is edelknaap. De naam stamt nog uit de tijd dat enkel jongens uit families van adel toegelaten werden tot de officiersopleiding.</rdfs:comment>
@@ -2764,15 +2752,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Expedities_naar_Saparoea">
     <dbpedia-owl:commander rdf:resource="http://nl.dbpedia.org/resource/Adelborst" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Advocaat">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T20:32:12Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Advocaat</rdfs:label>
@@ -2805,21 +2793,21 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Axel_Voss">
     <prop-nl:beroep rdf:resource="http://nl.dbpedia.org/resource/Advocaat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Lode_Vereeck">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
     <dbpedia-owl:personFunction rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
@@ -2827,19 +2815,19 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Assistent">
     <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Assistent" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Barbier">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-23T04:53:01Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Barbier</rdfs:label>
@@ -2864,15 +2852,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Barbier">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Barbier" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Henri_Matisse">
     <prop-nl:beroep rdf:resource="http://nl.dbpedia.org/resource/Beeldhouwer" />
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Beeldhouwer" />
@@ -6245,18 +6233,18 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Karel_Niehorster">
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Beeldhouwer" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Blokmaker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-23T17:10:12Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Blokmaker</rdfs:label>
@@ -6277,18 +6265,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Blokmaker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Blokmaker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bootsman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T20:59:31Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bootsman</rdfs:label>
@@ -6310,26 +6298,26 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bootsman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bootsman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bottelier">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:36:59Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bottelier</rdfs:label>
@@ -6349,23 +6337,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bottelier">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bottelier" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Chirurgijn">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T04:30:41Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Chirurgijn</rdfs:label>
@@ -6396,15 +6384,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Chirurgijn">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Chirurgijn" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Commandeur">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-01T18:14:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Commandeur</rdfs:label>
@@ -6428,14 +6416,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Commandeur">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Commandeur" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Derde">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T03:15:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Derde</rdfs:label>
@@ -6458,14 +6446,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Derde">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Derde" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Derde">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T03:15:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Derde</rdfs:label>
@@ -6488,14 +6476,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Derde">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Derde" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Derde">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T03:15:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Derde</rdfs:label>
@@ -6518,18 +6506,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Derde">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Derde" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Eerste">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:45:34Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Eerste</rdfs:label>
@@ -6547,15 +6535,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Eerste">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Eerste" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Essayeur">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T15:54:20Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Essayeur</rdfs:label>
@@ -6577,15 +6565,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Essayeur">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Essayeur" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Fiscaal">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T16:23:01Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Fiscaal</rdfs:label>
@@ -6611,26 +6599,26 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fiscaal">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fiscaal" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Hofmeester">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T10:56:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Hofmeester</rdfs:label>
@@ -6653,43 +6641,43 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Hofmeester">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Hofmeester" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Jongen">
     <rdfs:label xml:lang="nl">Jongen</rdfs:label>
     <rdfs:comment xml:lang="nl">Een jongen is een mannelijk persoon, in het algemeen een kind. De term wordt echter ook vaak gebruikt voor jongvolwassen mannen tot ca. 30 jaar. Het woord jongen betekende van oorsprong jong mens of jong iemand. Het wordt dan ook wel gebruikt in plaats van mens (jongens van Jan de Wit, jongens van de gestampte pot). In het Nederlands wordt soms ook een volwassen man nog wel eens met &quot;jongen&quot; aangesproken.</rdfs:comment>
@@ -6734,23 +6722,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Jongen">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Jongen" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kapitein">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T22:58:10Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kapitein</rdfs:label>
@@ -6786,15 +6774,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Henry_Balfour">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Kapitein" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kapitein">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T22:58:10Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kapitein</rdfs:label>
@@ -6830,15 +6818,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Henry_Balfour">
     <prop-nl:functie rdf:resource="http://nl.dbpedia.org/resource/Kapitein" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kok">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T01:35:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kok</rdfs:label>
@@ -6906,27 +6894,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kok">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kok" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Koopman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T06:42:58Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Koopman</rdfs:label>
@@ -6949,14 +6937,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Koopman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Koopman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Koperslager">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T13:12:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Koperslager</rdfs:label>
@@ -6985,15 +6973,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Koperslager">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Koperslager" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Korporaal">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T17:18:40Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Korporaal</rdfs:label>
@@ -7060,19 +7048,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Korporaal">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Korporaal" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kuiper">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T16:56:12Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kuiper</rdfs:label>
@@ -7120,14 +7108,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kuiper">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kuiper" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kwartiermeester">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T17:27:19Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kwartiermeester</rdfs:label>
@@ -7145,19 +7133,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kwartiermeester">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kwartiermeester" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Louis_Michel_Thibault">
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Landmeter" />
   </rdf:Description>
@@ -7185,23 +7173,23 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Jan_Pieterszoon_Dou">
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Landmeter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Loodgieter">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T23:37:39Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Loodgieter</rdfs:label>
@@ -7231,15 +7219,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Loodgieter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Loodgieter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Loods">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T16:27:16Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Loods</rdfs:label>
@@ -7261,15 +7249,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Loods">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Loods" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Luitenant">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T21:42:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Luitenant</rdfs:label>
@@ -7312,14 +7300,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Luitenant">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Luitenant" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Matroos">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-20T17:57:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Matroos</rdfs:label>
@@ -7352,15 +7340,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Matroos">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Matroos" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Metselaar">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T01:10:25Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Metselaar</rdfs:label>
@@ -7394,14 +7382,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Metselaar">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Metselaar" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Molenmaker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T04:08:13Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Molenmaker</rdfs:label>
@@ -7428,83 +7416,83 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Molenmaker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Molenmaker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Carel_ter_Linden">
     <prop-nl:ambt rdf:resource="http://nl.dbpedia.org/resource/Predikant" />
     <dbpedia-owl:profession rdf:resource="http://nl.dbpedia.org/resource/Predikant" />
@@ -7638,14 +7626,14 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Adri_van_Heteren__Adri_van_Heteren__1">
     <dbpedia-owl:profession rdf:resource="http://nl.dbpedia.org/resource/Predikant" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Provoost">
     <rdfs:label xml:lang="nl">Provoost</rdfs:label>
     <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Provoost" />
@@ -7670,15 +7658,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Provoost">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Provoost" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Raad">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-24T04:30:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Raad</rdfs:label>
@@ -7703,22 +7691,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Raad">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Raad" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Scheepstimmerman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T10:10:28Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Scheepstimmerman</rdfs:label>
@@ -7736,23 +7724,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Scheepstimmerman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Scheepstimmerman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schipper">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T05:41:56Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schipper</rdfs:label>
@@ -7785,14 +7773,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schipper">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schipper" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schrijnwerker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T11:22:20Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schrijnwerker</rdfs:label>
@@ -7810,15 +7798,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schrijnwerker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schrijnwerker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Oscar_Wilde">
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Schrijver" />
   </rdf:Description>
@@ -9473,15 +9461,15 @@
     <prop-nl:beroep rdf:resource="http://nl.dbpedia.org/resource/Schrijver" />
     <dbpedia-owl:occupation rdf:resource="http://nl.dbpedia.org/resource/Schrijver" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Sergeant">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:30:27Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Sergeant</rdfs:label>
@@ -9595,19 +9583,19 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Willem_Johannes_Kenninck">
     <dbpedia-owl:militaryRank rdf:resource="http://nl.dbpedia.org/resource/Sergeant" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Smid">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T21:03:15Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Smid</rdfs:label>
@@ -9655,15 +9643,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Smid">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Smid" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Soldaat">
     <rdfs:label xml:lang="nl">Soldaat</rdfs:label>
     <rdfs:comment xml:lang="nl">Een soldaat was oorspronkelijk een krijgsman die tegen soldij (dus niet krachtens leenplicht of heervaart) dienst deed. Een soldaat is een militair met de laagste rang binnen de krijgsmacht. Deze persoon verzorgt alle lagere uitvoerende taken en is inzetbaar voor verschillende diensten binnen de eenheid van het krijgsmachtonderdeel waar hij of zij toe behoort. Binnen de Nederlandse krijgsmacht komt de rang van soldaat alleen voor bij de landmacht en luchtmacht.</rdfs:comment>
@@ -9735,15 +9723,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Soldaat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Soldaat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Steenhouwer">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T07:33:36Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Steenhouwer</rdfs:label>
@@ -9780,15 +9768,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Steenhouwer">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Steenhouwer" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Stuurman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T03:21:49Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Stuurman</rdfs:label>
@@ -9817,19 +9805,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stuurman">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stuurman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tamboer">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:22:13Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tamboer</rdfs:label>
@@ -9853,15 +9841,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tamboer">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tamboer" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Timmerman">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T16:59:23Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Timmerman</rdfs:label>
@@ -9925,15 +9913,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Timmerman_(hoofdbetekenis)">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Timmerman" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Trompetter">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T00:27:24Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Trompetter</rdfs:label>
@@ -9955,14 +9943,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Trompetter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Trompetter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -9980,14 +9968,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -10005,14 +9993,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -10030,14 +10018,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tweede">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:09:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tweede</rdfs:label>
@@ -10055,14 +10043,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tweede">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tweede" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Vaandrig">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/MilitaryRanksOfGermany" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T02:53:50Z</dcterms:modified>
@@ -10100,14 +10088,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Vaandrig">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Vaandrig" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Verstekeling">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:02:52Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Verstekeling</rdfs:label>
@@ -10137,22 +10125,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Verstekeling">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Verstekeling" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Zeilmaker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T22:08:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Zeilmaker</rdfs:label>
@@ -10170,15 +10158,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Zeilmaker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Zeilmaker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Ziekentrooster">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T17:22:38Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Ziekentrooster</rdfs:label>
@@ -10202,39 +10190,39 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Ziekentrooster">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Ziekentrooster" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Brigantijn">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:55:08Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Brigantijn</rdfs:label>
@@ -10276,15 +10264,15 @@
     <prop-nl:schipKlasse rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Brik">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T02:53:13Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Brik</rdfs:label>
@@ -10309,15 +10297,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Brik">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Brik" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Buis">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T08:48:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Buis</rdfs:label>
@@ -10347,15 +10335,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Buis">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Buis" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Fluit">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T00:31:57Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Fluit</rdfs:label>
@@ -10389,15 +10377,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fluit">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fluit" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Fluit">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T00:31:57Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Fluit</rdfs:label>
@@ -10431,38 +10419,38 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fluit">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fluit" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Fluitje">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T10:35:16Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Fluitje</rdfs:label>
@@ -10480,19 +10468,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fluitje">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fluitje" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Mars_Express">
     <prop-nl:lanceervoertuig rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
@@ -10535,15 +10523,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fregat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Mars_Express">
     <prop-nl:lanceervoertuig rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
@@ -10586,26 +10574,26 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fregat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Galjoot">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:46:13Z</dcterms:modified>
@@ -10636,47 +10624,47 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Galjoot">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Galjoot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Hoeker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T07:55:07Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Hoeker</rdfs:label>
@@ -10700,27 +10688,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Hoeker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Hoeker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Jacht">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T11:14:26Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Jacht</rdfs:label>
@@ -10742,15 +10730,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Jacht">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Jacht" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Jacht">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-22T11:14:26Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Jacht</rdfs:label>
@@ -10772,46 +10760,46 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Jacht">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Jacht" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kat">
     <rdfs:label xml:lang="nl">Kat</rdfs:label>
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/Kat" />
@@ -10849,19 +10837,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Logger">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T01:04:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Logger</rdfs:label>
@@ -10896,15 +10884,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Haringlogger">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Logger" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Loodsboot">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <rdfs:label xml:lang="nl">Loodsboot</rdfs:label>
@@ -10942,19 +10930,19 @@
     <prop-nl:schipKlasse rdf:resource="http://nl.dbpedia.org/resource/Loodsboot" />
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Loodsboot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Pinas">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:24:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Pinas</rdfs:label>
@@ -10978,15 +10966,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Pinas">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Pinas" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Pinas">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:24:29Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Pinas</rdfs:label>
@@ -11010,27 +10998,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Pinas">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Pinas" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Pink">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T01:42:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Pink</rdfs:label>
@@ -11067,23 +11055,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Pink">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Pink" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schip">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T21:00:36Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schip</rdfs:label>
@@ -11109,15 +11097,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schip">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schip" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Prauw">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T09:51:28Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Prauw</rdfs:label>
@@ -11141,14 +11129,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Prauw">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Prauw" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tanjong">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tanjong" />
   </rdf:Description>
@@ -11171,19 +11159,19 @@
     <dbpedia-owl:wikiPageHistoryLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Tanjong&amp;action=history" />
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Tanjong&amp;oldid=39139728" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Hoeker">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T07:55:07Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Hoeker</rdfs:label>
@@ -11207,18 +11195,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Hoeker">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Hoeker" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Klene">
     <rdfs:label xml:lang="nl">Klene</rdfs:label>
     <rdfs:comment xml:lang="nl">Klene is een Nederlands fabrikant van zoetwaren, voornamelijk bekend vanwege de productie van drop. Klene is, nadat het in 1999 is overgenomen door branchegenoot Van Melle, sinds 2001 onderdeel van Perfetti Van Melle. De fabriek van Klene is gevestigd in Hoorn, op het bedrijventerrein Hoorn80.</rdfs:comment>
@@ -11240,15 +11228,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Klene">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Klene" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Niet">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T02:17:50Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Niet</rdfs:label>
@@ -11270,15 +11258,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Niet">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Niet" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schouw">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:36:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schouw</rdfs:label>
@@ -11313,27 +11301,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schouw">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schouw" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bark">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T13:02:33Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bark</rdfs:label>
@@ -11359,19 +11347,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bark">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bark" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Boot">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T20:39:53Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Boot</rdfs:label>
@@ -11410,15 +11398,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Boot">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Boot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Mars_Express">
     <prop-nl:lanceervoertuig rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
@@ -11461,23 +11449,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fregat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Mayang">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Mayang" />
   </rdf:Description>
@@ -11501,15 +11489,15 @@
     <dbpedia-owl:wikiPageHistoryLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Mayang&amp;action=history" />
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Mayang&amp;oldid=38454082" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Buijs">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T17:44:23Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Buijs</rdfs:label>
@@ -11542,19 +11530,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Buijs">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Buijs" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Scheepje">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T06:36:06Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Scheepje</rdfs:label>
@@ -11581,15 +11569,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Scheepje">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Scheepje" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schouwen">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T09:26:13Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schouwen</rdfs:label>
@@ -11611,23 +11599,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schouwen">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schouwen" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Gonting">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Gonting" />
   </rdf:Description>
@@ -11668,30 +11656,30 @@
     <dbpedia-owl:wikiPageHistoryLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Gonting&amp;action=history" />
     <dbpedia-owl:wikiPageRevisionLink rdf:resource="http://nl.wikipedia.org/w/index.php?title=Gonting&amp;oldid=38267434" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/De">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:29:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">De</rdfs:label>
@@ -11709,39 +11697,39 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/De">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/De" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Beuk">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T01:04:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Beuk</rdfs:label>
@@ -11776,23 +11764,23 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/De_Beuk">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Beuk" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Brigantijn">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:55:08Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Brigantijn</rdfs:label>
@@ -11834,14 +11822,14 @@
     <prop-nl:schipKlasse rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/De">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:29:14Z</dcterms:modified>
     <rdfs:label xml:lang="nl">De</rdfs:label>
@@ -11859,23 +11847,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/De">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/De" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kotter">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <rdfs:label xml:lang="nl">Kotter</rdfs:label>
@@ -11920,38 +11908,38 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kotter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kotter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Galjoot">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:46:13Z</dcterms:modified>
@@ -11982,23 +11970,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Galjoot">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Galjoot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Aak">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T21:20:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Aak</rdfs:label>
@@ -12026,15 +12014,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Aak">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Aak" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bark">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T13:02:33Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Bark</rdfs:label>
@@ -12060,15 +12048,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Bark">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Bark" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Brigantijn">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:55:08Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Brigantijn</rdfs:label>
@@ -12110,27 +12098,27 @@
     <prop-nl:schipKlasse rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Brigantijn" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Mars_Express">
     <prop-nl:lanceervoertuig rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
@@ -12173,22 +12161,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fregat">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fregat" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Galjoot">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T05:46:13Z</dcterms:modified>
@@ -12219,27 +12207,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Galjoot">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Galjoot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Klipper">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:55:09Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Klipper</rdfs:label>
@@ -12282,15 +12270,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Klipper">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Klipper" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Klipperaak">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-24T04:39:37Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Klipperaak</rdfs:label>
@@ -12313,22 +12301,22 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Klipperaak">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Klipperaak" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kof">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T02:39:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kof</rdfs:label>
@@ -12347,14 +12335,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kof">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kof" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kof">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T02:39:44Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Kof</rdfs:label>
@@ -12373,23 +12361,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kof">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kof" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kotter">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/ShipTypes" />
     <rdfs:label xml:lang="nl">Kotter</rdfs:label>
@@ -12434,14 +12422,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Kotter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Kotter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Lichter">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/BoatTypes" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-28T09:09:41Z</dcterms:modified>
@@ -12470,15 +12458,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Lichter">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Lichter" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Logger">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T01:04:55Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Logger</rdfs:label>
@@ -12513,15 +12501,15 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Haringlogger">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Logger" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Dokter_Wagemaker_(1934)">
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Motorschip" />
   </rdf:Description>
@@ -12553,27 +12541,27 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Motorschip">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Motorschip" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoener">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T08:12:24Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoener</rdfs:label>
@@ -12611,15 +12599,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoener">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoener" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoener">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T08:12:24Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoener</rdfs:label>
@@ -12657,15 +12645,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoener">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoener" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoener">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T08:12:24Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoener</rdfs:label>
@@ -12703,15 +12691,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoener">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoener" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoener">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T08:12:24Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoener</rdfs:label>
@@ -12749,14 +12737,14 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoener">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoener" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoeneraak">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T12:45:11Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoeneraak</rdfs:label>
@@ -12774,18 +12762,18 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoeneraak">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoeneraak" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Schoenerbrik">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T09:53:36Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Schoenerbrik</rdfs:label>
@@ -12803,23 +12791,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Schoenerbrik">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Schoenerbrik" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Sleepboot">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T15:07:04Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Sleepboot</rdfs:label>
@@ -12889,15 +12877,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Sleepboot">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Sleepboot" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Sloep">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T00:44:01Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Sloep</rdfs:label>
@@ -12937,19 +12925,19 @@
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Reddingssloep">
     <dbpedia-owl:wikiPageRedirects rdf:resource="http://nl.dbpedia.org/resource/Sloep" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Kursk_(1911)">
     <prop-nl:schipType rdf:resource="http://nl.dbpedia.org/resource/Stoomschip" />
     <dbpedia-owl:class rdf:resource="http://nl.dbpedia.org/resource/Stoomschip" />
@@ -12971,15 +12959,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Stoomschip">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Stoomschip" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Tjalk">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T23:37:28Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Tjalk</rdfs:label>
@@ -13005,23 +12993,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Tjalk">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Tjalk" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Zeilschip">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/SailingShips" />
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T19:48:39Z</dcterms:modified>
@@ -13077,23 +13065,23 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Zeilschip">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Zeilschip" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Brik">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-31T02:53:13Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Brik</rdfs:label>
@@ -13118,15 +13106,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Brik">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Brik" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Smak">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T07:41:00Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Smak</rdfs:label>
@@ -13150,19 +13138,19 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Smak">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Smak" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Aak">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-29T21:20:43Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Aak</rdfs:label>
@@ -13190,15 +13178,15 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Aak">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Aak" />
   </rdf:Description>
-</rdf:RDF><?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-	xmlns:prop-nl="http://nl.dbpedia.org/property/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+
+
+	
+	
+	
+	
+	
+	
   <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Fluit">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T00:31:57Z</dcterms:modified>
     <rdfs:label xml:lang="nl">Fluit</rdfs:label>
@@ -13232,4 +13220,6 @@
   <rdf:Description rdf:about="http://nl.wikipedia.org/wiki/Fluit">
     <foaf:primaryTopic rdf:resource="http://nl.dbpedia.org/resource/Fluit" />
   </rdf:Description>
+  
+  </rdf:RDF>
 </rdf:RDF>
