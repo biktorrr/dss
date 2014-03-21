@@ -6,195 +6,355 @@
 @prefix   ns: <http://localhost/ns/> .
 @prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix      owl: <http://www.w3.org/2002/07/owl#> .
-
 @prefix dss: <http://purl.org/collections/nl/dss/> .
 
+@prefix up:	<http://users.ugent.be/~tdenies/up/> .
 
 dss:VictorDeBoer
 	a prov:Agent ;
 	a foaf:Person ;
 	rdfs:label "Victor de Boer" ;
+	foaf:pastProject <http://dutchshipsandsailors.nl> ;
 	owl:sameAs <http://www.few.vu.nl/~vbr240/foaf.rdf> .
 	
+dss:MatthiasVanRossum
+	a prov:Agent ;
+	a foaf:Person ;
+	foaf:pastProject  <http://dutchshipsandsailors.nl>;
+	rdfs:label "Matthias van Rossum" .	
+	
+dss:JurLeinenga
+	a prov:Agent ;
+	a foaf:Person ;
+	foaf:pastProject  <http://dutchshipsandsailors.nl>;
+	rdfs:label "Jur Leinenga" .	
+	
+dss:RobinPonstein
+	a prov:Agent ;
+	a foaf:Person ;
+	foaf:pastProject  <http://dutchshipsandsailors.nl>;
+	rdfs:label "Robin Ponstein" .		
+
+dss:AndreaBravoBalado
+	a prov:Agent ;
+	a foaf:Person ;
+	foaf:pastProject  <http://dutchshipsandsailors.nl>;
+	rdfs:label "Andrea Bravo Balado" .		
+	
+<http://cliopatria.swi-prolog.org/packs/xmlrdf> a prov:SoftwareAgent;
+	rdfs:label "XMLRDF conversion tool".
+	
+<http://cliopatria.swi-prolog.org/> a prov:SoftwareAgent;
+	rdfs:label "ClioPatria".	
+	
+<http://cliopatria.swi-prolog.org/packs/amalgame> a prov:SoftwareAgent;
+	rdfs:label "Amalgame alignment platform".	
+	
+	
+# The Graphs	
 	
 <http://purl.org/collections/nl/dss/al_all_place_2_geonames.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
+		prov:used <http://www.geonames.org/‎>;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_data.ttl>
 		a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
+		prov:used <http://www.persistent-identifier.nl/urn:nbn:nl:ui:13-yng-6vb>
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/> ;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/das/das_thes_gen.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/> ;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/dbpedia_links.ttl>
 	a prov:Entity ;
+	up:contentConfidence "0.8" ; 
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
+		prov:used <http://www.dbpedia.org‎>;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/dss_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/das/das_schema.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_schema.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_schema.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_schema.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_2_das.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		rdfs:label "linking activity based on DAS identifiers" ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>; 
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/xmlrdf> ;
+		prov:used <https://github.com/biktorrr/dss/blob/master/xml/gzmvoc.xml>
 		] .
+		
+<https://github.com/biktorrr/dss/blob/master/xml/gzmvoc.xml> 
+	a prov:Entity;
+	prov:wasAttributedTo dss:MatthiasVanRossum ;
+	rdfs:label "Generale Zeemonsterrollen VOC, voor proefschrift M. van Rossum".
+
+
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_thes_gen.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_thes_gen_places.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 		] .
 
 mdb:mdb_2_kb
 	a prov:Entity ;
+	up:contentConfidence "0.9" ; 
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:wasAssociatedWith dss:AndreaBravoBalado ; 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith [ 
+			a prov:SoftwareAgent; 
+			rdfs:label "Andrea's KB matching algorithm"
+			]
 		] .
 
 <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
+		prov:used <https://github.com/biktorrr/dss/tree/master/xml/monsterrollen> 
 		] .
 
+		
+<https://github.com/biktorrr/dss/tree/master/xml/monsterrollen> 
+	a prov:Entity;
+	prov:wasAttributedTo dss:JurLeinenga;
+	rdfs:label "Noordelijke Monsterrollen by J. Leinenga";
+	prov:wasGeneratedBy [ 	
+		a prov:Activity ; 
+		prov:wasAssociatedWith dss:VictorDeBoer;
+		rdfs:label "Conversion from SQL dump" ;
+		prov:used [
+			a prov:Entity;
+			rdfs:label "Original SQL dump by J. Leinenga";
+			prov:wasAttributedTo dss:JurLeinenga
+			]
+		] .
+	
+	
 <http://purl.org/collections/nl/dss/mdb/mdb_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 		] .
 
 mdb:mdb_ship_sameas
 	a prov:Entity ;
+	up:contentConfidence "0.74" ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:wasAssociatedWith dss:RobinPonstein ;
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith [ 
+			a prov:SoftwareAgent; 
+			rdfs:label "Robin's ship identification matching algorithm"
+			]
 		] .
 
 mdb:mdb_thes_generated
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 		] .
 
 mdb:mdb_thes_places
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 
 mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
-
-<http://purl.org/collections/nl/dss/mdb/ranks_and_shiptypes_1.ttl>
+		
+<mdb_place_gen_thes>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		] .
+		
+<http://purl.org/collections/nl/dss/mdb/ranks_and_shiptypes_1.ttl>
+	a prov:Entity ;
+	up:contentConfidence "0.8" ;
+ 	prov:wasGeneratedBy [ 
+		a prov:Activity ; 
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
+		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_2_das.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
+		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
 		] .
 
+<http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
+	a prov:Entity;
+	rdfs:label "VOC Opvarenden";
+	prov:wasAttributedTo [
+		a prov:Agent;
+		rdfs:label "Nationaal Archief"
+		].
+	
+		
 <http://purl.org/collections/nl/dss/vocopv/vocopv_gen_thes.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs>	;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
+		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>;
+		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
 <http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
+		prov:wasAssociatedWith dss:VictorDeBoer ;
+		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
+		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
 		] .
 
-<mdb_place_gen_thes>
-	a prov:Entity ;
- 	prov:wasGeneratedBy [ 
-		a prov:Activity ; 
-		prov:wasAttributedTo dss:VictorDeBoer 
-		] .
+
