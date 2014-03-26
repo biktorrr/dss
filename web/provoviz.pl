@@ -16,12 +16,13 @@ cliopatria:menu_item(500=places/provoviz, 'Provoviz').
 
 
 provoviz(_):-
-		reply_html_page(cliopatria(_),title('Vizualize provenance'),
+		reply_html_page(cliopatria(default),title('Vizualize provenance'),
                         [ h1('Visualize provenance'),
 			  \provheader,
                           \provform			                          ]).
 
-provheader -->html(\['<p>Here, you can vizualize the provenance of the DSS datacloud. For the visualization, we use <a href="www.provoviz.org">Rinke Hoekstra\'s PROV-O-Viz tool</a>.PROV-O-Viz visualizes any provenance graph expressed using the <a href="http://www.w3.org/TR/prov-o/" target="_blank">W3C PROV-O vocabulary</a> as an intuitive <a href="http://bost.ocks.org/mike/sankey/" target="_blank">Sankey diagram</a> using the <a href="http://d3js.org/">D3.js</a></p>'])	.
+provheader -->
+	html(\['<p>Here, you can vizualize the provenance of the DSS datacloud. For the visualization, we use <a href="www.provoviz.org">Rinke Hoekstra\'s PROV-O-Viz tool</a>.PROV-O-Viz visualizes any provenance graph expressed using the <a href="http://www.w3.org/TR/prov-o/" target="_blank">W3C PROV-O vocabulary</a> as an intuitive <a href="http://bost.ocks.org/mike/sankey/" target="_blank">Sankey diagram</a> using the <a href="http://d3js.org/">D3.js</a>. Retrieving the visualization will take a couple of seconds.</p>']).
 
 provform-->
 
@@ -40,18 +41,18 @@ provovizresult(Request):-
 	http_parameters(Request, [], [form_data(Data)]),
 	member(graph_uri=GUri,Data),
 	get_prov_text(GUri, PT),
-	http_open(%'http://localhost:3020/test',
-		  'http://provoviz.org/service',
-		  PStream,
-		  [method(post),
-		   post(form_data([graph_uri=GUri,
-				      data=PT]))
-		  ]
+	http_open(
+	    'http://provoviz.org/service',
+	    PStream,
+	    [method(post),
+	     post(form_data([graph_uri=GUri,
+			     data=PT]))
+	    ]
 		      ),
 	read_stream_to_codes(PStream, PCodes),
 	close(PStream),
 	atom_codes(PAt, PCodes),
-	reply_html_page(cliopatria(_),title('Vizualize provenance'),
+	reply_html_page(cliopatria(default),title('Vizualize provenance'),
                         [  h1('Provenance result'),
 			   \provheader,
                           \[PAt]			                          ]).
