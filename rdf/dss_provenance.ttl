@@ -57,6 +57,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "Linking to GeoNames with Amalgame" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
 		prov:used <http://www.geonames.org/‎>;
@@ -72,6 +73,7 @@ dss:AndreaBravoBalado
 		a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "DAS data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
 		prov:used <http://www.persistent-identifier.nl/urn:nbn:nl:ui:13-yng-6vb>
@@ -81,6 +83,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "DAS schema generation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/> ;
 		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>
@@ -90,6 +93,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "DAS thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/> ;
 		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>
@@ -100,6 +104,7 @@ dss:AndreaBravoBalado
 	up:contentConfidence "0.8" ; 
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "Automatic linking to DBPedia based on skos:prefLabels" ;		
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
 		prov:used <http://www.dbpedia.org‎>;
@@ -115,6 +120,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "DSS Schema generation (manual)" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/das/das_schema.ttl>;
@@ -138,6 +144,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "GZMVOC data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/xmlrdf> ;
 		prov:used <https://github.com/biktorrr/dss/blob/master/xml/gzmvoc.xml>
@@ -154,6 +161,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "GZMVOC schema generation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
@@ -163,6 +171,7 @@ dss:AndreaBravoBalado
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "GZMVOC thesaurus generation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
@@ -173,7 +182,8 @@ dss:AndreaBravoBalado
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
-		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
+			rdfs:label "GZMVOC place thesaurus  generation" ;
+	prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 		] .
 
@@ -182,6 +192,7 @@ mdb:mdb_2_kb
 	up:contentConfidence "0.9" ; 
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "Automatic linking MDB to KB by Andrea" ;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
 		prov:wasAssociatedWith dss:AndreaBravoBalado ; 
 		prov:wasAssociatedWith dss:VictorDeBoer ;
@@ -195,6 +206,7 @@ mdb:mdb_2_kb
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
 		prov:used <https://github.com/biktorrr/dss/tree/master/xml/monsterrollen> 
@@ -208,7 +220,7 @@ mdb:mdb_2_kb
 	prov:wasGeneratedBy [ 	
 		a prov:Activity ; 
 		prov:wasAssociatedWith dss:VictorDeBoer;
-		rdfs:label "Conversion from SQL dump" ;
+		rdfs:label "MDB conversion to XML from SQL dump" ;
 		prov:used [
 			a prov:Entity;
 			rdfs:label "Original SQL dump by J. Leinenga";
@@ -221,6 +233,7 @@ mdb:mdb_2_kb
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB schema generation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
@@ -232,6 +245,7 @@ mdb:mdb_ship_sameas
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
+		rdfs:label "Automatic sameAs identification in MDB (Robin)" ;
 		prov:wasAssociatedWith dss:RobinPonstein ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith [ 
@@ -244,6 +258,7 @@ mdb:mdb_thes_generated
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
@@ -253,6 +268,7 @@ mdb:mdb_thes_places
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB place thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
@@ -262,7 +278,9 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB rank thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith dss:JurLeinenga  ;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
@@ -271,6 +289,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "MDB place thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
@@ -281,6 +300,7 @@ mdb:mdb_thes_rangen
 	up:contentConfidence "0.8" ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "Automatic linking of DSS ranks and shiptypes " ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/amalgame>;
 		prov:used <http://purl.org/collections/nl/dss/das/das_data.ttl>;
@@ -295,6 +315,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "Automatic linking of VOCOPV to DAS " ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
@@ -303,6 +324,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "VOCOPV Begunstigden data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
 		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
@@ -321,6 +343,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "VOCOPV thesaurus consolidation" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs>	;
 		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
@@ -332,6 +355,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "VOCOPV  Begunstigden data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
 		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>
@@ -341,6 +365,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "VOCOPV schema conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>;
 		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_opv.ttl>;
@@ -352,6 +377,7 @@ mdb:mdb_thes_rangen
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
+		rdfs:label "VOCOPV Soldijboekens data conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/packs/xmlrdf>;
 		prov:used <http://persistent-identifier.nl/urn:nbn:nl:ui:13-pul9-xg>

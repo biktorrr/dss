@@ -44,7 +44,8 @@
 
 :- use_module(rewrite_das).
 
-
+% Load the ClioPatria Provoviz extension
+:- ['../web/provoviz.pl'].
 
 load_ontologies :-
 	rdf_load_library(dc),
