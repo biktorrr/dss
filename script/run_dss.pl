@@ -46,6 +46,8 @@
 
 % Load the ClioPatria Provoviz extension
 :- ['../web/provoviz.pl'].
+% and the DSS queries
+:- ['../web/dss_queries.pl'].
 
 load_ontologies :-
 	rdf_load_library(dc),
