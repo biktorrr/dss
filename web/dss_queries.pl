@@ -63,12 +63,18 @@ queryform(R) -->
 	MyQuery='0'),
 	 query(MyQuery, _Title, Query)
 	},
-	html([p('Your Query:'),
+	html(['Your Query:',
 	      br([]),
 	      form([class='query',name='query', action='/dss/servlets/evaluateQuery',method='GET'],[
 		       input([type='hidden', name='repository', value='default']),
 		       input([type='hidden', name='serialization', value='rdfxml']),
 		       textarea([name='query',cols='70',rows='20'],Query),
+		       br([]),
+		       select([name='resultFormat'],[
+				  option('xml'),
+				  option('html'),
+				  option('json'),
+				  option('csv')]),
 		       input([type='submit', value='SPARQL it!'])
 
 		   ])]).
