@@ -28,7 +28,6 @@ dss_queries(R):-
                         [ h1('DSS Queries'),
 			  \myheader,
                           \form1,
-			  hr([]),
 			  \queryform(R)
 
 			]).
@@ -63,18 +62,21 @@ queryform(R) -->
 	MyQuery='0'),
 	 query(MyQuery, _Title, Query)
 	},
-	html(['Your Query:',
-	      br([]),
+	html([
 	      form([class='query',name='query', action='/dss/servlets/evaluateQuery',method='GET'],[
 		       input([type='hidden', name='repository', value='default']),
 		       input([type='hidden', name='serialization', value='rdfxml']),
-		       textarea([name='query',cols='70',rows='20'],Query),
+		       'Your Query:',
 		       br([]),
+		       textarea([name='query',cols='90',rows='20'],Query),
+		       br([]),
+		       'Result format:',
 		       select([name='resultFormat'],[
 				  option('xml'),
 				  option('html'),
 				  option('json'),
 				  option('csv')]),
+		       br([]),
 		       input([type='submit', value='SPARQL it!'])
 
 		   ])]).
