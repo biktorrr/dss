@@ -34,7 +34,7 @@ dss_queries(R):-
 			]).
 
 myheader -->
-	html(\['<p>Here we list a number of example SPARQL Queries for DSS.</p>']).
+	html(\['<p>Use the textarea below to fire a SPARQL query at the DSS triple store.You can choose an example query from the list below and copy it to the query field. You can adapt that query if needed before launching it. </p>']).
 
 form1-->
         html( [p('Select your query',
@@ -42,7 +42,7 @@ form1-->
 		      [select([name='query'],[
 			  \options
 		       ]),
-		       input([type='submit',value='submit'])
+		       input([type='submit',value='Copy to query field'])
 		      ]
 		     )
 		 )]).
@@ -69,7 +69,7 @@ queryform(R) -->
 		       input([type='hidden', name='repository', value='default']),
 		       input([type='hidden', name='serialization', value='rdfxml']),
 		       textarea([name='query',cols='70',rows='20'],Query),
-		       input([type='submit', value='Go!'])
+		       input([type='submit', value='SPARQL it!'])
 
 		   ])]).
 
