@@ -65,7 +65,7 @@ queryform(R) -->
 	},
 	html([p('Your Query:'),
 	      br([]),
-	      form([class='query',name='query', action='/servlets/evaluateQuery',method='GET'],[
+	      form([class='query',name='query', action='/dss/servlets/evaluateQuery',method='GET'],[
 		       input([type='hidden', name='repository', value='default']),
 		       input([type='hidden', name='serialization', value='rdfxml']),
 		       textarea([name='query',cols='70',rows='20'],Query),
@@ -89,14 +89,14 @@ query('2', 'Find all mdb aanmonsteringen, and list the last name of the captain 
 
 query('3a','Find things in DAS and GZMVOC that match the same place in Geonames','SELECT * WHERE \n{\n?gzmplace skos:exactMatch ?pg.\n?dasplace skos:exactMatch ?pg.\nGRAPH <http://purl.org/collections/nl/dss/das/das_data.ttl> {?dass ?dasp ?dasplace}\nGRAPH <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl> {?gzms ?gzmp ?gzmplace}\n}\nLIMIT 10').
 
-query('3b','Find things in 3 datasets that match the same place in Geonames and also give me the lat/long','SELECT * WHERE \n{\n?p1 skos:exactMatch ?pg.\n?p2 skos:exactMatch ?pg.\n?p3 skos:exactMatch ?pg.\nGRAPH <http://purl.org/collections/nl/dss/das/das_data.ttl> {?r1 ?p11 ?p1}\nGRAPH <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl> {?r2 ?p21 ?p2}\nGRAPH <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl> {?r3 ?p31 ?p3}\n}\nLIMIT 20').
+query('3b','Find things in 3 datasets that match the same place in Geonames and also give me the lat/long','SELECT * WHERE \n{\n?p1 skos:exactMatch ?pg.\n?p2 skos:exactMatch ?pg.\n?p3 skos:exactMatch ?pg.\nGRAPH <http://purl.org/collections/nl/dss/das/das_data.ttl> {?r1 ?p11 ?p1}\nGRAPH <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl> {?r2 ?p21 ?p2}\nGRAPH <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl> {?r3 ?p31 ?p3}\n}\nLIMIT 20').
 
-query('4','Places where DAS ships have been', 'SELECT * WHERE \n{\n?p1 skos:exactMatch ?pg.\nGRAPH <http://purl.org/collections/nl/dss/das/das_data.ttl> {?p1 rdf:type das:Place. ?rec ?pr1 ?p1. ?rec das:has_ship ?ship. ?ship rdfs:label ?lab}\n?pg <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.\n?pg <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.} LIMIT 10').
+query('4','Places where DAS ships have been', 'SELECT * WHERE \n{\n?p1 skos:exactMatch ?pg.\nGRAPH <http://purl.org/collections/nl/dss/das/das_data.ttl> {?p1 rdf:type das:Place. ?rec ?pr1 ?p1. ?rec das:has_ship ?ship. ?ship rdfs:label ?lab}\n?pg <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat.\n?pg <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long.} LIMIT 10').
 
 
-query('5','Linked newspaper articles for MDB brikken heading to RIGA','SELECT * WHERE \n{\n?s mdb:bestemming mdb:plaats-Riga_LV.\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-brik.\n}\nLIMIT 2').
+query('5','Linked newspaper articles for MDB brikken heading to RIGA','SELECT * WHERE \n{\n?s mdb:bestemming mdb:plaats-Riga_LV.\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-brik.\n}\nLIMIT 2').
 
-query('5a','Linked newspaper articles for MDB schoeners with captains name "Veldman"','SELECT * WHERE \n{\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-schoener.\n?a mdb:has_aanmonstering ?s.\n?a mdb:rang mdb:rang-kapitein.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName "Veldman".\n}\nLIMIT 2').
+query('5a','Linked newspaper articles for MDB schoeners with captains name "Veldman"','SELECT * WHERE \n{\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-schoener.\n?a mdb:has_aanmonstering ?s.\n?a mdb:rang mdb:rang-kapitein.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName "Veldman".\n}\nLIMIT 2').
 
 
 
