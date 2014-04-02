@@ -1,0 +1,90 @@
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix  das: <http://purl.org/collections/nl/dss/das/> .
+@prefix dss: <http://purl.org/collections/nl/dss/> .
+
+@prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix      foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix hisco: <http://historyofwork.iisg.nl/list_micro.php?keywords=>.
+
+
+# Links from ships to RM
+<http://purl.org/collections/nl/dss/vocopv/ship-Pollux> dss:has_depiction <http://purl.org/collections/nl/rma/collection/r-132827> .
+<http://e-culture.multimedian.nl/ns/rkd/aatned/haringbuizen>   dss:has_rm_depiction <http://purl.org/collections/nl/rma/collection/r-201453>.
+
+
+# Links from MDB and VOCOPV Ranks to HISCO
+
+mdb:rang-bediende skos:exactMatch hisco:54010 .
+mdb:rang-boekhouder skos:exactMatch hisco:33110 .
+mdb:rang-bootsman skos:exactMatch hisco:98120 .
+mdb:rang-eerste_machinist skos:exactMatch hisco:96910.
+mdb:rang-hofmeester skos:exactMatch hisco:22450.
+mdb:rang-hofmeesteres skos:exactMatch hisco:22450.
+mdb:rang-kapitein skos:exactMatch hisco:04217.
+mdb:rang-kapitein_bevelvoerder skos:exactMatch hisco:04217.
+mdb:rang-kok skos:exactMatch hisco:53100.
+mdb:rang-kok_of_lichtmatroos skos:exactMatch hisco:53100.
+mdb:rang-machinist skos:exactMatch hisco:98330.
+mdb:rang-machinist-stoker skos:exactMatch hisco:98330.
+mdb:rang-matroos skos:exactMatch hisco:98135.
+mdb:rang-reder skos:exactMatch hisco:44190.
+mdb:rang-schipper skos:exactMatch hisco:04217.
+mdb:rang-schippersknecht skos:exactMatch hisco:98190.
+mdb:rang-schippersmaat skos:exactMatch hisco:98190.
+mdb:rang-secretaris skos:exactMatch hisco:30000.
+mdb:rang-stoker skos:exactMatch hisco:98330.
+mdb:rang-stoker-lierbediener skos:exactMatch hisco:98330.
+mdb:rang-stoker-olieman skos:exactMatch hisco:98330.
+mdb:rang-stuurman skos:exactMatch hisco:04230.
+mdb:rang-timmerman skos:exactMatch hisco:95455.
+mdb:rang-zeeman skos:exactMatch hisco:98135.
+mdb:rang-zeilmaker skos:exactMatch hisco:79920.
+vocopv:rank-Advocaat skos:exactMatch hisco:12110.
+vocopv:rank-Barbier skos:exactMatch hisco:57030.
+vocopv:rank-Beeldhouwer skos:exactMatch hisco:16120.
+vocopv:rank-Blikslager skos:exactMatch hisco:87340.
+vocopv:rank-Blokmaker skos:exactMatch hisco:81990.
+vocopv:rank-Bootsman skos:exactMatch hisco:98120.
+vocopv:rank-Chirurgijn skos:exactMatch hisco:06105.
+vocopv:rank-Glazenmaker skos:exactMatch hisco:89100.
+vocopv:rank-Grofsmid skos:exactMatch hisco:83110.
+vocopv:rank-Hofmeester skos:exactMatch hisco:22450.
+vocopv:rank-Kapitein_militair skos:exactMatch hisco:58320.
+vocopv:rank-Kapitein_zeeman skos:exactMatch hisco:04217.
+vocopv:rank-Kok skos:exactMatch hisco:53100.
+vocopv:rank-Konstabel skos:exactMatch hisco:58330.
+vocopv:rank-Koopman skos:exactMatch hisco:41025.
+vocopv:rank-Koperslager skos:exactMatch hisco:87330.
+vocopv:rank-Korporaal skos:exactMatch hisco:58330.
+vocopv:rank-Kuiper skos:exactMatch hisco:81930.
+vocopv:rank-Loodgieter skos:exactMatch hisco:87105.
+vocopv:rank-Loods skos:exactMatch hisco:04240.
+vocopv:rank-Matroos skos:exactMatch hisco:98135.
+vocopv:rank-Metselaar skos:exactMatch hisco:95120.
+vocopv:rank-Molenmaker skos:exactMatch hisco:84970.
+vocopv:rank-Scheepskorporaal skos:exactMatch hisco:58330.
+vocopv:rank-Scheepstimmerman skos:exactMatch hisco:95455.
+vocopv:rank-Schiemansmaat skos:exactMatch hisco:98140.
+vocopv:rank-Schipper skos:exactMatch hisco:04217.
+vocopv:rank-Schrijnwerker skos:exactMatch hisco:81120.
+vocopv:rank-Schrijver skos:exactMatch hisco:15120.
+vocopv:rank-Sergeant skos:exactMatch hisco:58330.
+vocopv:rank-Smid skos:exactMatch hisco:83110.
+vocopv:rank-Soldaat skos:exactMatch hisco:58340.
+vocopv:rank-Stuurman skos:exactMatch hisco:04230.
+vocopv:rank-Timmerman skos:exactMatch hisco:95455.
+vocopv:rank-Trompetter skos:exactMatch hisco:17140.
+vocopv:rank-Vijlenkapper skos:exactMatch hisco:83220.
+vocopv:rank-Zeilmaker skos:exactMatch hisco:79920.
+
+
+
+
+
+
