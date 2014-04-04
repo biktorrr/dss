@@ -73,7 +73,7 @@ queryform(R) -->
 		       'Result format:',
 		       select([name='resultFormat'],[
 				  option('xml'),
-				  option('html'),
+				  option([selected(selected)],'html'),
 				  option('json'),
 				  option('csv')]),
 		       br([]),
@@ -106,21 +106,21 @@ query('5','Linked newspaper articles for MDB brikken heading to RIGA','SELECT * 
 
 query('5a','Linked newspaper articles for MDB schoeners with captains name "Veldman"','SELECT * WHERE \n{\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-schoener.\n?a mdb:has_aanmonstering ?s.\n?a mdb:rang mdb:rang-kapitein.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName "Veldman".\n}\nLIMIT 2').
 
+query('6','Links to CEDAR Hiscorical Occupations','SELECT * WHERE \n{\n?obs <http://cedar.example.org/ns#occupation> ?occ.\n?obs <http://cedar.example.org/ns#city> ?city.\n?city rdfs:label ?label.\n?rank skos:exactMatch ?occ.\n?pc mdb:rang ?rank.\n?pc mdb:persoon ?pers.\n?pers mdb:woonplaats ?wp.\n?wp rdfs:label ?wpl.\n}\nLIMIT 200').
 
 
 
+query('Q7','Alle KB gelinkte aanmonsteringen met een kapitein met boer in de naam','SELECT * WHERE \n{\n?s dss:has_kb_link ?link.\n?s mdb:schip ?sh.\n?sh mdb:scheepstype mdb:shiptype-schoener.\n?a mdb:has_aanmonstering ?s.\n?a mdb:rang mdb:rang-kapitein.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName ?cname.\nFILTER regex(?cname, "Boer")\n}\nLIMIT 20').
+
+query('Q8','Personen met "jans" in de naam, aangemonsterd op schip met "kof" in het type','SELECT * WHERE \n{\n?s mdb:schip ?sh.\n?sh mdb:scheepstype ?sht.\n?sht skos:prefLabel ?shtl.\n?a mdb:has_aanmonstering ?s.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName ?cname.\nFILTER regex(?cname, "Jans")\nFILTER regex(?shtl, "kof")\n}\nLIMIT 20').
+
+query('Q9','MDB Aanmonsteringen op subtypen van kustvaarders (AAT)','SELECT * WHERE \n{\n?s mdb:schip ?sh.\n?sh mdb:scheepstype ?sht.\n?sht skos:exactMatch ?aattype.\n?aattype skos:broader <http://e-culture.multimedian.nl/ns/rkd/aatned/kustvaarders>.\n?sht skos:prefLabel ?shtl.\n?a mdb:has_aanmonstering ?s.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName ?cname.\n\n}\nLIMIT 20').
+
+query('Q10','MDB Aanmonsteringen op subtypen van kustvaarders (AAT) in 1815','SELECT * WHERE \n{\n?aanmonstering mdb:schip ?sh.\n?sh mdb:scheepstype ?sht.\n?sht skos:exactMatch ?aattype.\n?aattype skos:broader <http://e-culture.multimedian.nl/ns/rkd/aatned/kustvaarders>.\n?sht skos:prefLabel ?shtl.\n?a mdb:has_aanmonstering ?aanmonstering.\n?a mdb:persoon ?persoon.\n?persoon foaf:familyName ?cname.\n?aanmonstering mdb:datum ?datum.\nFILTER regex(?datum, "1815").\n\n}\nLIMIT 100').
+
+query('Q11','Alle Vocopv opvarendenrecords, met een gematchte plaats en bijbehorende provincie','SELECT * WHERE {\n?opvrec vocopv:has_herkomst ?herkomst.\n?opvrec vocopv:achternaam ?an.\n?herkomst skos:exactMatch ?geoherkomst.\n?opvrec vocopv:jaarUitreis ?jaar.\n?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?prov.\n\n}\nLIMIT 10').
 
 
-
-
-
-
-
-
-
-
-
-
-
+query('Q12','GZM voor links naar DAS: VOC kamers met aziatische bemanning','SELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das das:chamber ?ch.\n?ch skos:prefLabel ?chname.    \n        }\n        "\nQ13: Das reizen per ton vs gzmvoc per loon\n\nSELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das  das:tonnage ?ton.\n}\n\nQ14: einde op schip -> vgl das schipnaam of gzmvoc\n\nSELECT * WHERE {\n?v vocopv:eindePlaats "Schip".\n}\nLIMIT 10').
 
 

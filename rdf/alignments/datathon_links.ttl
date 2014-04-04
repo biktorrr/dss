@@ -10,8 +10,8 @@
 @prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix      foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix hisco: <http://historyofwork.iisg.nl/list_micro.php?keywords=>.
-
+#@prefix hisco: <http://historyofwork.iisg.nl/list_micro.php?keywords=>.
+@prefix hisco: <http://cedar.example.org/ns#hisco->.
 
 # Links from ships to RM
 <http://purl.org/collections/nl/dss/vocopv/ship-Pollux> dss:has_depiction <http://purl.org/collections/nl/rma/collection/r-132827> .
