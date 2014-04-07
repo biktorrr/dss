@@ -142,21 +142,33 @@ dss:AndreaBravoBalado
 
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 	a prov:Entity ;
+	rdfs:label "Generale Zeemonsterrollen VOC in RDF";
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
-		rdfs:label "GZMVOC data conversion" ;
+		rdfs:label "GZMVOC XML to RDF conversion" ;
 		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:wasAssociatedWith dss:MatthiasVanRossum ;
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/xmlrdf> ;
 		prov:used <https://github.com/biktorrr/dss/blob/master/xml/gzmvoc.xml>
 		] .
-		
+	
+	
 <https://github.com/biktorrr/dss/blob/master/xml/gzmvoc.xml> 
 	a prov:Entity;
 	prov:wasAttributedTo dss:MatthiasVanRossum ;
-	rdfs:label "Generale Zeemonsterrollen VOC, voor proefschrift M. van Rossum".
+	prov:wasGeneratedBy [ 
+		a prov:Activity ; 
+		rdfs:label "GZMVOC Excel to XML conversion" ;
+		prov:wasAssociatedWith dss:VictorDeBoer  ;
+		prov:used <https://github.com/biktorrr/dss/blob/master/sources/Database%20Zeemonsterrollen%20Schepenlijst%20-%20publieke%20versie%201.0%20-%20Van%20Rossum%20-%202014.xlsx>
+		] ;
+	rdfs:label "Generale Zeemonsterrollen VOC in XML".
 
-
-
+<https://github.com/biktorrr/dss/blob/master/sources/Database%20Zeemonsterrollen%20Schepenlijst%20-%20publieke%20versie%201.0%20-%20Van%20Rossum%20-%202014.xlsx>
+	a prov:Entity;
+	prov:wasAttributedTo dss:MatthiasVanRossum ;
+	rdfs:label "Generale Zeemonsterrollen VOC in Excel, origineel van Matthias van Rossum".
+	
 <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_schema.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
@@ -196,11 +208,11 @@ mdb:mdb_2_kb
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>;
 		prov:wasAssociatedWith dss:AndreaBravoBalado ; 
 		prov:wasAssociatedWith dss:VictorDeBoer ;
-		prov:wasAssociatedWith [ 
+		prov:wasAssociatedWith <https://bitbucket.org/andreacbravob/master-project/overview>].
+		
+<https://bitbucket.org/andreacbravob/master-project/overview>
 			a prov:SoftwareAgent; 
-			rdfs:label "Andrea's KB matching algorithm"
-			]
-		] .
+			rdfs:label "Andrea's KB matching algorithm".
 
 <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 	a prov:Entity ;
