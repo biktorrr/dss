@@ -121,14 +121,7 @@ query('Q10','MDB Aanmonsteringen op subtypen van kustvaarders (AAT) in 1815','SE
 query('Q11','Alle Vocopv opvarendenrecords, met een gematchte plaats en bijbehorende provincie','SELECT * WHERE {\n?opvrec vocopv:has_herkomst ?herkomst.\n?opvrec vocopv:achternaam ?an.\n?herkomst skos:exactMatch ?geoherkomst.\n?opvrec vocopv:jaarUitreis ?jaar.\n?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?prov.\n\n}\nLIMIT 10').
 
 
-query('Q11a', 'VOC opvarenden geteld naar provincies', 'SELECT  ?year ?prov (COUNT(?prov) AS ?provcount )WHERE {
-    ?opvrec vocopv:has_herkomst ?herkomst.
-    ?herkomst skos:exactMatch ?geoherkomst.
-    ?opvrec vocopv:jaarUitreis ?year.
-    ?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?provuri.
-    ?provuri <http://www.geonames.org/ontology%23name> ?prov.        
-    } 
-Group by ?prov ?year').
+query('Q11a', 'VOC opvarenden geteld naar provincies', 'SELECT  ?year ?prov (COUNT(?prov) AS ?provcount )WHERE {\n?opvrec vocopv:has_herkomst ?herkomst.\n?herkomst skos:exactMatch ?geoherkomst.\n?opvrec vocopv:jaarUitreis ?year.\n?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?provuri.\n?provuri <http://www.geonames.org/ontology%23name> ?prov.        \n} \nGroup by ?prov ?year').
 
 query('Q12','GZM voor links naar DAS: VOC kamers met aziatische bemanning','SELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das das:chamber ?ch.\n?ch skos:prefLabel ?chname.  } \nLIMIT 10' ).
 
