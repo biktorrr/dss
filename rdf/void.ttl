@@ -38,11 +38,11 @@ a void:Dataset ;
         owl:versionInfo "0.1" ;
 		void:dataDump
                 <vocopv_opv.ttl.gz> ,
-                <vocopv_beg.ttl> ,
-                <vocopv_sol.ttl> ,
+                <vocopv_beg.ttl.gz> ,
+                <vocopv_sol.ttl.gz> ,
 				<vocopv_gen_thes.ttl>,
 				<vocopv_schema.ttl>,
-				<vocopv_2_das.ttl>.
+				<vocopv_2_das.ttl.gz>.
 
 
 <gzmvoc>
