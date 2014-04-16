@@ -63,7 +63,7 @@ queryform(R) -->
 	 query(MyQuery, _Title, Query)
 	},
 	html([
-	      form([class='query',name='query', action='/dss/servlets/evaluateQuery',method='GET'],[
+	      form([class='query',name='query', action='/data/servlets/evaluateQuery',method='GET'],[
 		       input([type='hidden', name='repository', value='default']),
 		       input([type='hidden', name='serialization', value='rdfxml']),
 		       'Your Query:',
@@ -121,6 +121,22 @@ query('Q10','MDB Aanmonsteringen op subtypen van kustvaarders (AAT) in 1815','SE
 query('Q11','Alle Vocopv opvarendenrecords, met een gematchte plaats en bijbehorende provincie','SELECT * WHERE {\n?opvrec vocopv:has_herkomst ?herkomst.\n?opvrec vocopv:achternaam ?an.\n?herkomst skos:exactMatch ?geoherkomst.\n?opvrec vocopv:jaarUitreis ?jaar.\n?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?prov.\n\n}\nLIMIT 10').
 
 
-query('Q12','GZM voor links naar DAS: VOC kamers met aziatische bemanning','SELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das das:chamber ?ch.\n?ch skos:prefLabel ?chname.    \n        }\n        "\nQ13: Das reizen per ton vs gzmvoc per loon\n\nSELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das  das:tonnage ?ton.\n}\n\nQ14: einde op schip -> vgl das schipnaam of gzmvoc\n\nSELECT * WHERE {\n?v vocopv:eindePlaats "Schip".\n}\nLIMIT 10').
+query('Q11a', 'VOC opvarenden geteld naar provincies', 'SELECT  ?year ?prov (COUNT(?prov) AS ?provcount )WHERE {
+    ?opvrec vocopv:has_herkomst ?herkomst.
+    ?herkomst skos:exactMatch ?geoherkomst.
+    ?opvrec vocopv:jaarUitreis ?year.
+    ?geoherkomst <http://www.geonames.org/ontology%23parentADM1> ?provuri.
+    ?provuri <http://www.geonames.org/ontology%23name> ?prov.        
+    } 
+Group by ?prov ?year').
+
+query('Q12','GZM voor links naar DAS: VOC kamers met aziatische bemanning','SELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das das:chamber ?ch.\n?ch skos:prefLabel ?chname.  } \nLIMIT 10' ).
+
+query('Q13', 'Das reizen per ton vs gzmvoc per loon', 'SELECT * WHERE {\n?gzmrol gzmvoc:has_das_link_heen ?das.\n?gzmrol gzmvoc:aziatischeBemanning ?az.\n?das  das:tonnage ?ton.\n}\n\nQ14: einde op schip -> vgl das schipnaam of gzmvoc\n\nSELECT * WHERE {\n?v vocopv:eindePlaats "Schip".\n}\nLIMIT 10').
+
+query('Q14','MDB herkomsten naar Lat/Long', 'SELECT ?geoherkomst ?lat ?long (COUNT(?x) AS ?countopvrec) WHERE {\n   ?x mdb:vertrekhaven ?herkomst.\n?herkomst skos:exactMatch ?geoherkomst. \n ?geoherkomst geo:featureCode geo:P.PPL. \n ?geoherkomst wgs84:lat ?lat. \n ?geoherkomst wgs84:long ?long.}
+GROUP BY ?geoherkomst ?lat ?long').
+
+
 
 
