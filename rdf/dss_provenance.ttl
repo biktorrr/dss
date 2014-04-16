@@ -297,7 +297,7 @@ dss:AndreaBravoBalado
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 		
-<<http://purl.org/collections/nl/dss/mdb/mdb_place_gen_thes.ttl>
+<http://purl.org/collections/nl/dss/mdb/mdb_place_gen_thes.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
