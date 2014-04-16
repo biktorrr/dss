@@ -1,0 +1,23 @@
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix vann:	 <http://purl.org/vocab/vann/> .
+@prefix lib:     <http://www.swi-prolog.org/rdf/library/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix niod: <http://purl.org/collections/nl/niod/> .
+
+<geonames-nl>
+	a void:Dataset ;
+	lib:source <http://sws.geonames.org/> ;
+	dcterms:title "GeoNames Netherlands"@nl ;
+	void:dataDump
+		<geonames-NL.ttl> ,
+		<ontology_v2.2.1.rdf> , 
+		<geonames_nl_as_skos.ttl>.
+
+<geonames-id>
+	a void:Dataset ;
+	lib:source <http://sws.geonames.org/> ;
+	dcterms:title "GeoNames Indonesia"@nl ;
+	void:dataDump
+		<geonames-ID>.
+		
