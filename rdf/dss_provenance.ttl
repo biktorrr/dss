@@ -199,7 +199,7 @@ dss:AndreaBravoBalado
 		prov:used <http://purl.org/collections/nl/dss/gzmvoc/gzmvoc_data.ttl>
 		] .
 
-mdb:mdb_2_kb
+<http://purl.org/collections/nl/dss/mdb/mdb_2_kb.ttl>
 	a prov:Entity ;
 	up:contentConfidence "0.9" ; 
  	prov:wasGeneratedBy [ 
@@ -214,7 +214,7 @@ mdb:mdb_2_kb
 			a prov:SoftwareAgent; 
 			rdfs:label "Andrea's KB matching algorithm".
 
-<http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
+<http://purl.org/collections/nl/dss/mdb/mdb_data.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -251,7 +251,7 @@ mdb:mdb_2_kb
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 		] .
 
-mdb:mdb_ship_sameas
+<http://purl.org/collections/nl/dss/mdb/mdb_ship_sameas.ttl>
 	a prov:Entity ;
 	up:contentConfidence "0.74" ;
  	prov:wasGeneratedBy [ 
@@ -266,7 +266,7 @@ mdb:mdb_ship_sameas
 			]
 		] .
 
-mdb:mdb_thes_generated
+<http://purl.org/collections/nl/dss/mdb/mdb_thes_generated.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -276,7 +276,7 @@ mdb:mdb_thes_generated
 		prov:used <http://purl.org/collections/nl/dss/mdb/mdb_data.ttl>
 		] .
 
-mdb:mdb_thes_places
+<http://purl.org/collections/nl/dss/mdb/mdb_thes_places.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -286,7 +286,7 @@ mdb:mdb_thes_places
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 
-mdb:mdb_thes_rangen
+<http://purl.org/collections/nl/dss/mdb/mdb_thes_rangen.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -297,7 +297,7 @@ mdb:mdb_thes_rangen
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 		
-<mdb_place_gen_thes>
+<<http://purl.org/collections/nl/dss/mdb/mdb_place_gen_thes.ttl>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -323,7 +323,7 @@ mdb:mdb_thes_rangen
 		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
-<http://purl.org/collections/nl/dss/vocopv/vocopv_2_das.ttl>
+<http://purl.org/collections/nl/dss/vocopv/vocopv_2_das.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -332,7 +332,7 @@ mdb:mdb_thes_rangen
 		prov:wasAssociatedWith <http://cliopatria.swi-prolog.org/>
 		] .
 
-<http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
+<http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
@@ -385,7 +385,7 @@ mdb:mdb_thes_rangen
 		prov:used <http://purl.org/collections/nl/dss/vocopv/vocopv_beg.ttl>
 		] .
 
-<http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl>
+<http://purl.org/collections/nl/dss/vocopv/vocopv_sol.ttl.gz>
 	a prov:Entity ;
  	prov:wasGeneratedBy [ 
 		a prov:Activity ; 
