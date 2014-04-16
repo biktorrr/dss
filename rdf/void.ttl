@@ -105,14 +105,14 @@ a void:Dataset ;
 	lib:source <http://sws.geonames.org/> ;
 	dc:title "GeoNames Netherlands"@nl ;
 	void:dataDump
-		<GeonNames/geonames-NL.ttl> ,
-		<GeonNames/ontology_v2.2.1.rdf> , 
-		<GeonNames/geonames_nl_as_skos.ttl>.
+		<GeoNames/geonames-NL.ttl> ,
+		<GeoNames/ontology_v2.2.1.rdf> , 
+		<GeoNames/geonames_nl_as_skos.ttl>.
 
 <geonames-id>
 	a void:Dataset ;
 	lib:source <http://sws.geonames.org/> ;
 	dc:title "GeoNames Indonesia"@nl ;
 	void:dataDump
-		<GeonNames/geonames-ID>.
+		<GeoNames/geonames-ID>.
 		
