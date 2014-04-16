@@ -67,14 +67,14 @@ a void:Dataset ;
 		dc:description "Noordelijke Monsterrollen (Jur Leinenga)" ;
         owl:versionInfo "0.1" ;
 		void:dataDump
-                <mdb_data.ttl> ,
+                <mdb_data.ttl.gz> ,
                 <mdb_schema.ttl>,
-				<mdb_thes_rangen>,
-				<mdb_thes_generated>,
-				<mdb_thes_places>,
+				<mdb_thes_rangen.ttl>,
+				<mdb_thes_generated.ttl>,
+				<mdb_thes_places.ttl>,
 				<alignments/ranks_and_shiptypes_1.ttl>,
-				<mdb_2_kb>, # links to KB, by Andrea
-				<mdb_ship_sameas>. # sameAs links by Robin.
+				<mdb_2_kb.ttl>, # links to KB, by Andrea
+				<mdb_ship_sameas.ttl>. # sameAs links by Robin.
 
 
 <aatned>
