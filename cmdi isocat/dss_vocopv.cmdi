@@ -22,10 +22,6 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 			<ResourceType mimetype="application/xml">Resource</ResourceType>
 			<ResourceRef>${easy-dataset}/vocopv_gen_thes.ttl.xml</ResourceRef>
 		</ResourceProxy>
-		<ResourceProxy id="vocopv_opv">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml</ResourceRef>
-		</ResourceProxy>
 		<ResourceProxy id="vocopv_schema">
 			<ResourceType mimetype="application/xml">Resource</ResourceType>
 			<ResourceRef>${easy-dataset}/vocopv_schema.ttl.xml</ResourceRef>
@@ -33,6 +29,34 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 		<ResourceProxy id="vocopv_sol">
 			<ResourceType mimetype="application/xml">Resource</ResourceType>
 			<ResourceRef>${easy-dataset}/vocopv_sol.ttl.gz.xml</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_1">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.001</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_2">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.002</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_3">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.003</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_4">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.004</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_5">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.005</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_6">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.006</ResourceRef>
+		</ResourceProxy>
+				<ResourceProxy id="vocopv_opv_7">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml.007</ResourceRef>
 		</ResourceProxy>
 	 </ResourceProxyList>
 	<JournalFileProxyList/>
@@ -73,8 +97,8 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 		<Named_Graph ref="vocop_gen_thes">
 			<description>VOCOPV SKOS Thesaurus generated from Literal values </description>
 		</Named_Graph>
-		<Named_Graph ref="vocop_opv">
-			<description>VOCOPV opvarenden records </description>
+		<Named_Graph ref="vocop_opv_1">
+			<description>VOCOPV opvarenden records (merger of the 7 part-files)</description>
 		</Named_Graph>
 		<Named_Graph ref="vocop_schema">
 			<description>VOCOPV RDFS Schema</description>
