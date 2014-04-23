@@ -82,5 +82,5 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 		<Named_Graph ref="vocop_sol">
 			<description>VOCOPV soldijboeken records </description>
 		</Named_Graph>
-	</DSS_Linked_Data_Set>
+	</Linked_Data_Set>
 </Components>

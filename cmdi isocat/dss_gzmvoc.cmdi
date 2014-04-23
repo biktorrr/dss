@@ -73,5 +73,5 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 			<description>GZMVOC RDFS Schema</description>
 			<description>GZMVOC RDFS Schema</description>
 		</Named_Graph>
-	</DSS_Linked_Data_Set>
+	</Linked_Data_Set>
 </Components>

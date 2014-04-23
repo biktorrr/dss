@@ -80,5 +80,5 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 		<Named_Graph ref="mdb_ship_sameas">
 			<description>MDB OWL:sameAs links identifying recurring ships (R. Ponstein)</description>
 		</Named_Graph>
-	</DSS_Linked_Data_Set>
+	</Linked_Data_Set>
 </Components>

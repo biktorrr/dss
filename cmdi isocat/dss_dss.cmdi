@@ -50,5 +50,5 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 		<Named_Graph ref="dss_schema">
 			<description>DSS RDFS Schema with mappings of classes and properties from four DSS datasets </description>
 		</Named_Graph>
-	</DSS_Linked_Data_Set>
+	</Linked_Data_Set>
 </Components>
