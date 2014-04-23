@@ -1,0 +1,77 @@
+<CMD xmlns="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ 
+http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1396012485132/xsd">
+<Header>
+ 	<MdCreator>V. de Boer</MdCreator>
+	<MdCreationDate>2014-04-20</MdCreationDate>
+	<MdSelfLink/>
+	<MdProfile>clarin.eu:cr1:p_1396012485132</MdProfile>
+	<MdCollectionDisplayName/>
+</Header>
+
+<Resources>
+	<ResourceProxyList>
+		<ResourceProxy id="gzmvoc_2_das">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_2_das.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="gzmvoc_data">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_data.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="gzmvoc_schema">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_schema.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="gzmvoc_thes_gen">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="gzmvoc_thes_gen_places">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen_places.ttl.xml</ResourceRef>
+		</ResourceProxy>
+	
+	 </ResourceProxyList>
+	<JournalFileProxyList/>
+	<ResourceRelationList/>
+</Resources>
+
+<Components>
+	<Linked_Data_Set ref="easy-reference">
+		<dc-terms>
+			<contributor>Leinenga, J.</contributor>
+			<contributor>Boer, V. de</contributor>
+			<contributor>Hoekstra, R.</contributor>
+			<contributor>van Rossum, M.</contributor>
+			<publisher>Huygens Instituut voor Nederlandse Geschiedenis</publisher>
+			<relation>Dutch Ships and Sailors Linked Data [Resource is a collection of 5 parts][Relationship described is IsPartOf]</relation>
+			<rights>This work is licensed under a Creative Commons Attribution 3.0 Unported License</rights>
+			<source>http://www.github.com/biktorrr/dss</source>
+			<title>Generale Zeemonsterrollen VOC als Linked Data</title>
+			<format>RDF/XML</format>
+			<coverage>1595-1795</coverage>
+			<description>Conversion to Linked Data of the mustering of ships and crew composition in Asian waters (Generale Zeemonsterrollen VOC, GZMVOC). Based on original data provided by M. van Rossum.
+			
+			Dutch Ships and Sailors is a project that aims to provide an infrastructure for maritime historical datasets, linking correlating data through semantic web technology. It brings together datasets related to recruitment and shipping in the East-India trade (mainly 18th century) and in the shipping of the northern provinces of the Netherlands (mainly 19th century). For the northern provinces, the database contains data on the personnel recruited, the ships, and other variables (Monsterrollen Noordelijke Nederlanden). 
+			
+			Dutch Ships and Sailors is a Clarin IV-project, hosted by Huygens ING in collaboration with VU University Amsterdam, the International Institute of Social History and Scheepvaartmuseum Amsterdam.
+			</description>
+		</dc-terms>
+		<Named_Graph ref="gzmvoc_data">
+			<description>GZMVOC Main data named graph</description>
+		</Named_Graph>
+		<Named_Graph ref="gzmvoc_thes_gen">
+			<description>GZMVOC SKOS thesaurus generated from literal values</description>
+		</Named_Graph>
+		<Named_Graph ref="gzmvoc_thes_gen_places">
+			<description>GZMVOC Places thesaurus generated from literal values</description>
+		</Named_Graph>
+		<Named_Graph ref="gzmvoc_2_das">
+			<description>GZMVOC SKOS links to Dutch Asiatic Shipping as Linked Data</description>
+		</Named_Graph>
+		<Named_Graph ref="gzmvoc_schema">
+			<description>GZMVOC RDFS Schema</description>
+			<description>GZMVOC RDFS Schema</description>
+		</Named_Graph>
+	</DSS_Linked_Data_Set>
+</Components>

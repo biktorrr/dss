@@ -1,0 +1,86 @@
+<CMD xmlns="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ 
+http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1396012485132/xsd">
+<Header>
+ 	<MdCreator>V. de Boer</MdCreator>
+	<MdCreationDate>2014-04-20</MdCreationDate>
+	<MdSelfLink/>
+	<MdProfile>clarin.eu:cr1:p_1396012485132</MdProfile>
+	<MdCollectionDisplayName/>
+</Header>
+
+<Resources>
+	<ResourceProxyList>
+		<ResourceProxy id="vocopv_2_das">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_2_das.ttl.gz.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="vocopv_beg">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_beg.ttl.gz.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="vocopv_gen_thes">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_gen_thes.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="vocopv_opv">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_opv.ttl.gz.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="vocopv_schema">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_schema.ttl.xml</ResourceRef>
+		</ResourceProxy>
+		<ResourceProxy id="vocopv_sol">
+			<ResourceType mimetype="application/xml">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/vocopv_sol.ttl.gz.xml</ResourceRef>
+		</ResourceProxy>
+	 </ResourceProxyList>
+	<JournalFileProxyList/>
+	<ResourceRelationList/>
+</Resources>
+
+<Components>
+	<Linked_Data_Set ref="easy-reference">
+		<dc-terms>
+			<contributor>Leinenga, J.</contributor>
+			<contributor>Boer, V. de</contributor>
+			<contributor>Hoekstra, R.</contributor>
+			<contributor>van Rossum, M.</contributor>
+			<publisher>Huygens Instituut voor Nederlandse Geschiedenis</publisher>
+			<relation>Dutch Ships and Sailors Linked Data [Resource is a collection of 5 parts][Relationship described is IsPartOf]</relation>
+			<rights>This work is licensed under a Creative Commons Attribution 3.0 Unported License</rights>
+			<source>http://www.github.com/biktorrr/dss</source>
+			<title>VOC Opvarenden as RDF (Dutch Ships and Sailors)</title>
+			<format>RDF/XML</format>
+			<coverage>1595-1795</coverage>
+			<description>This dataset is the result of a conversion of the original dataset available through EASY at DANS: "VOC Opvarenden" Velzen, Drs A.J.M.. van; Gaastra, Prof.dr. F.S. (2000 through 2010, 2000, 2010), Thematische collectie: VOC Opvarenden; VOC Sea voyagers Persistent Identifier: urn:nbn:nl:ui:13-v73-sq8 at https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:33602  
+			
+			"Personeelsadministratie VOC 18e eeuw: persoonsgegevens van personeel op zee en overzee, gekoppeld aan alle scheepsreizen van de VOC. De data zijn overgenomen uit de 18de eeuwse scheepssoldijboeken en ingetypt in een relationele database." 
+			
+			The dataset was split into three separate parts: ‘opvarenden’, ‘soldijboeken’ and ‘begustigden’. This substructuring was left intact in the subsequent conversions. 
+			
+			Dutch Ships and Sailors is a project that aims to provide an infrastructure for maritime historical datasets, linking correlating data through semantic web technology. It brings together datasets related to recruitment and shipping in the East-India trade (mainly 18th century) and in the shipping of the northern provinces of the Netherlands (mainly 19th century). For the northern provinces, the database contains data on the personnel recruited, the ships, and other variables (Monsterrollen Noordelijke Nederlanden). 
+			
+			Dutch Ships and Sailors is a Clarin IV-project, hosted by Huygens ING in collaboration with VU University Amsterdam, the International Institute of Social History and Scheepvaartmuseum Amsterdam.
+			</description>
+		</dc-terms>
+		<Named_Graph ref="vocopv_2_das">
+			<description>VOCOPV links to Dutch Asiatic Shipping Linked Data (DAS)</description>
+		</Named_Graph>
+		<Named_Graph ref="vocop_beg">
+			<description>VOCOPV begunstigden records </description>
+		</Named_Graph>
+		<Named_Graph ref="vocop_gen_thes">
+			<description>VOCOPV SKOS Thesaurus generated from Literal values </description>
+		</Named_Graph>
+		<Named_Graph ref="vocop_opv">
+			<description>VOCOPV opvarenden records </description>
+		</Named_Graph>
+		<Named_Graph ref="vocop_schema">
+			<description>VOCOPV RDFS Schema</description>
+		</Named_Graph>
+		<Named_Graph ref="vocop_sol">
+			<description>VOCOPV soldijboeken records </description>
+		</Named_Graph>
+	</DSS_Linked_Data_Set>
+</Components>
