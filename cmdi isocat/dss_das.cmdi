@@ -11,16 +11,16 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 <Resources>
 	<ResourceProxyList>
 		<ResourceProxy id="das_data">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/das_data.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/das_data.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="das_thes_gen">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/das_thes_gen.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/das_thes_gen.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="das_schema">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/das_schema.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/das_schema.ttl</ResourceRef>
 		</ResourceProxy>
 	
 	 </ResourceProxyList>
@@ -52,7 +52,7 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 			Dutch Ships and Sailors is a Clarin IV-project, hosted by Huygens ING in collaboration with VU University Amsterdam, the International Institute of Social History and Scheepvaartmuseum Amsterdam.
 			</description>
 		</dc-terms>
-		<Named_Graph ref="da_data">
+		<Named_Graph ref="das_data">
 			<description>DAS Main data named graph</description>
 		</Named_Graph>
 		<Named_Graph ref="das_thes_generated">
