@@ -11,24 +11,24 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 <Resources>
 	<ResourceProxyList>
 		<ResourceProxy id="gzmvoc_2_das">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/gzmvoc_2_das.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_2_das.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="gzmvoc_data">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/gzmvoc_data.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_data.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="gzmvoc_schema">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/gzmvoc_schema.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_schema.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="gzmvoc_thes_gen">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="gzmvoc_thes_gen_places">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen_places.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/gzmvoc_thes_gen_places.ttl</ResourceRef>
 		</ResourceProxy>
 	
 	 </ResourceProxyList>
