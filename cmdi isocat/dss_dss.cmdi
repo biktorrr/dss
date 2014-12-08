@@ -11,12 +11,12 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 <Resources>
 	<ResourceProxyList>
 		<ResourceProxy id="dss_provenance">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss_provenance.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss_provenance.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="dss_schema">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss_schema.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss_schema.ttl</ResourceRef>
 		</ResourceProxy>
 	 </ResourceProxyList>
 	<JournalFileProxyList/>
