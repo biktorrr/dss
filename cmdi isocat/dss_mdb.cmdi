@@ -11,32 +11,32 @@ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:c
 <Resources>
 	<ResourceProxyList>
 		<ResourceProxy id="mdb_data">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_data.ttl.gz.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_data.ttl.gz</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="mdb_thes_generated">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_thes_generated.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_thes_generated.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="mdb_schema">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_schema.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_schema.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="mdb_thes_places">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_thes_places.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_thes_places.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="ranks_and_shiptypes_1">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/ranks_and_shiptypes_1.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/ranks_and_shiptypes_1.ttl</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="mdb_2_kb">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_2_kb.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_2_kb.ttl.</ResourceRef>
 		</ResourceProxy>
 		<ResourceProxy id="mdb_ship_sameas">
-			<ResourceType mimetype="application/xml">Resource</ResourceType>
-			<ResourceRef>${easy-dataset}/dss/mdb_ship_sameas.ttl.xml</ResourceRef>
+			<ResourceType mimetype="text/turtle">Resource</ResourceType>
+			<ResourceRef>${easy-dataset}/dss/mdb_ship_sameas.ttl</ResourceRef>
 		</ResourceProxy>
 	 </ResourceProxyList>
 	<JournalFileProxyList/>
