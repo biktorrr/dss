@@ -4,6 +4,7 @@
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  owl: <http://www.w3.org/2002/07/owl#> .
 @prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
 
 @prefix      skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -56,9 +57,9 @@ mdb:Schip
 	a rdfs:Class ;
 	rdfs:label "Schip" .
 
-	
+
 # properties
-	
+
 mdb:achternaam
 	a rdf:Property ;
 	rdfs:domain mdb:Persoon ;
@@ -106,6 +107,11 @@ mdb:has_aanmonstering
 	rdfs:domain mdb:PersoonsContract ;
 	rdfs:comment "RDF link between person contract and aanmonstering" ;
 	rdfs:label "has_aanmonstering" .
+
+mdb:has_person_contract
+	a rdf:Property ;
+	rdfs:label "bevat persoonscontract" ;
+	owl:inverseOf mdb:has_aanmonstering .
 
 mdb:id
 	a rdf:Property ;
@@ -172,6 +178,11 @@ mdb:persoon
 	rdfs:range mdb:Persoon ;
 	rdfs:comment "relation to person" ;
 	rdfs:subPropertyOf foaf:primaryTopic .
+
+mdb:has_contract
+	a rdf:Property ;
+	rdfs:label "has contract" ;
+	owl:inverseOf mdb:persoon .
 
 mdb:rang
 	a rdf:Property ;
