@@ -1,24 +1,23 @@
-@prefix mdb:	<http://purl.org/collections/nl/dss/mdb/> .
-@prefix schema:	<http://schema.org/> .
-
+@prefix mdb:	<http://purl.org/collections/nl/dss/mdb/>.
+@prefix 	schema:	<http://schema.org/>.
 
 mdb:shiptype-kof	schema:image	<http://api.opencultuurdata.nl/v0/resolve/eaa0618ce77b43fa8ad296614066709ed448101d>.
 mdb:shiptype-schoener	schema:image	<http://api.opencultuurdata.nl/v0/resolve/b7173026b9d78aedc7c1ce5a0c6c5da70b9ddef8>.
-mdb:shiptype-tjalk	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/5c0d552a94cade044fda069bae20bf7c6f19796d>.
+mdb:shiptype-tjalk	schema:image	<http://api.opencultuurdata.nl/v0/resolve/55f1b44323e19308132f113a144bae248545070d>.
 mdb:shiptype-galjoot	schema:image	<http://upload.wikimedia.org/wikipedia/commons/e/ef/Galiote.jpg>.
-mdb:shiptype-bark	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/549e517dcb1efc1a246b315c0e7597e6075577cc>.
-mdb:shiptype-brik	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/8f6f786e8ae7350d3239bced9619df1d6aa567d6>.
-mdb:shiptype-smak	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/93ce42f2984fa7d7b89e1fdc4a4dd30f8dca005f>.
+mdb:shiptype-bark	schema:image	<http://api.opencultuurdata.nl/v0/resolve/ec616b2aeb9df5b8ffc5f22a7910d837bf9ce201>.
+mdb:shiptype-brik	schema:image	<http://api.opencultuurdata.nl/v0/resolve/0bd222b1ffce209e72520b0e4340e6745e9a85ef>.
+mdb:shiptype-smak	schema:image	<http://api.opencultuurdata.nl/v0/resolve/8e47d6430d8a77e72cabb5b1d55815c595ccae52>.
 mdb:shiptype-schoenerkof	schema:image	<http://www.geheugenvannederland.nl/?/downloadafbeelding/urn:gvn:FSM01:G-022&role=image&size=variable>.
 mdb:shiptype-koftjalk	schema:image	<http://www.geheugenvannederland.nl/?/downloadafbeelding/urn:gvn:ZZM01:F023556&role=image&size=medium>.
-mdb:shiptype-schoenergaljoot	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/05132da63b892e9b9bd6e7107ff5b922e2895b7a>.
-mdb:shiptype-stoomschip	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/83495fb0ac2f0da24491efd07213936012b0aef0>.
+mdb:shiptype-schoenergaljoot	schema:image	<http://api.opencultuurdata.nl/v0/resolve/813f2537a05ed585c634d0cae0c54320e45fb583>.
+mdb:shiptype-stoomschip	schema:image	<http://api.opencultuurdata.nl/v0/resolve/84978ee8a5830107d8e980a4dcb5c25d69396aff>.
 mdb:shiptype-schoenerbrik	schema:image	<https://upload.wikimedia.org/wikipedia/commons/6/66/SorenLarsen002.jpg>.
-mdb:shiptype-aak	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/3e2d4c5c18afcd60caf36a04c6a1412233a2e43b>.
+mdb:shiptype-aak	schema:image	<http://api.opencultuurdata.nl/v0/resolve/436764c46f1dd8bc1d9a7ce4d7bdc5faf385fd6e>.
 mdb:shiptype-hektjalk	schema:image	<https://upload.wikimedia.org/wikipedia/commons/6/6c/Viergebroeders.jpg>.
-mdb:shiptype-sleepboot	schema:image	<http://api.opencultuurdata.nl/v0/tropenmuseum/8412f8aaf2a4b4516dbf6a70711c515c5edbfa06>.
+mdb:shiptype-sleepboot	schema:image	<http://cache.opencultuurdata.nl/c6/b9f99dd6908f4f81ab9d12599a56274530aa37_large.jpg>.
 mdb:shiptype-gaffelschoener	schema:image	<http://images.memorix.nl/nda/thumb/620x620/64098d0d-b8c5-0993-9148-8f22ab714e82.jpg>.
 mdb:shiptype-motorschip	schema:image	<https://upload.wikimedia.org/wikipedia/commons/4/44/MS_Finnmarken_Museum_Stokmarknes.jpg>.
 mdb:shiptype-klipperaak	schema:image	<https://upload.wikimedia.org/wikipedia/commons/f/f7/Vag.gif>.
-mdb:shiptype-kotter	schema:image	<http://api.opencultuurdata.nl/v0/rijksmuseum/05a69c7194693b27896292e36d7be5833b3df843>.
+mdb:shiptype-kotter	schema:image	<http://api.opencultuurdata.nl/v0/resolve/813f2537a05ed585c634d0cae0c54320e45fb583>.
 mdb:shiptype-schoeneraak	schema:image	<http://www.lvbhb.org/BHS/images/14107-Pax-01-fotoSchip.JPG>.
