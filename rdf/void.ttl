@@ -25,6 +25,7 @@ a void:Dataset ;
         owl:versionInfo "0.1" ;
 		void:dataDump
                 <dss_schema.ttl>,
+		<dss_images.ttl>,
 				<alignments/al_all_place_2_geonames.ttl>,
 				<alignments/dbpedia_links.ttl>,
 				<dss_provenance.ttl>.
@@ -106,7 +107,7 @@ a void:Dataset ;
 	dc:title "GeoNames Netherlands"@nl ;
 	void:dataDump
 		<GeoNames/geonames-NL.ttl> ,
-		<GeoNames/ontology_v2.2.1.rdf> , 
+		<GeoNames/ontology_v2.2.1.rdf> ,
 		<GeoNames/geonames_nl_as_skos.ttl>.
 
 <geonames-id>
@@ -115,4 +116,4 @@ a void:Dataset ;
 	dc:title "GeoNames Indonesia"@nl ;
 	void:dataDump
 		<GeoNames/geonames-ID>.
-		
+
