@@ -196,7 +196,8 @@ mdb:scheepsnaam
 	rdfs:domain mdb:Schip ;
 	rdfs:label "scheepsnaam" ;
 	rdfs:comment "Naam van het schip dat de betreffende reis maakt. Gestandaardiseerd in zoverre dat prefixen als 'De' of 'Het' zijn geschrapt en getallen in letters zijn ingevoerd (bv. 'Twee Gebroeders' i.p.v. '2 Gebroeders'. " ;
-	rdfs:range rdfs:Literal .
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf rdfs:label .
 
 mdb:scheepstype
 	a rdf:Property ;
