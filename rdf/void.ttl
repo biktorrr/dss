@@ -101,19 +101,3 @@ a void:Dataset ;
 				<das_thes_gen.ttl>,
                 <das_schema.ttl>.
 
-<geonames-nl>
-	a void:Dataset ;
-	lib:source <http://sws.geonames.org/> ;
-	dc:title "GeoNames Netherlands"@nl ;
-	void:dataDump
-		<GeoNames/geonames-NL.ttl> ,
-		<GeoNames/ontology_v2.2.1.rdf> ,
-		<GeoNames/geonames_nl_as_skos.ttl>.
-
-<geonames-id>
-	a void:Dataset ;
-	lib:source <http://sws.geonames.org/> ;
-	dc:title "GeoNames Indonesia"@nl ;
-	void:dataDump
-		<GeoNames/geonames-ID>.
-
