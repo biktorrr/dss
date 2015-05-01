@@ -1,5 +1,6 @@
 @prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 @prefix vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
 @prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
@@ -97,15 +98,24 @@ dss:has_kb_link
 	rdfs:label "has KB article".
 
 	
+dss:has_record
+	a rdf:Property ;
+	rdfs:label "has record".
+
 dss:has_ship
 	a rdf:Property ;
 	rdfs:comment "link between a resource and a ship" ;
 	rdfs:range dss:Ship;
+	owl:inverseOf dss:has_record;
 	rdfs:label "related to ship" .
 	
-mdb:ship rdfs:subPropertyOf dss:has_ship.
-das:has_schip rdfs:subPropertyOf dss:has_ship.
+mdb:schip rdfs:subPropertyOf dss:has_ship.
+das:has_ship rdfs:subPropertyOf dss:has_ship.
 vocopv:has_schip rdfs:subPropertyOf dss:has_ship.
 gzmvoc:schip rdfs:subPropertyOf dss:has_ship.
 
-		
+dss:has_captain
+	a rdf:Property ;
+	rdfs:label "has captain".
+gzmvoc:schipper rdfs:subPropertyOf dss:has_captain.
+das:master rdfs:subPropertyOf dss:has_captain.
