@@ -16,6 +16,20 @@
 @prefix  aatned: <http://e-culture.multimedian.nl/ns/rkd/aatned/> .
 
 
+<dss_light>
+	a void:Dataset;
+	lib:source dss: ;
+	dc:description "DSS data light (no VOCOPV)";
+	dc:title "DSS data light (no VOCOPV)";
+	void:dataDump
+		<dss>,
+		<mdb>,
+		<aatned>,
+		<das>,
+		<geonames-nl>,
+		<gzmvoc>.
+
+
 <dss>
 a void:Dataset ;
 		a lib:CloudNode ;
