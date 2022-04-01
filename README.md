@@ -1,6 +1,6 @@
-#Dutch Ships and Sailors (DSS) Linked Data Cloud
-*Victor de Boer*
+Dutch Ships and Sailors (DSS) Linked Data Cloud
 ===
+*Victor de Boer (http://victordeboer.com)*
 
 ## Description
 Repository for code (and possibly data) produced in the context of the CLARIN 'Dutch Ships and Sailors' project. More information on this project can be found at http://dutchshipsandsailors.nl or in the paper [1]. 
