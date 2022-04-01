@@ -1,0 +1,181 @@
+@prefix 	dss: <http://purl.org/collections/nl/dss/> .
+@prefix     void: <http://rdfs.org/ns/void#> .
+@prefix     vann: <http://purl.org/vocab/vann/> .
+@prefix      lib: <http://www.swi-prolog.org/rdf/library/> .
+@prefix      owl: <http://www.w3.org/2002/07/owl#> .
+@prefix      rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix      xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix       dc: <http://purl.org/dc/terms/> .
+
+@prefix vocopv: <http://purl.org/collections/nl/dss/vocopv/> .
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix  mdb: <http://purl.org/collections/nl/dss/mdb/> .
+@prefix  das: <http://purl.org/collections/nl/dss/das/> .
+@prefix dss: <http://purl.org/collections/nl/dss/> .
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix schema: <https://schema.org/> .
+
+dss:dss_Dataset
+a dcat:Dataset ;
+a schema:Dataset ;
+        dc:title "DSS Schema " ;
+		dc:description "Dutch Ships and Sailors common terms" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for DSS common terms" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl dss:dss_schema.ttl,
+				dss:dss_images.ttl,
+				<http://purl.org/collections/nl/dss/alignments/al_all_place_2_geonames.ttl>,
+				<http://purl.org/collections/nl/dss/alignments/dbpedia_links.ttl>,
+				dss:dss_provenance.ttl
+			].
+dss:vocopvDataset
+        a dcat:Dataset ;
+a schema:Dataset ;
+        dc:title "VOC Opvarenden " ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:Distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for VOC Opvarenden" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl 
+                vocopv:vocopv_opv.ttl.gz ,
+                vocopv:vocopv_beg.ttl.gz ,
+                vocopv:vocopv_sol.ttl.gz ,
+				vocopv:vocopv_gen_thes.ttl,
+				vocopv:vocopv_schema.ttl,
+				vocopv:vocopv_2_das.ttl.gz
+			].
+
+dss:gzmvocDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+        dc:title "Generale Zeemonsterrollen VOC (Matthias van Rossem)" ;
+		dc:description "Generale Zeemonsterrollen VOC (Matthias van Rossem)" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+
+		schema:distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for Generale Zeemonsterrollen" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl  
+				gzmvoc:gzmvoc_data.ttl ,
+                gzmvoc:gzmvoc_2_das.ttl ,
+				gzmvoc:gzmvoc_schema.ttl,
+				gzmvoc:gzmvoc_thes_gen_places.ttl,
+				gzmvoc:gzmvoc_thes_gen.ttl
+			].
+
+dss:mdbDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+        dc:title "Noordelijke Monsterrollen (Jur Leinenga)" ;
+		dc:description "Noordelijke Monsterrollen (Jur Leinenga)" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];		
+		schema:distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for Noordelijke Monsterrollen" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl 
+				mdb:mdb_data.ttl.gz ,
+                mdb:mdb_schema.ttl,
+				mdb:mdb_thes_rangen.ttl,
+				mdb:mdb_thes_generated.ttl,
+				mdb:mdb_thes_places.ttl,
+				<http://purl.org/collections/nl/dss/mdb/alignments/ranks_and_shiptypes_1.ttl>,
+				mdb:mdb_2_kb.ttl, # links to KB, by Andrea
+				mdb:mdb_ship_sameas.ttl
+			]. # sameAs links by Robin.
+
+
+dss:aatnedDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+        dc:title "AATNed (Multimedian version)" ;
+		dc:description "AATNed (Multimedian version)" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:distribution [
+				a schema:DataDownload ; 
+		dc:title "named graphs for AATNed" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl 	<https://semanticweb.cs.vu.nl/dss/browse/list_graph?graph=http%3A//e-culture.multimedian.nl/ns/rkd/aatned/aatned.rdf> , <https://semanticweb.cs.vu.nl/dss/browse/list_graph?graph=http%3A//e-culture.multimedian.nl/ns/rkd/aatned/aatned.rdfs>
+			].
+
+dss:dasDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+        dc:title "Dutch Asiatic Shipping" ;
+		dc:description "DAS Dutch Asiatic Shipping (English, with details)" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for DAS" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl das:das_data.ttl ,
+				das:das_thes_gen.ttl,
+                das:das_schema.ttl
+			].
+			
+dss:dss_oostzee_archDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+        dc:title "DSS Oostzee: Archangel dataset" ;
+		dc:description "DSS Oostzee: Archangel dataset" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:distribution [
+			a schema:DataDownload ; 
+			dc:title "named graphs for Archangel dataset" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl
+				<http://purl.org/collections/nl/dss/dss_oostzee/arch.ttl>,
+                <http://purl.org/collections/nl/dss/dss_oostzee/archSameAs.ttl>,
+				 <http://purl.org/collections/nl/dss/dss_oostzee/schemaMap_arch.ttl>,
+				 <http://purl.org/collections/nl/dss/dss_oostzee/archSchema.ttl>,
+				<http://purl.org/collections/nl/dss/dss_oostzee/geo-arch.ttl>
+			].
+
+dss:dss_oostzee_elbDataset
+        a dcat:Dataset ;
+		a schema:Dataset ;
+ 			a schema:DataDownload ; 
+       dc:title "DSS Oostzee: Elbing dataset" ;
+		dc:description "DSS Oostzee: Elbing dataset" ;
+		schema:distribution [
+			a schema:DataDownload ; 
+			schema:schema:encodingFormat "application/sparql-query" ; 
+			schema:contentURL "http://semanticweb.cs.vu.nl/dss/sparql" ];
+		schema:distribution [
+			dc:title "named graphs for Elbing dataset" ;
+			schema:encodingFormat "text/turtle" ;
+            schema:contentUrl 
+				<http://purl.org/collections/nl/dss/dss_oostzee/elb.ttl>,
+                <http://purl.org/collections/nl/dss/dss_oostzee/elbSameAs.ttl>,
+				 <http://purl.org/collections/nl/dss/dss_oostzee/schemaMap_elb.ttl>,
+				 <http://purl.org/collections/nl/dss/dss_oostzee/elbSchema.ttl>,
+				 <http://purl.org/collections/nl/dss/dss_oostzee/geo-elb.ttl>
+			].
