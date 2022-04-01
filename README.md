@@ -1,4 +1,5 @@
 Dutch Ships and Sailors (DSS) Linked Data Cloud
+'Victor de Boer
 ===
 
 * Description
